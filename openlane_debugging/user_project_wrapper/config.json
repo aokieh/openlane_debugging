@@ -1,0 +1,117 @@
+{
+    "//": "1. Design Files & Metadata",
+    "DESIGN_NAME": "user_project_wrapper",
+    "VERILOG_FILES": [
+        "dir::verilog/user_defines.sv",
+        "dir::../final_top/verilog_final/defines.sv",
+        "dir::../final_top/verilog_final/fifo_intf3.sv",
+        "dir::../final_top/verilog_final/sync_fifo.sv",
+        "dir::../final_top/verilog_final/sync_fifo_top3.sv",
+        "dir::../final_top/verilog_final/spi_peripheral_final.sv",
+        "dir::../final_top/verilog_final/regfile.sv",
+        "dir::../final_top/verilog_final/row_scanner.sv",
+        "dir::../final_top/verilog_final/roic_sm2.sv",
+        "dir::../final_top/verilog_final/row_decoder_macro2.sv",
+        "dir::../final_top/verilog_final/col_readout_macro.sv",
+        "dir::../final_top/verilog_final/fifo_rows_cols_macro2.sv",
+        "dir::../final_top/verilog_final/final_top2_final.sv",
+        "dir::verilog/blackboxes.sv",
+        "dir::verilog/user_project_wrapper.sv"
+    ],
+    "VERILOG_POWER_DEFINE": "USE_POWER_PINS",
+    "meta": { "version": 2 },
+
+    "//": "2. Hardening Strategy & Initialization",
+    "SYNTH_ELABORATE_ONLY": false,
+    "SYNTH_HIERARCHY_MODE": "flatten",
+    "RUN_CTS": true,
+    "RUN_POST_GPL_DESIGN_REPAIR": true,
+    "RUN_POST_CTS_RESIZER_TIMING": true,
+    "DESIGN_REPAIR_BUFFER_INPUT_PORTS": true,
+    "DESIGN_REPAIR_BUFFER_OUTPUT_PORTS": true,
+
+    "//": "3. Macro Configurations",
+    "MACROS": {
+        "Imager_Top": {
+            "gds": ["dir::imager/Imager_Top.gds"],
+            "lef": ["dir::imager/python/Imager_Top.lef"],
+            "instances": {
+                "analog_imager_inst": {
+                    "location": [1067, 600],
+                    "orientation": "N"
+                }
+            }
+        }
+    },
+
+    "//": "4. Floorplanning & PDN",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": [0, 0, 2920, 3520],
+    "FP_DEF_TEMPLATE": "dir::fixed_dont_change/user_project_wrapper.def",
+    "VDD_NETS": ["vccd1", "vccd2", "vdda1", "vdda2"],
+    "GND_NETS": ["vssd1", "vssd2", "vssa1", "vssa2"],
+
+    "FP_PDN_CORE_RING": false,
+    "FP_PDN_VOFFSET": 5,
+    "FP_PDN_HOFFSET": 5,
+    "FP_PDN_VWIDTH": 3.1,
+    "FP_PDN_HWIDTH": 3.1,
+    "FP_PDN_VPITCH": 140,
+    "FP_PDN_HPITCH": 140,
+    "FP_PDN_ENABLE_RAILS": true,
+    "FP_PDN_CHECK_NODES": true,
+    
+
+    "//": "5. Timing, Slew & Buffer Constraints",
+    "CLOCK_PERIOD": 20,
+    "CLOCK_PORT": "io_in[15]",
+    "PNR_SDC_FILE": "dir::signoff.sdc",
+    "SIGNOFF_SDC_FILE": "dir::signoff.sdc",
+    "MAX_TRANSITION_CONSTRAINT": 1.5,
+    "MAX_FANOUT_CONSTRAINT": 12,
+    "PL_TARGET_DENSITY_PCT": 35,
+    "DESIGN_REPAIR_MAX_SLEW_PCT": 30,
+    "DESIGN_REPAIR_MAX_CAP_PCT": 30,
+    "DESIGN_REPAIR_MAX_WIRE_LENGTH": 350,
+    "CTS_CLK_MAX_WIRE_LENGTH": 400,
+    "PL_RESIZER_SETUP_SLACK_MARGIN": 0.4,
+    "PL_RESIZER_HOLD_SLACK_MARGIN": 0.1,
+    "GRT_RESIZER_SETUP_SLACK_MARGIN": 0.2,
+    "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.05,
+    "RSZ_DONT_TOUCH_RX": "analog_drvr_stg2_.*",
+
+    "//": "6. Routing & Antenna",
+    "DRT_THREADS": 1,
+    "RT_MAX_LAYER": "met4",
+    "RUN_ANTENNA_REPAIR": true,
+    "RUN_HEURISTIC_DIODE_INSERTION": false,
+    "GRT_ANTENNA_ITERS": 80,
+    "GRT_ANTENNA_MARGIN": 15,
+
+    "//": "7. Physical Verification & Signoff (Strict Mode)",
+    "RUN_KLAYOUT_DRC": true,
+    "RUN_MAGIC_DRC": true,
+    "RUN_LVS": true,
+    "RUN_FILL_INSERTION": true,
+    "RUN_TAP_ENDCAP_INSERTION": true,
+    "RUN_IRDROP_REPORT": true,
+    "MAGIC_DRC_USE_GDS": true,
+    "MAGIC_DEF_LABELS": false,
+    "MAGIC_ZEROIZE_ORIGIN": false,
+    "ERROR_ON_KLAYOUT_DRC": true,
+    "ERROR_ON_MAGIC_DRC": true,
+    "ERROR_ON_LVS_ERROR": true,
+    "ERROR_ON_TR_DRC": true,
+    "ERROR_ON_PDN_VIOLATIONS": true,
+    "ERROR_ON_DISCONNECTED_PINS": true,
+    "ERROR_ON_LONG_WIRE": true,
+    "ERROR_ON_XOR_ERROR": true,
+
+    "//": "8. Linter & Logic Checks",
+    "ERROR_ON_LINTER_ERRORS": true,
+    "ERROR_ON_LINTER_TIMING_CONSTRUCTS": true,
+    "ERROR_ON_LINTER_WARNINGS": true,
+    "ERROR_ON_NL_ASSIGN_STATEMENTS": true,
+    "ERROR_ON_UNMAPPED_CELLS": true,
+    "LINTER_ERROR_ON_LATCH": true
+}

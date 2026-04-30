@@ -1,0 +1,3572 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN Imager_Top ;
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 0 0 ) ( 1546000 1596000 ) ;
+
+PINS 890 ;
+- row_on_detect_bot[63] + NET row_on_detect_bot[63] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 28060 ) N ;
+- row_off_detect_bot[63] + NET row_off_detect_bot[63] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 33580 ) N ;
+- row_on_detect_bot[62] + NET row_on_detect_bot[62] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 40020 ) N ;
+- row_off_detect_bot[62] + NET row_off_detect_bot[62] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 46460 ) N ;
+- row_on_detect_bot[61] + NET row_on_detect_bot[61] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 51980 ) N ;
+- row_off_detect_bot[61] + NET row_off_detect_bot[61] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 58420 ) N ;
+- row_on_detect_bot[60] + NET row_on_detect_bot[60] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 63940 ) N ;
+- row_off_detect_bot[60] + NET row_off_detect_bot[60] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 70380 ) N ;
+- row_on_detect_bot[59] + NET row_on_detect_bot[59] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 75900 ) N ;
+- row_off_detect_bot[59] + NET row_off_detect_bot[59] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 82340 ) N ;
+- row_on_detect_bot[58] + NET row_on_detect_bot[58] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 87860 ) N ;
+- row_off_detect_bot[58] + NET row_off_detect_bot[58] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 94300 ) N ;
+- row_on_detect_bot[57] + NET row_on_detect_bot[57] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 99820 ) N ;
+- row_off_detect_bot[57] + NET row_off_detect_bot[57] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 106260 ) N ;
+- row_on_detect_bot[56] + NET row_on_detect_bot[56] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 111780 ) N ;
+- row_off_detect_bot[56] + NET row_off_detect_bot[56] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 118220 ) N ;
+- row_on_detect_bot[55] + NET row_on_detect_bot[55] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 123740 ) N ;
+- row_off_detect_bot[55] + NET row_off_detect_bot[55] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 130180 ) N ;
+- row_on_detect_bot[54] + NET row_on_detect_bot[54] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 135700 ) N ;
+- row_off_detect_bot[54] + NET row_off_detect_bot[54] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 142140 ) N ;
+- row_on_detect_bot[53] + NET row_on_detect_bot[53] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 147660 ) N ;
+- row_off_detect_bot[53] + NET row_off_detect_bot[53] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 154100 ) N ;
+- row_on_detect_bot[52] + NET row_on_detect_bot[52] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 159620 ) N ;
+- row_off_detect_bot[52] + NET row_off_detect_bot[52] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 166060 ) N ;
+- row_on_detect_bot[51] + NET row_on_detect_bot[51] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 171580 ) N ;
+- row_off_detect_bot[51] + NET row_off_detect_bot[51] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 178020 ) N ;
+- row_on_detect_bot[50] + NET row_on_detect_bot[50] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 183540 ) N ;
+- row_off_detect_bot[50] + NET row_off_detect_bot[50] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 189980 ) N ;
+- row_on_detect_bot[49] + NET row_on_detect_bot[49] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 196420 ) N ;
+- row_off_detect_bot[49] + NET row_off_detect_bot[49] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 201940 ) N ;
+- row_on_detect_bot[48] + NET row_on_detect_bot[48] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 208380 ) N ;
+- row_off_detect_bot[48] + NET row_off_detect_bot[48] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 213900 ) N ;
+- row_on_detect_bot[47] + NET row_on_detect_bot[47] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 220340 ) N ;
+- row_off_detect_bot[47] + NET row_off_detect_bot[47] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 225860 ) N ;
+- row_on_detect_bot[46] + NET row_on_detect_bot[46] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 232300 ) N ;
+- row_off_detect_bot[46] + NET row_off_detect_bot[46] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 237820 ) N ;
+- row_on_detect_bot[45] + NET row_on_detect_bot[45] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 244260 ) N ;
+- row_off_detect_bot[45] + NET row_off_detect_bot[45] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 249780 ) N ;
+- row_on_detect_bot[44] + NET row_on_detect_bot[44] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 256220 ) N ;
+- row_off_detect_bot[44] + NET row_off_detect_bot[44] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 261740 ) N ;
+- row_on_detect_bot[43] + NET row_on_detect_bot[43] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 268180 ) N ;
+- row_off_detect_bot[43] + NET row_off_detect_bot[43] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 273700 ) N ;
+- row_on_detect_bot[42] + NET row_on_detect_bot[42] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 280140 ) N ;
+- row_off_detect_bot[42] + NET row_off_detect_bot[42] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 285660 ) N ;
+- row_on_detect_bot[41] + NET row_on_detect_bot[41] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 292100 ) N ;
+- row_off_detect_bot[41] + NET row_off_detect_bot[41] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 297620 ) N ;
+- row_on_detect_bot[40] + NET row_on_detect_bot[40] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 304060 ) N ;
+- row_off_detect_bot[40] + NET row_off_detect_bot[40] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 309580 ) N ;
+- row_on_detect_bot[39] + NET row_on_detect_bot[39] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 316020 ) N ;
+- row_off_detect_bot[39] + NET row_off_detect_bot[39] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 322460 ) N ;
+- row_on_detect_bot[38] + NET row_on_detect_bot[38] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 327980 ) N ;
+- row_off_detect_bot[38] + NET row_off_detect_bot[38] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 334420 ) N ;
+- row_on_detect_bot[37] + NET row_on_detect_bot[37] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 339940 ) N ;
+- row_off_detect_bot[37] + NET row_off_detect_bot[37] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 346380 ) N ;
+- row_on_detect_bot[36] + NET row_on_detect_bot[36] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 351900 ) N ;
+- row_off_detect_bot[36] + NET row_off_detect_bot[36] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 358340 ) N ;
+- row_on_detect_bot[35] + NET row_on_detect_bot[35] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 363860 ) N ;
+- row_off_detect_bot[35] + NET row_off_detect_bot[35] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 370300 ) N ;
+- row_on_detect_bot[34] + NET row_on_detect_bot[34] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 375820 ) N ;
+- row_off_detect_bot[34] + NET row_off_detect_bot[34] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 382260 ) N ;
+- row_on_detect_bot[33] + NET row_on_detect_bot[33] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 387780 ) N ;
+- row_off_detect_bot[33] + NET row_off_detect_bot[33] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 394220 ) N ;
+- row_on_detect_bot[32] + NET row_on_detect_bot[32] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 399740 ) N ;
+- row_off_detect_bot[32] + NET row_off_detect_bot[32] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 406180 ) N ;
+- row_on_detect_bot[31] + NET row_on_detect_bot[31] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 411700 ) N ;
+- row_off_detect_bot[31] + NET row_off_detect_bot[31] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 418140 ) N ;
+- row_on_detect_bot[30] + NET row_on_detect_bot[30] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 423660 ) N ;
+- row_off_detect_bot[30] + NET row_off_detect_bot[30] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 430100 ) N ;
+- row_on_detect_bot[29] + NET row_on_detect_bot[29] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 435620 ) N ;
+- row_off_detect_bot[29] + NET row_off_detect_bot[29] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 442060 ) N ;
+- row_on_detect_bot[28] + NET row_on_detect_bot[28] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 447580 ) N ;
+- row_off_detect_bot[28] + NET row_off_detect_bot[28] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 454020 ) N ;
+- row_on_detect_bot[27] + NET row_on_detect_bot[27] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 460460 ) N ;
+- row_off_detect_bot[27] + NET row_off_detect_bot[27] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 465980 ) N ;
+- row_on_detect_bot[26] + NET row_on_detect_bot[26] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 472420 ) N ;
+- row_off_detect_bot[26] + NET row_off_detect_bot[26] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 477940 ) N ;
+- row_on_detect_bot[25] + NET row_on_detect_bot[25] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 484380 ) N ;
+- row_off_detect_bot[25] + NET row_off_detect_bot[25] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 489900 ) N ;
+- row_on_detect_bot[24] + NET row_on_detect_bot[24] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 496340 ) N ;
+- row_off_detect_bot[24] + NET row_off_detect_bot[24] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 501860 ) N ;
+- row_on_detect_bot[23] + NET row_on_detect_bot[23] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 508300 ) N ;
+- row_off_detect_bot[23] + NET row_off_detect_bot[23] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 513820 ) N ;
+- row_on_detect_bot[22] + NET row_on_detect_bot[22] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 520260 ) N ;
+- row_off_detect_bot[22] + NET row_off_detect_bot[22] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 525780 ) N ;
+- row_on_detect_bot[21] + NET row_on_detect_bot[21] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 532220 ) N ;
+- row_off_detect_bot[21] + NET row_off_detect_bot[21] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 537740 ) N ;
+- row_on_detect_bot[20] + NET row_on_detect_bot[20] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 544180 ) N ;
+- row_off_detect_bot[20] + NET row_off_detect_bot[20] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 549700 ) N ;
+- row_on_detect_bot[19] + NET row_on_detect_bot[19] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 556140 ) N ;
+- row_off_detect_bot[19] + NET row_off_detect_bot[19] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 561660 ) N ;
+- row_on_detect_bot[18] + NET row_on_detect_bot[18] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 568100 ) N ;
+- row_off_detect_bot[18] + NET row_off_detect_bot[18] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 573620 ) N ;
+- row_on_detect_bot[17] + NET row_on_detect_bot[17] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 580060 ) N ;
+- row_off_detect_bot[17] + NET row_off_detect_bot[17] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 585580 ) N ;
+- row_on_detect_bot[16] + NET row_on_detect_bot[16] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 592020 ) N ;
+- row_off_detect_bot[16] + NET row_off_detect_bot[16] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 597540 ) N ;
+- row_on_detect_bot[15] + NET row_on_detect_bot[15] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 603980 ) N ;
+- row_off_detect_bot[15] + NET row_off_detect_bot[15] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 610420 ) N ;
+- row_on_detect_bot[14] + NET row_on_detect_bot[14] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 615940 ) N ;
+- row_off_detect_bot[14] + NET row_off_detect_bot[14] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 622380 ) N ;
+- row_on_detect_bot[13] + NET row_on_detect_bot[13] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 627900 ) N ;
+- row_off_detect_bot[13] + NET row_off_detect_bot[13] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 634340 ) N ;
+- row_on_detect_bot[12] + NET row_on_detect_bot[12] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 639860 ) N ;
+- row_off_detect_bot[12] + NET row_off_detect_bot[12] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 646300 ) N ;
+- row_on_detect_bot[11] + NET row_on_detect_bot[11] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 651820 ) N ;
+- row_off_detect_bot[11] + NET row_off_detect_bot[11] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 658260 ) N ;
+- row_on_detect_bot[10] + NET row_on_detect_bot[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 663780 ) N ;
+- row_off_detect_bot[10] + NET row_off_detect_bot[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 670220 ) N ;
+- row_on_detect_bot[9] + NET row_on_detect_bot[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 675740 ) N ;
+- row_off_detect_bot[9] + NET row_off_detect_bot[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 682180 ) N ;
+- row_on_detect_bot[8] + NET row_on_detect_bot[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 687700 ) N ;
+- row_off_detect_bot[8] + NET row_off_detect_bot[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 694140 ) N ;
+- row_on_detect_bot[7] + NET row_on_detect_bot[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 699660 ) N ;
+- row_off_detect_bot[7] + NET row_off_detect_bot[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 706100 ) N ;
+- row_on_detect_bot[6] + NET row_on_detect_bot[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 711620 ) N ;
+- row_off_detect_bot[6] + NET row_off_detect_bot[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 718060 ) N ;
+- row_on_detect_bot[5] + NET row_on_detect_bot[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 723580 ) N ;
+- row_off_detect_bot[5] + NET row_off_detect_bot[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 730020 ) N ;
+- row_on_detect_bot[4] + NET row_on_detect_bot[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 735540 ) N ;
+- row_off_detect_bot[4] + NET row_off_detect_bot[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 741980 ) N ;
+- row_on_detect_bot[3] + NET row_on_detect_bot[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 748420 ) N ;
+- row_off_detect_bot[3] + NET row_off_detect_bot[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 753940 ) N ;
+- row_on_detect_bot[2] + NET row_on_detect_bot[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 760380 ) N ;
+- row_off_detect_bot[2] + NET row_off_detect_bot[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 765900 ) N ;
+- row_on_detect_bot[1] + NET row_on_detect_bot[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 772340 ) N ;
+- row_off_detect_bot[1] + NET row_off_detect_bot[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 777860 ) N ;
+- row_on_detect_bot[0] + NET row_on_detect_bot[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 784300 ) N ;
+- row_off_detect_bot[0] + NET row_off_detect_bot[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 789820 ) N ;
+- row_on_detect_top[63] + NET row_on_detect_top[63] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 796260 ) N ;
+- row_off_detect_top[63] + NET row_off_detect_top[63] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 801780 ) N ;
+- row_on_detect_top[62] + NET row_on_detect_top[62] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 808220 ) N ;
+- row_off_detect_top[62] + NET row_off_detect_top[62] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 813740 ) N ;
+- row_on_detect_top[61] + NET row_on_detect_top[61] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 820180 ) N ;
+- row_off_detect_top[61] + NET row_off_detect_top[61] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 825700 ) N ;
+- row_on_detect_top[60] + NET row_on_detect_top[60] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 832140 ) N ;
+- row_off_detect_top[60] + NET row_off_detect_top[60] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 837660 ) N ;
+- row_on_detect_top[59] + NET row_on_detect_top[59] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 844100 ) N ;
+- row_off_detect_top[59] + NET row_off_detect_top[59] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 849620 ) N ;
+- row_on_detect_top[58] + NET row_on_detect_top[58] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 856060 ) N ;
+- row_off_detect_top[58] + NET row_off_detect_top[58] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 861580 ) N ;
+- row_on_detect_top[57] + NET row_on_detect_top[57] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 868020 ) N ;
+- row_off_detect_top[57] + NET row_off_detect_top[57] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 873540 ) N ;
+- row_on_detect_top[56] + NET row_on_detect_top[56] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 879980 ) N ;
+- row_off_detect_top[56] + NET row_off_detect_top[56] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 886420 ) N ;
+- row_on_detect_top[55] + NET row_on_detect_top[55] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 891940 ) N ;
+- row_off_detect_top[55] + NET row_off_detect_top[55] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 898380 ) N ;
+- row_on_detect_top[54] + NET row_on_detect_top[54] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 903900 ) N ;
+- row_off_detect_top[54] + NET row_off_detect_top[54] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 910340 ) N ;
+- row_on_detect_top[53] + NET row_on_detect_top[53] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 915860 ) N ;
+- row_off_detect_top[53] + NET row_off_detect_top[53] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 922300 ) N ;
+- row_on_detect_top[52] + NET row_on_detect_top[52] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 927820 ) N ;
+- row_off_detect_top[52] + NET row_off_detect_top[52] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 934260 ) N ;
+- row_on_detect_top[51] + NET row_on_detect_top[51] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 939780 ) N ;
+- row_off_detect_top[51] + NET row_off_detect_top[51] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 946220 ) N ;
+- row_on_detect_top[50] + NET row_on_detect_top[50] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 951740 ) N ;
+- row_off_detect_top[50] + NET row_off_detect_top[50] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 958180 ) N ;
+- row_on_detect_top[49] + NET row_on_detect_top[49] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 963700 ) N ;
+- row_off_detect_top[49] + NET row_off_detect_top[49] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 970140 ) N ;
+- row_on_detect_top[48] + NET row_on_detect_top[48] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 975660 ) N ;
+- row_off_detect_top[48] + NET row_off_detect_top[48] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 982100 ) N ;
+- row_on_detect_top[47] + NET row_on_detect_top[47] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 987620 ) N ;
+- row_off_detect_top[47] + NET row_off_detect_top[47] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 994060 ) N ;
+- row_on_detect_top[46] + NET row_on_detect_top[46] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 999580 ) N ;
+- row_off_detect_top[46] + NET row_off_detect_top[46] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1006020 ) N ;
+- row_on_detect_top[45] + NET row_on_detect_top[45] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1012460 ) N ;
+- row_off_detect_top[45] + NET row_off_detect_top[45] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1017980 ) N ;
+- row_on_detect_top[44] + NET row_on_detect_top[44] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1024420 ) N ;
+- row_off_detect_top[44] + NET row_off_detect_top[44] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1029940 ) N ;
+- row_on_detect_top[43] + NET row_on_detect_top[43] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1036380 ) N ;
+- row_off_detect_top[43] + NET row_off_detect_top[43] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1041900 ) N ;
+- row_on_detect_top[42] + NET row_on_detect_top[42] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1048340 ) N ;
+- row_off_detect_top[42] + NET row_off_detect_top[42] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1053860 ) N ;
+- row_on_detect_top[41] + NET row_on_detect_top[41] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1060300 ) N ;
+- row_off_detect_top[41] + NET row_off_detect_top[41] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1065820 ) N ;
+- row_on_detect_top[40] + NET row_on_detect_top[40] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1072260 ) N ;
+- row_off_detect_top[40] + NET row_off_detect_top[40] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1077780 ) N ;
+- row_on_detect_top[39] + NET row_on_detect_top[39] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1084220 ) N ;
+- row_off_detect_top[39] + NET row_off_detect_top[39] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1089740 ) N ;
+- row_on_detect_top[38] + NET row_on_detect_top[38] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1096180 ) N ;
+- row_off_detect_top[38] + NET row_off_detect_top[38] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1101700 ) N ;
+- row_on_detect_top[37] + NET row_on_detect_top[37] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1108140 ) N ;
+- row_off_detect_top[37] + NET row_off_detect_top[37] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1113660 ) N ;
+- row_on_detect_top[36] + NET row_on_detect_top[36] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1120100 ) N ;
+- row_off_detect_top[36] + NET row_off_detect_top[36] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1125620 ) N ;
+- row_on_detect_top[35] + NET row_on_detect_top[35] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1132060 ) N ;
+- row_off_detect_top[35] + NET row_off_detect_top[35] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1137580 ) N ;
+- row_on_detect_top[34] + NET row_on_detect_top[34] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1144020 ) N ;
+- row_off_detect_top[34] + NET row_off_detect_top[34] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1150460 ) N ;
+- row_on_detect_top[33] + NET row_on_detect_top[33] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1155980 ) N ;
+- row_off_detect_top[33] + NET row_off_detect_top[33] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1162420 ) N ;
+- row_on_detect_top[32] + NET row_on_detect_top[32] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1167940 ) N ;
+- row_off_detect_top[32] + NET row_off_detect_top[32] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1174380 ) N ;
+- row_on_detect_top[31] + NET row_on_detect_top[31] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1179900 ) N ;
+- row_off_detect_top[31] + NET row_off_detect_top[31] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1186340 ) N ;
+- row_on_detect_top[30] + NET row_on_detect_top[30] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1191860 ) N ;
+- row_off_detect_top[30] + NET row_off_detect_top[30] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1198300 ) N ;
+- row_on_detect_top[29] + NET row_on_detect_top[29] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1203820 ) N ;
+- row_off_detect_top[29] + NET row_off_detect_top[29] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1210260 ) N ;
+- row_on_detect_top[28] + NET row_on_detect_top[28] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1215780 ) N ;
+- row_off_detect_top[28] + NET row_off_detect_top[28] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1222220 ) N ;
+- row_on_detect_top[27] + NET row_on_detect_top[27] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1227740 ) N ;
+- row_off_detect_top[27] + NET row_off_detect_top[27] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1234180 ) N ;
+- row_on_detect_top[26] + NET row_on_detect_top[26] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1239700 ) N ;
+- row_off_detect_top[26] + NET row_off_detect_top[26] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1246140 ) N ;
+- row_on_detect_top[25] + NET row_on_detect_top[25] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1251660 ) N ;
+- row_off_detect_top[25] + NET row_off_detect_top[25] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1258100 ) N ;
+- row_on_detect_top[24] + NET row_on_detect_top[24] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1263620 ) N ;
+- row_off_detect_top[24] + NET row_off_detect_top[24] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1270060 ) N ;
+- row_on_detect_top[23] + NET row_on_detect_top[23] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1275580 ) N ;
+- row_off_detect_top[23] + NET row_off_detect_top[23] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1282020 ) N ;
+- row_on_detect_top[22] + NET row_on_detect_top[22] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1288460 ) N ;
+- row_off_detect_top[22] + NET row_off_detect_top[22] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1293980 ) N ;
+- row_on_detect_top[21] + NET row_on_detect_top[21] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1300420 ) N ;
+- row_off_detect_top[21] + NET row_off_detect_top[21] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1305940 ) N ;
+- row_on_detect_top[20] + NET row_on_detect_top[20] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1312380 ) N ;
+- row_off_detect_top[20] + NET row_off_detect_top[20] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1317900 ) N ;
+- row_on_detect_top[19] + NET row_on_detect_top[19] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1324340 ) N ;
+- row_off_detect_top[19] + NET row_off_detect_top[19] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1329860 ) N ;
+- row_on_detect_top[18] + NET row_on_detect_top[18] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1336300 ) N ;
+- row_off_detect_top[18] + NET row_off_detect_top[18] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1341820 ) N ;
+- row_on_detect_top[17] + NET row_on_detect_top[17] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1348260 ) N ;
+- row_off_detect_top[17] + NET row_off_detect_top[17] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1353780 ) N ;
+- row_on_detect_top[16] + NET row_on_detect_top[16] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1360220 ) N ;
+- row_off_detect_top[16] + NET row_off_detect_top[16] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1365740 ) N ;
+- row_on_detect_top[15] + NET row_on_detect_top[15] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1372180 ) N ;
+- row_off_detect_top[15] + NET row_off_detect_top[15] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1377700 ) N ;
+- row_on_detect_top[14] + NET row_on_detect_top[14] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1384140 ) N ;
+- row_off_detect_top[14] + NET row_off_detect_top[14] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1389660 ) N ;
+- row_on_detect_top[13] + NET row_on_detect_top[13] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1396100 ) N ;
+- row_off_detect_top[13] + NET row_off_detect_top[13] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1401620 ) N ;
+- row_on_detect_top[12] + NET row_on_detect_top[12] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1408060 ) N ;
+- row_off_detect_top[12] + NET row_off_detect_top[12] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1413580 ) N ;
+- row_on_detect_top[11] + NET row_on_detect_top[11] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1420020 ) N ;
+- row_off_detect_top[11] + NET row_off_detect_top[11] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1426460 ) N ;
+- row_on_detect_top[10] + NET row_on_detect_top[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1431980 ) N ;
+- row_off_detect_top[10] + NET row_off_detect_top[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1438420 ) N ;
+- row_on_detect_top[9] + NET row_on_detect_top[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1443940 ) N ;
+- row_off_detect_top[9] + NET row_off_detect_top[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1450380 ) N ;
+- row_on_detect_top[8] + NET row_on_detect_top[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1455900 ) N ;
+- row_off_detect_top[8] + NET row_off_detect_top[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1462340 ) N ;
+- row_on_detect_top[7] + NET row_on_detect_top[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1467860 ) N ;
+- row_off_detect_top[7] + NET row_off_detect_top[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1474300 ) N ;
+- row_on_detect_top[6] + NET row_on_detect_top[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1479820 ) N ;
+- row_off_detect_top[6] + NET row_off_detect_top[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1486260 ) N ;
+- row_on_detect_top[5] + NET row_on_detect_top[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1491780 ) N ;
+- row_off_detect_top[5] + NET row_off_detect_top[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1498220 ) N ;
+- row_on_detect_top[4] + NET row_on_detect_top[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1503740 ) N ;
+- row_off_detect_top[4] + NET row_off_detect_top[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1510180 ) N ;
+- row_on_detect_top[3] + NET row_on_detect_top[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1515700 ) N ;
+- row_off_detect_top[3] + NET row_off_detect_top[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1522140 ) N ;
+- row_on_detect_top[2] + NET row_on_detect_top[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1527660 ) N ;
+- row_off_detect_top[2] + NET row_off_detect_top[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1534100 ) N ;
+- row_on_detect_top[1] + NET row_on_detect_top[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1539620 ) N ;
+- row_off_detect_top[1] + NET row_off_detect_top[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1546060 ) N ;
+- row_on_detect_top[0] + NET row_on_detect_top[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1551580 ) N ;
+- row_off_detect_top[0] + NET row_off_detect_top[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1558020 ) N ;
+- array_col_bot_left[0] + NET array_col_bot_left[0] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 3060 2000 ) N ;
+- col_event_rst_bot_left[0] + NET col_event_rst_bot_left[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 9180 2000 ) N ;
+- array_col_top_left[0] + NET array_col_top_left[0] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 3060 1594000 ) N ;
+- col_event_rst_top_left[0] + NET col_event_rst_top_left[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 9180 1594000 ) N ;
+- array_col_bot_left[1] + NET array_col_bot_left[1] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 15300 2000 ) N ;
+- col_event_rst_bot_left[1] + NET col_event_rst_bot_left[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 20740 2000 ) N ;
+- array_col_top_left[1] + NET array_col_top_left[1] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 15300 1594000 ) N ;
+- col_event_rst_top_left[1] + NET col_event_rst_top_left[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 20740 1594000 ) N ;
+- array_col_bot_left[2] + NET array_col_bot_left[2] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 26860 2000 ) N ;
+- col_event_rst_bot_left[2] + NET col_event_rst_bot_left[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 32980 2000 ) N ;
+- array_col_top_left[2] + NET array_col_top_left[2] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 26860 1594000 ) N ;
+- col_event_rst_top_left[2] + NET col_event_rst_top_left[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 32980 1594000 ) N ;
+- array_col_bot_left[3] + NET array_col_bot_left[3] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 39100 2000 ) N ;
+- col_event_rst_bot_left[3] + NET col_event_rst_bot_left[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 45220 2000 ) N ;
+- array_col_top_left[3] + NET array_col_top_left[3] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 39100 1594000 ) N ;
+- col_event_rst_top_left[3] + NET col_event_rst_top_left[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 45220 1594000 ) N ;
+- array_col_bot_left[4] + NET array_col_bot_left[4] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 50660 2000 ) N ;
+- col_event_rst_bot_left[4] + NET col_event_rst_bot_left[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 56780 2000 ) N ;
+- array_col_top_left[4] + NET array_col_top_left[4] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 50660 1594000 ) N ;
+- col_event_rst_top_left[4] + NET col_event_rst_top_left[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 56780 1594000 ) N ;
+- array_col_bot_left[5] + NET array_col_bot_left[5] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 62900 2000 ) N ;
+- col_event_rst_bot_left[5] + NET col_event_rst_bot_left[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 69020 2000 ) N ;
+- array_col_top_left[5] + NET array_col_top_left[5] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 62900 1594000 ) N ;
+- col_event_rst_top_left[5] + NET col_event_rst_top_left[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 69020 1594000 ) N ;
+- array_col_bot_left[6] + NET array_col_bot_left[6] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 75140 2000 ) N ;
+- col_event_rst_bot_left[6] + NET col_event_rst_bot_left[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 81260 2000 ) N ;
+- array_col_top_left[6] + NET array_col_top_left[6] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 75140 1594000 ) N ;
+- col_event_rst_top_left[6] + NET col_event_rst_top_left[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 81260 1594000 ) N ;
+- array_col_bot_left[7] + NET array_col_bot_left[7] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 86700 2000 ) N ;
+- col_event_rst_bot_left[7] + NET col_event_rst_bot_left[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 92820 2000 ) N ;
+- array_col_top_left[7] + NET array_col_top_left[7] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 86700 1594000 ) N ;
+- col_event_rst_top_left[7] + NET col_event_rst_top_left[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 92820 1594000 ) N ;
+- array_col_bot_left[8] + NET array_col_bot_left[8] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 98940 2000 ) N ;
+- col_event_rst_bot_left[8] + NET col_event_rst_bot_left[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 105060 2000 ) N ;
+- array_col_top_left[8] + NET array_col_top_left[8] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 98940 1594000 ) N ;
+- col_event_rst_top_left[8] + NET col_event_rst_top_left[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 105060 1594000 ) N ;
+- array_col_bot_left[9] + NET array_col_bot_left[9] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 111180 2000 ) N ;
+- col_event_rst_bot_left[9] + NET col_event_rst_bot_left[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 117300 2000 ) N ;
+- array_col_top_left[9] + NET array_col_top_left[9] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 111180 1594000 ) N ;
+- col_event_rst_top_left[9] + NET col_event_rst_top_left[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 117300 1594000 ) N ;
+- array_col_bot_left[10] + NET array_col_bot_left[10] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 122740 2000 ) N ;
+- col_event_rst_bot_left[10] + NET col_event_rst_bot_left[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 128860 2000 ) N ;
+- array_col_top_left[10] + NET array_col_top_left[10] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 122740 1594000 ) N ;
+- col_event_rst_top_left[10] + NET col_event_rst_top_left[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 128860 1594000 ) N ;
+- array_col_bot_left[11] + NET array_col_bot_left[11] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 134980 2000 ) N ;
+- col_event_rst_bot_left[11] + NET col_event_rst_bot_left[11] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 141100 2000 ) N ;
+- array_col_top_left[11] + NET array_col_top_left[11] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 134980 1594000 ) N ;
+- col_event_rst_top_left[11] + NET col_event_rst_top_left[11] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 141100 1594000 ) N ;
+- array_col_bot_left[12] + NET array_col_bot_left[12] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 147220 2000 ) N ;
+- col_event_rst_bot_left[12] + NET col_event_rst_bot_left[12] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 152660 2000 ) N ;
+- array_col_top_left[12] + NET array_col_top_left[12] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 147220 1594000 ) N ;
+- col_event_rst_top_left[12] + NET col_event_rst_top_left[12] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 152660 1594000 ) N ;
+- array_col_bot_left[13] + NET array_col_bot_left[13] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 158780 2000 ) N ;
+- col_event_rst_bot_left[13] + NET col_event_rst_bot_left[13] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 164900 2000 ) N ;
+- array_col_top_left[13] + NET array_col_top_left[13] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 158780 1594000 ) N ;
+- col_event_rst_top_left[13] + NET col_event_rst_top_left[13] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 164900 1594000 ) N ;
+- array_col_bot_left[14] + NET array_col_bot_left[14] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 171020 2000 ) N ;
+- col_event_rst_bot_left[14] + NET col_event_rst_bot_left[14] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 177140 2000 ) N ;
+- array_col_top_left[14] + NET array_col_top_left[14] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 171020 1594000 ) N ;
+- col_event_rst_top_left[14] + NET col_event_rst_top_left[14] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 177140 1594000 ) N ;
+- array_col_bot_left[15] + NET array_col_bot_left[15] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 183260 2000 ) N ;
+- col_event_rst_bot_left[15] + NET col_event_rst_bot_left[15] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 188700 2000 ) N ;
+- array_col_top_left[15] + NET array_col_top_left[15] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 183260 1594000 ) N ;
+- col_event_rst_top_left[15] + NET col_event_rst_top_left[15] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 188700 1594000 ) N ;
+- array_col_bot_left[16] + NET array_col_bot_left[16] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 194820 2000 ) N ;
+- col_event_rst_bot_left[16] + NET col_event_rst_bot_left[16] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 200940 2000 ) N ;
+- array_col_top_left[16] + NET array_col_top_left[16] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 194820 1594000 ) N ;
+- col_event_rst_top_left[16] + NET col_event_rst_top_left[16] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 200940 1594000 ) N ;
+- array_col_bot_left[17] + NET array_col_bot_left[17] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 207060 2000 ) N ;
+- col_event_rst_bot_left[17] + NET col_event_rst_bot_left[17] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 213180 2000 ) N ;
+- array_col_top_left[17] + NET array_col_top_left[17] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 207060 1594000 ) N ;
+- col_event_rst_top_left[17] + NET col_event_rst_top_left[17] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 213180 1594000 ) N ;
+- array_col_bot_left[18] + NET array_col_bot_left[18] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 219300 2000 ) N ;
+- col_event_rst_bot_left[18] + NET col_event_rst_bot_left[18] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 224740 2000 ) N ;
+- array_col_top_left[18] + NET array_col_top_left[18] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 219300 1594000 ) N ;
+- col_event_rst_top_left[18] + NET col_event_rst_top_left[18] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 224740 1594000 ) N ;
+- array_col_bot_left[19] + NET array_col_bot_left[19] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 230860 2000 ) N ;
+- col_event_rst_bot_left[19] + NET col_event_rst_bot_left[19] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 236980 2000 ) N ;
+- array_col_top_left[19] + NET array_col_top_left[19] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 230860 1594000 ) N ;
+- col_event_rst_top_left[19] + NET col_event_rst_top_left[19] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 236980 1594000 ) N ;
+- array_col_bot_left[20] + NET array_col_bot_left[20] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 243100 2000 ) N ;
+- col_event_rst_bot_left[20] + NET col_event_rst_bot_left[20] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 249220 2000 ) N ;
+- array_col_top_left[20] + NET array_col_top_left[20] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 243100 1594000 ) N ;
+- col_event_rst_top_left[20] + NET col_event_rst_top_left[20] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 249220 1594000 ) N ;
+- array_col_bot_left[21] + NET array_col_bot_left[21] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 254660 2000 ) N ;
+- col_event_rst_bot_left[21] + NET col_event_rst_bot_left[21] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 260780 2000 ) N ;
+- array_col_top_left[21] + NET array_col_top_left[21] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 254660 1594000 ) N ;
+- col_event_rst_top_left[21] + NET col_event_rst_top_left[21] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 260780 1594000 ) N ;
+- array_col_bot_left[22] + NET array_col_bot_left[22] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 266900 2000 ) N ;
+- col_event_rst_bot_left[22] + NET col_event_rst_bot_left[22] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 273020 2000 ) N ;
+- array_col_top_left[22] + NET array_col_top_left[22] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 266900 1594000 ) N ;
+- col_event_rst_top_left[22] + NET col_event_rst_top_left[22] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 273020 1594000 ) N ;
+- array_col_bot_left[23] + NET array_col_bot_left[23] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 279140 2000 ) N ;
+- col_event_rst_bot_left[23] + NET col_event_rst_bot_left[23] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 285260 2000 ) N ;
+- array_col_top_left[23] + NET array_col_top_left[23] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 279140 1594000 ) N ;
+- col_event_rst_top_left[23] + NET col_event_rst_top_left[23] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 285260 1594000 ) N ;
+- array_col_bot_left[24] + NET array_col_bot_left[24] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 290700 2000 ) N ;
+- col_event_rst_bot_left[24] + NET col_event_rst_bot_left[24] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 296820 2000 ) N ;
+- array_col_top_left[24] + NET array_col_top_left[24] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 290700 1594000 ) N ;
+- col_event_rst_top_left[24] + NET col_event_rst_top_left[24] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 296820 1594000 ) N ;
+- array_col_bot_left[25] + NET array_col_bot_left[25] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 302940 2000 ) N ;
+- col_event_rst_bot_left[25] + NET col_event_rst_bot_left[25] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 309060 2000 ) N ;
+- array_col_top_left[25] + NET array_col_top_left[25] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 302940 1594000 ) N ;
+- col_event_rst_top_left[25] + NET col_event_rst_top_left[25] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 309060 1594000 ) N ;
+- array_col_bot_left[26] + NET array_col_bot_left[26] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 315180 2000 ) N ;
+- col_event_rst_bot_left[26] + NET col_event_rst_bot_left[26] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 321300 2000 ) N ;
+- array_col_top_left[26] + NET array_col_top_left[26] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 315180 1594000 ) N ;
+- col_event_rst_top_left[26] + NET col_event_rst_top_left[26] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 321300 1594000 ) N ;
+- array_col_bot_left[27] + NET array_col_bot_left[27] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 326740 2000 ) N ;
+- col_event_rst_bot_left[27] + NET col_event_rst_bot_left[27] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 332860 2000 ) N ;
+- array_col_top_left[27] + NET array_col_top_left[27] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 326740 1594000 ) N ;
+- col_event_rst_top_left[27] + NET col_event_rst_top_left[27] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 332860 1594000 ) N ;
+- array_col_bot_left[28] + NET array_col_bot_left[28] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 338980 2000 ) N ;
+- col_event_rst_bot_left[28] + NET col_event_rst_bot_left[28] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 345100 2000 ) N ;
+- array_col_top_left[28] + NET array_col_top_left[28] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 338980 1594000 ) N ;
+- col_event_rst_top_left[28] + NET col_event_rst_top_left[28] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 345100 1594000 ) N ;
+- array_col_bot_left[29] + NET array_col_bot_left[29] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 351220 2000 ) N ;
+- col_event_rst_bot_left[29] + NET col_event_rst_bot_left[29] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 356660 2000 ) N ;
+- array_col_top_left[29] + NET array_col_top_left[29] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 351220 1594000 ) N ;
+- col_event_rst_top_left[29] + NET col_event_rst_top_left[29] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 356660 1594000 ) N ;
+- array_col_bot_left[30] + NET array_col_bot_left[30] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 362780 2000 ) N ;
+- col_event_rst_bot_left[30] + NET col_event_rst_bot_left[30] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 368900 2000 ) N ;
+- array_col_top_left[30] + NET array_col_top_left[30] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 362780 1594000 ) N ;
+- col_event_rst_top_left[30] + NET col_event_rst_top_left[30] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 368900 1594000 ) N ;
+- array_col_bot_left[31] + NET array_col_bot_left[31] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 375020 2000 ) N ;
+- col_event_rst_bot_left[31] + NET col_event_rst_bot_left[31] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 381140 2000 ) N ;
+- array_col_top_left[31] + NET array_col_top_left[31] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 375020 1594000 ) N ;
+- col_event_rst_top_left[31] + NET col_event_rst_top_left[31] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 381140 1594000 ) N ;
+- array_col_bot_left[32] + NET array_col_bot_left[32] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 387260 2000 ) N ;
+- col_event_rst_bot_left[32] + NET col_event_rst_bot_left[32] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 392700 2000 ) N ;
+- array_col_top_left[32] + NET array_col_top_left[32] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 387260 1594000 ) N ;
+- col_event_rst_top_left[32] + NET col_event_rst_top_left[32] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 392700 1594000 ) N ;
+- array_col_bot_left[33] + NET array_col_bot_left[33] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 398820 2000 ) N ;
+- col_event_rst_bot_left[33] + NET col_event_rst_bot_left[33] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 404940 2000 ) N ;
+- array_col_top_left[33] + NET array_col_top_left[33] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 398820 1594000 ) N ;
+- col_event_rst_top_left[33] + NET col_event_rst_top_left[33] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 404940 1594000 ) N ;
+- array_col_bot_left[34] + NET array_col_bot_left[34] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 411060 2000 ) N ;
+- col_event_rst_bot_left[34] + NET col_event_rst_bot_left[34] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 417180 2000 ) N ;
+- array_col_top_left[34] + NET array_col_top_left[34] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 411060 1594000 ) N ;
+- col_event_rst_top_left[34] + NET col_event_rst_top_left[34] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 417180 1594000 ) N ;
+- array_col_bot_left[35] + NET array_col_bot_left[35] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 423300 2000 ) N ;
+- col_event_rst_bot_left[35] + NET col_event_rst_bot_left[35] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 428740 2000 ) N ;
+- array_col_top_left[35] + NET array_col_top_left[35] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 423300 1594000 ) N ;
+- col_event_rst_top_left[35] + NET col_event_rst_top_left[35] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 428740 1594000 ) N ;
+- array_col_bot_left[36] + NET array_col_bot_left[36] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 434860 2000 ) N ;
+- col_event_rst_bot_left[36] + NET col_event_rst_bot_left[36] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 440980 2000 ) N ;
+- array_col_top_left[36] + NET array_col_top_left[36] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 434860 1594000 ) N ;
+- col_event_rst_top_left[36] + NET col_event_rst_top_left[36] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 440980 1594000 ) N ;
+- array_col_bot_left[37] + NET array_col_bot_left[37] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 447100 2000 ) N ;
+- col_event_rst_bot_left[37] + NET col_event_rst_bot_left[37] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 453220 2000 ) N ;
+- array_col_top_left[37] + NET array_col_top_left[37] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 447100 1594000 ) N ;
+- col_event_rst_top_left[37] + NET col_event_rst_top_left[37] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 453220 1594000 ) N ;
+- array_col_bot_left[38] + NET array_col_bot_left[38] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 458660 2000 ) N ;
+- col_event_rst_bot_left[38] + NET col_event_rst_bot_left[38] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 464780 2000 ) N ;
+- array_col_top_left[38] + NET array_col_top_left[38] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 458660 1594000 ) N ;
+- col_event_rst_top_left[38] + NET col_event_rst_top_left[38] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 464780 1594000 ) N ;
+- array_col_bot_left[39] + NET array_col_bot_left[39] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 470900 2000 ) N ;
+- col_event_rst_bot_left[39] + NET col_event_rst_bot_left[39] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 477020 2000 ) N ;
+- array_col_top_left[39] + NET array_col_top_left[39] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 470900 1594000 ) N ;
+- col_event_rst_top_left[39] + NET col_event_rst_top_left[39] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 477020 1594000 ) N ;
+- array_col_bot_left[40] + NET array_col_bot_left[40] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 483140 2000 ) N ;
+- col_event_rst_bot_left[40] + NET col_event_rst_bot_left[40] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 489260 2000 ) N ;
+- array_col_top_left[40] + NET array_col_top_left[40] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 483140 1594000 ) N ;
+- col_event_rst_top_left[40] + NET col_event_rst_top_left[40] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 489260 1594000 ) N ;
+- array_col_bot_left[41] + NET array_col_bot_left[41] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 494700 2000 ) N ;
+- col_event_rst_bot_left[41] + NET col_event_rst_bot_left[41] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 500820 2000 ) N ;
+- array_col_top_left[41] + NET array_col_top_left[41] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 494700 1594000 ) N ;
+- col_event_rst_top_left[41] + NET col_event_rst_top_left[41] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 500820 1594000 ) N ;
+- array_col_bot_left[42] + NET array_col_bot_left[42] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 506940 2000 ) N ;
+- col_event_rst_bot_left[42] + NET col_event_rst_bot_left[42] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 513060 2000 ) N ;
+- array_col_top_left[42] + NET array_col_top_left[42] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 506940 1594000 ) N ;
+- col_event_rst_top_left[42] + NET col_event_rst_top_left[42] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 513060 1594000 ) N ;
+- array_col_bot_left[43] + NET array_col_bot_left[43] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 519180 2000 ) N ;
+- col_event_rst_bot_left[43] + NET col_event_rst_bot_left[43] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 525300 2000 ) N ;
+- array_col_top_left[43] + NET array_col_top_left[43] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 519180 1594000 ) N ;
+- col_event_rst_top_left[43] + NET col_event_rst_top_left[43] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 525300 1594000 ) N ;
+- array_col_bot_left[44] + NET array_col_bot_left[44] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 530740 2000 ) N ;
+- col_event_rst_bot_left[44] + NET col_event_rst_bot_left[44] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 536860 2000 ) N ;
+- array_col_top_left[44] + NET array_col_top_left[44] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 530740 1594000 ) N ;
+- col_event_rst_top_left[44] + NET col_event_rst_top_left[44] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 536860 1594000 ) N ;
+- array_col_bot_left[45] + NET array_col_bot_left[45] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 542980 2000 ) N ;
+- col_event_rst_bot_left[45] + NET col_event_rst_bot_left[45] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 549100 2000 ) N ;
+- array_col_top_left[45] + NET array_col_top_left[45] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 542980 1594000 ) N ;
+- col_event_rst_top_left[45] + NET col_event_rst_top_left[45] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 549100 1594000 ) N ;
+- array_col_bot_left[46] + NET array_col_bot_left[46] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 555220 2000 ) N ;
+- col_event_rst_bot_left[46] + NET col_event_rst_bot_left[46] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 560660 2000 ) N ;
+- array_col_top_left[46] + NET array_col_top_left[46] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 555220 1594000 ) N ;
+- col_event_rst_top_left[46] + NET col_event_rst_top_left[46] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 560660 1594000 ) N ;
+- array_col_bot_left[47] + NET array_col_bot_left[47] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 566780 2000 ) N ;
+- col_event_rst_bot_left[47] + NET col_event_rst_bot_left[47] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 572900 2000 ) N ;
+- array_col_top_left[47] + NET array_col_top_left[47] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 566780 1594000 ) N ;
+- col_event_rst_top_left[47] + NET col_event_rst_top_left[47] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 572900 1594000 ) N ;
+- array_col_bot_left[48] + NET array_col_bot_left[48] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 579020 2000 ) N ;
+- col_event_rst_bot_left[48] + NET col_event_rst_bot_left[48] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 585140 2000 ) N ;
+- array_col_top_left[48] + NET array_col_top_left[48] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 579020 1594000 ) N ;
+- col_event_rst_top_left[48] + NET col_event_rst_top_left[48] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 585140 1594000 ) N ;
+- array_col_bot_left[49] + NET array_col_bot_left[49] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 591260 2000 ) N ;
+- col_event_rst_bot_left[49] + NET col_event_rst_bot_left[49] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 596700 2000 ) N ;
+- array_col_top_left[49] + NET array_col_top_left[49] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 591260 1594000 ) N ;
+- col_event_rst_top_left[49] + NET col_event_rst_top_left[49] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 596700 1594000 ) N ;
+- array_col_bot_left[50] + NET array_col_bot_left[50] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 602820 2000 ) N ;
+- col_event_rst_bot_left[50] + NET col_event_rst_bot_left[50] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 608940 2000 ) N ;
+- array_col_top_left[50] + NET array_col_top_left[50] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 602820 1594000 ) N ;
+- col_event_rst_top_left[50] + NET col_event_rst_top_left[50] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 608940 1594000 ) N ;
+- array_col_bot_left[51] + NET array_col_bot_left[51] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 615060 2000 ) N ;
+- col_event_rst_bot_left[51] + NET col_event_rst_bot_left[51] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 621180 2000 ) N ;
+- array_col_top_left[51] + NET array_col_top_left[51] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 615060 1594000 ) N ;
+- col_event_rst_top_left[51] + NET col_event_rst_top_left[51] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 621180 1594000 ) N ;
+- array_col_bot_left[52] + NET array_col_bot_left[52] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 627300 2000 ) N ;
+- col_event_rst_bot_left[52] + NET col_event_rst_bot_left[52] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 632740 2000 ) N ;
+- array_col_top_left[52] + NET array_col_top_left[52] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 627300 1594000 ) N ;
+- col_event_rst_top_left[52] + NET col_event_rst_top_left[52] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 632740 1594000 ) N ;
+- array_col_bot_left[53] + NET array_col_bot_left[53] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 638860 2000 ) N ;
+- col_event_rst_bot_left[53] + NET col_event_rst_bot_left[53] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 644980 2000 ) N ;
+- array_col_top_left[53] + NET array_col_top_left[53] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 638860 1594000 ) N ;
+- col_event_rst_top_left[53] + NET col_event_rst_top_left[53] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 644980 1594000 ) N ;
+- array_col_bot_left[54] + NET array_col_bot_left[54] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 651100 2000 ) N ;
+- col_event_rst_bot_left[54] + NET col_event_rst_bot_left[54] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 657220 2000 ) N ;
+- array_col_top_left[54] + NET array_col_top_left[54] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 651100 1594000 ) N ;
+- col_event_rst_top_left[54] + NET col_event_rst_top_left[54] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 657220 1594000 ) N ;
+- array_col_bot_left[55] + NET array_col_bot_left[55] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 662660 2000 ) N ;
+- col_event_rst_bot_left[55] + NET col_event_rst_bot_left[55] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 668780 2000 ) N ;
+- array_col_top_left[55] + NET array_col_top_left[55] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 662660 1594000 ) N ;
+- col_event_rst_top_left[55] + NET col_event_rst_top_left[55] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 668780 1594000 ) N ;
+- array_col_bot_left[56] + NET array_col_bot_left[56] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 674900 2000 ) N ;
+- col_event_rst_bot_left[56] + NET col_event_rst_bot_left[56] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 681020 2000 ) N ;
+- array_col_top_left[56] + NET array_col_top_left[56] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 674900 1594000 ) N ;
+- col_event_rst_top_left[56] + NET col_event_rst_top_left[56] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 681020 1594000 ) N ;
+- array_col_bot_left[57] + NET array_col_bot_left[57] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 687140 2000 ) N ;
+- col_event_rst_bot_left[57] + NET col_event_rst_bot_left[57] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 693260 2000 ) N ;
+- array_col_top_left[57] + NET array_col_top_left[57] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 687140 1594000 ) N ;
+- col_event_rst_top_left[57] + NET col_event_rst_top_left[57] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 693260 1594000 ) N ;
+- array_col_bot_left[58] + NET array_col_bot_left[58] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 698700 2000 ) N ;
+- col_event_rst_bot_left[58] + NET col_event_rst_bot_left[58] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 704820 2000 ) N ;
+- array_col_top_left[58] + NET array_col_top_left[58] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 698700 1594000 ) N ;
+- col_event_rst_top_left[58] + NET col_event_rst_top_left[58] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 704820 1594000 ) N ;
+- array_col_bot_left[59] + NET array_col_bot_left[59] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 710940 2000 ) N ;
+- col_event_rst_bot_left[59] + NET col_event_rst_bot_left[59] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 717060 2000 ) N ;
+- array_col_top_left[59] + NET array_col_top_left[59] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 710940 1594000 ) N ;
+- col_event_rst_top_left[59] + NET col_event_rst_top_left[59] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 717060 1594000 ) N ;
+- array_col_bot_left[60] + NET array_col_bot_left[60] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 723180 2000 ) N ;
+- col_event_rst_bot_left[60] + NET col_event_rst_bot_left[60] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 729300 2000 ) N ;
+- array_col_top_left[60] + NET array_col_top_left[60] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 723180 1594000 ) N ;
+- col_event_rst_top_left[60] + NET col_event_rst_top_left[60] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 729300 1594000 ) N ;
+- array_col_bot_left[61] + NET array_col_bot_left[61] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 734740 2000 ) N ;
+- col_event_rst_bot_left[61] + NET col_event_rst_bot_left[61] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 740860 2000 ) N ;
+- array_col_top_left[61] + NET array_col_top_left[61] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 734740 1594000 ) N ;
+- col_event_rst_top_left[61] + NET col_event_rst_top_left[61] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 740860 1594000 ) N ;
+- array_col_bot_left[62] + NET array_col_bot_left[62] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 746980 2000 ) N ;
+- col_event_rst_bot_left[62] + NET col_event_rst_bot_left[62] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 753100 2000 ) N ;
+- array_col_top_left[62] + NET array_col_top_left[62] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 746980 1594000 ) N ;
+- col_event_rst_top_left[62] + NET col_event_rst_top_left[62] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 753100 1594000 ) N ;
+- array_col_bot_left[63] + NET array_col_bot_left[63] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 759220 2000 ) N ;
+- col_event_rst_bot_left[63] + NET col_event_rst_bot_left[63] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 764660 2000 ) N ;
+- array_col_top_left[63] + NET array_col_top_left[63] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 759220 1594000 ) N ;
+- col_event_rst_top_left[63] + NET col_event_rst_top_left[63] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 764660 1594000 ) N ;
+- array_col_bot_right[0] + NET array_col_bot_right[0] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 770780 2000 ) N ;
+- col_event_rst_bot_right[0] + NET col_event_rst_bot_right[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 776900 2000 ) N ;
+- array_col_top_right[0] + NET array_col_top_right[0] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 770780 1594000 ) N ;
+- col_event_rst_top_right[0] + NET col_event_rst_top_right[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 776900 1594000 ) N ;
+- array_col_bot_right[1] + NET array_col_bot_right[1] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 783020 2000 ) N ;
+- col_event_rst_bot_right[1] + NET col_event_rst_bot_right[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 789140 2000 ) N ;
+- array_col_top_right[1] + NET array_col_top_right[1] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 783020 1594000 ) N ;
+- col_event_rst_top_right[1] + NET col_event_rst_top_right[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 789140 1594000 ) N ;
+- array_col_bot_right[2] + NET array_col_bot_right[2] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 795260 2000 ) N ;
+- col_event_rst_bot_right[2] + NET col_event_rst_bot_right[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 800700 2000 ) N ;
+- array_col_top_right[2] + NET array_col_top_right[2] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 795260 1594000 ) N ;
+- col_event_rst_top_right[2] + NET col_event_rst_top_right[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 800700 1594000 ) N ;
+- array_col_bot_right[3] + NET array_col_bot_right[3] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 806820 2000 ) N ;
+- col_event_rst_bot_right[3] + NET col_event_rst_bot_right[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 812940 2000 ) N ;
+- array_col_top_right[3] + NET array_col_top_right[3] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 806820 1594000 ) N ;
+- col_event_rst_top_right[3] + NET col_event_rst_top_right[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 812940 1594000 ) N ;
+- array_col_bot_right[4] + NET array_col_bot_right[4] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 819060 2000 ) N ;
+- col_event_rst_bot_right[4] + NET col_event_rst_bot_right[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 825180 2000 ) N ;
+- array_col_top_right[4] + NET array_col_top_right[4] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 819060 1594000 ) N ;
+- col_event_rst_top_right[4] + NET col_event_rst_top_right[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 825180 1594000 ) N ;
+- array_col_bot_right[5] + NET array_col_bot_right[5] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 831300 2000 ) N ;
+- col_event_rst_bot_right[5] + NET col_event_rst_bot_right[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 836740 2000 ) N ;
+- array_col_top_right[5] + NET array_col_top_right[5] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 831300 1594000 ) N ;
+- col_event_rst_top_right[5] + NET col_event_rst_top_right[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 836740 1594000 ) N ;
+- array_col_bot_right[6] + NET array_col_bot_right[6] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 842860 2000 ) N ;
+- col_event_rst_bot_right[6] + NET col_event_rst_bot_right[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 848980 2000 ) N ;
+- array_col_top_right[6] + NET array_col_top_right[6] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 842860 1594000 ) N ;
+- col_event_rst_top_right[6] + NET col_event_rst_top_right[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 848980 1594000 ) N ;
+- array_col_bot_right[7] + NET array_col_bot_right[7] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 855100 2000 ) N ;
+- col_event_rst_bot_right[7] + NET col_event_rst_bot_right[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 861220 2000 ) N ;
+- array_col_top_right[7] + NET array_col_top_right[7] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 855100 1594000 ) N ;
+- col_event_rst_top_right[7] + NET col_event_rst_top_right[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 861220 1594000 ) N ;
+- array_col_bot_right[8] + NET array_col_bot_right[8] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 866660 2000 ) N ;
+- col_event_rst_bot_right[8] + NET col_event_rst_bot_right[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 872780 2000 ) N ;
+- array_col_top_right[8] + NET array_col_top_right[8] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 866660 1594000 ) N ;
+- col_event_rst_top_right[8] + NET col_event_rst_top_right[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 872780 1594000 ) N ;
+- array_col_bot_right[9] + NET array_col_bot_right[9] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 878900 2000 ) N ;
+- col_event_rst_bot_right[9] + NET col_event_rst_bot_right[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 885020 2000 ) N ;
+- array_col_top_right[9] + NET array_col_top_right[9] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 878900 1594000 ) N ;
+- col_event_rst_top_right[9] + NET col_event_rst_top_right[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 885020 1594000 ) N ;
+- array_col_bot_right[10] + NET array_col_bot_right[10] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 891140 2000 ) N ;
+- col_event_rst_bot_right[10] + NET col_event_rst_bot_right[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 897260 2000 ) N ;
+- array_col_top_right[10] + NET array_col_top_right[10] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 891140 1594000 ) N ;
+- col_event_rst_top_right[10] + NET col_event_rst_top_right[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 897260 1594000 ) N ;
+- array_col_bot_right[11] + NET array_col_bot_right[11] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 902700 2000 ) N ;
+- col_event_rst_bot_right[11] + NET col_event_rst_bot_right[11] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 908820 2000 ) N ;
+- array_col_top_right[11] + NET array_col_top_right[11] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 902700 1594000 ) N ;
+- col_event_rst_top_right[11] + NET col_event_rst_top_right[11] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 908820 1594000 ) N ;
+- array_col_bot_right[12] + NET array_col_bot_right[12] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 914940 2000 ) N ;
+- col_event_rst_bot_right[12] + NET col_event_rst_bot_right[12] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 921060 2000 ) N ;
+- array_col_top_right[12] + NET array_col_top_right[12] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 914940 1594000 ) N ;
+- col_event_rst_top_right[12] + NET col_event_rst_top_right[12] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 921060 1594000 ) N ;
+- array_col_bot_right[13] + NET array_col_bot_right[13] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 927180 2000 ) N ;
+- col_event_rst_bot_right[13] + NET col_event_rst_bot_right[13] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 933300 2000 ) N ;
+- array_col_top_right[13] + NET array_col_top_right[13] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 927180 1594000 ) N ;
+- col_event_rst_top_right[13] + NET col_event_rst_top_right[13] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 933300 1594000 ) N ;
+- array_col_bot_right[14] + NET array_col_bot_right[14] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 938740 2000 ) N ;
+- col_event_rst_bot_right[14] + NET col_event_rst_bot_right[14] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 944860 2000 ) N ;
+- array_col_top_right[14] + NET array_col_top_right[14] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 938740 1594000 ) N ;
+- col_event_rst_top_right[14] + NET col_event_rst_top_right[14] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 944860 1594000 ) N ;
+- array_col_bot_right[15] + NET array_col_bot_right[15] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 950980 2000 ) N ;
+- col_event_rst_bot_right[15] + NET col_event_rst_bot_right[15] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 957100 2000 ) N ;
+- array_col_top_right[15] + NET array_col_top_right[15] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 950980 1594000 ) N ;
+- col_event_rst_top_right[15] + NET col_event_rst_top_right[15] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 957100 1594000 ) N ;
+- array_col_bot_right[16] + NET array_col_bot_right[16] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 963220 2000 ) N ;
+- col_event_rst_bot_right[16] + NET col_event_rst_bot_right[16] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 968660 2000 ) N ;
+- array_col_top_right[16] + NET array_col_top_right[16] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 963220 1594000 ) N ;
+- col_event_rst_top_right[16] + NET col_event_rst_top_right[16] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 968660 1594000 ) N ;
+- array_col_bot_right[17] + NET array_col_bot_right[17] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 974780 2000 ) N ;
+- col_event_rst_bot_right[17] + NET col_event_rst_bot_right[17] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 980900 2000 ) N ;
+- array_col_top_right[17] + NET array_col_top_right[17] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 974780 1594000 ) N ;
+- col_event_rst_top_right[17] + NET col_event_rst_top_right[17] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 980900 1594000 ) N ;
+- array_col_bot_right[18] + NET array_col_bot_right[18] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 987020 2000 ) N ;
+- col_event_rst_bot_right[18] + NET col_event_rst_bot_right[18] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 993140 2000 ) N ;
+- array_col_top_right[18] + NET array_col_top_right[18] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 987020 1594000 ) N ;
+- col_event_rst_top_right[18] + NET col_event_rst_top_right[18] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 993140 1594000 ) N ;
+- array_col_bot_right[19] + NET array_col_bot_right[19] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 999260 2000 ) N ;
+- col_event_rst_bot_right[19] + NET col_event_rst_bot_right[19] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1004700 2000 ) N ;
+- array_col_top_right[19] + NET array_col_top_right[19] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 999260 1594000 ) N ;
+- col_event_rst_top_right[19] + NET col_event_rst_top_right[19] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1004700 1594000 ) N ;
+- array_col_bot_right[20] + NET array_col_bot_right[20] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1010820 2000 ) N ;
+- col_event_rst_bot_right[20] + NET col_event_rst_bot_right[20] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1016940 2000 ) N ;
+- array_col_top_right[20] + NET array_col_top_right[20] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1010820 1594000 ) N ;
+- col_event_rst_top_right[20] + NET col_event_rst_top_right[20] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1016940 1594000 ) N ;
+- array_col_bot_right[21] + NET array_col_bot_right[21] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1023060 2000 ) N ;
+- col_event_rst_bot_right[21] + NET col_event_rst_bot_right[21] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1029180 2000 ) N ;
+- array_col_top_right[21] + NET array_col_top_right[21] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1023060 1594000 ) N ;
+- col_event_rst_top_right[21] + NET col_event_rst_top_right[21] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1029180 1594000 ) N ;
+- array_col_bot_right[22] + NET array_col_bot_right[22] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1035300 2000 ) N ;
+- col_event_rst_bot_right[22] + NET col_event_rst_bot_right[22] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1040740 2000 ) N ;
+- array_col_top_right[22] + NET array_col_top_right[22] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1035300 1594000 ) N ;
+- col_event_rst_top_right[22] + NET col_event_rst_top_right[22] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1040740 1594000 ) N ;
+- array_col_bot_right[23] + NET array_col_bot_right[23] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1046860 2000 ) N ;
+- col_event_rst_bot_right[23] + NET col_event_rst_bot_right[23] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1052980 2000 ) N ;
+- array_col_top_right[23] + NET array_col_top_right[23] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1046860 1594000 ) N ;
+- col_event_rst_top_right[23] + NET col_event_rst_top_right[23] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1052980 1594000 ) N ;
+- array_col_bot_right[24] + NET array_col_bot_right[24] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1059100 2000 ) N ;
+- col_event_rst_bot_right[24] + NET col_event_rst_bot_right[24] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1065220 2000 ) N ;
+- array_col_top_right[24] + NET array_col_top_right[24] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1059100 1594000 ) N ;
+- col_event_rst_top_right[24] + NET col_event_rst_top_right[24] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1065220 1594000 ) N ;
+- array_col_bot_right[25] + NET array_col_bot_right[25] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1070660 2000 ) N ;
+- col_event_rst_bot_right[25] + NET col_event_rst_bot_right[25] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1076780 2000 ) N ;
+- array_col_top_right[25] + NET array_col_top_right[25] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1070660 1594000 ) N ;
+- col_event_rst_top_right[25] + NET col_event_rst_top_right[25] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1076780 1594000 ) N ;
+- array_col_bot_right[26] + NET array_col_bot_right[26] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1082900 2000 ) N ;
+- col_event_rst_bot_right[26] + NET col_event_rst_bot_right[26] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1089020 2000 ) N ;
+- array_col_top_right[26] + NET array_col_top_right[26] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1082900 1594000 ) N ;
+- col_event_rst_top_right[26] + NET col_event_rst_top_right[26] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1089020 1594000 ) N ;
+- array_col_bot_right[27] + NET array_col_bot_right[27] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1095140 2000 ) N ;
+- col_event_rst_bot_right[27] + NET col_event_rst_bot_right[27] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1101260 2000 ) N ;
+- array_col_top_right[27] + NET array_col_top_right[27] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1095140 1594000 ) N ;
+- col_event_rst_top_right[27] + NET col_event_rst_top_right[27] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1101260 1594000 ) N ;
+- array_col_bot_right[28] + NET array_col_bot_right[28] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1106700 2000 ) N ;
+- col_event_rst_bot_right[28] + NET col_event_rst_bot_right[28] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1112820 2000 ) N ;
+- array_col_top_right[28] + NET array_col_top_right[28] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1106700 1594000 ) N ;
+- col_event_rst_top_right[28] + NET col_event_rst_top_right[28] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1112820 1594000 ) N ;
+- array_col_bot_right[29] + NET array_col_bot_right[29] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1118940 2000 ) N ;
+- col_event_rst_bot_right[29] + NET col_event_rst_bot_right[29] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1125060 2000 ) N ;
+- array_col_top_right[29] + NET array_col_top_right[29] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1118940 1594000 ) N ;
+- col_event_rst_top_right[29] + NET col_event_rst_top_right[29] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1125060 1594000 ) N ;
+- array_col_bot_right[30] + NET array_col_bot_right[30] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1131180 2000 ) N ;
+- col_event_rst_bot_right[30] + NET col_event_rst_bot_right[30] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1137300 2000 ) N ;
+- array_col_top_right[30] + NET array_col_top_right[30] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1131180 1594000 ) N ;
+- col_event_rst_top_right[30] + NET col_event_rst_top_right[30] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1137300 1594000 ) N ;
+- array_col_bot_right[31] + NET array_col_bot_right[31] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1142740 2000 ) N ;
+- col_event_rst_bot_right[31] + NET col_event_rst_bot_right[31] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1148860 2000 ) N ;
+- array_col_top_right[31] + NET array_col_top_right[31] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1142740 1594000 ) N ;
+- col_event_rst_top_right[31] + NET col_event_rst_top_right[31] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1148860 1594000 ) N ;
+- array_col_bot_right[32] + NET array_col_bot_right[32] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1154980 2000 ) N ;
+- col_event_rst_bot_right[32] + NET col_event_rst_bot_right[32] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1161100 2000 ) N ;
+- array_col_top_right[32] + NET array_col_top_right[32] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1154980 1594000 ) N ;
+- col_event_rst_top_right[32] + NET col_event_rst_top_right[32] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1161100 1594000 ) N ;
+- array_col_bot_right[33] + NET array_col_bot_right[33] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1167220 2000 ) N ;
+- col_event_rst_bot_right[33] + NET col_event_rst_bot_right[33] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1172660 2000 ) N ;
+- array_col_top_right[33] + NET array_col_top_right[33] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1167220 1594000 ) N ;
+- col_event_rst_top_right[33] + NET col_event_rst_top_right[33] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1172660 1594000 ) N ;
+- array_col_bot_right[34] + NET array_col_bot_right[34] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1178780 2000 ) N ;
+- col_event_rst_bot_right[34] + NET col_event_rst_bot_right[34] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1184900 2000 ) N ;
+- array_col_top_right[34] + NET array_col_top_right[34] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1178780 1594000 ) N ;
+- col_event_rst_top_right[34] + NET col_event_rst_top_right[34] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1184900 1594000 ) N ;
+- array_col_bot_right[35] + NET array_col_bot_right[35] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1191020 2000 ) N ;
+- col_event_rst_bot_right[35] + NET col_event_rst_bot_right[35] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1197140 2000 ) N ;
+- array_col_top_right[35] + NET array_col_top_right[35] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1191020 1594000 ) N ;
+- col_event_rst_top_right[35] + NET col_event_rst_top_right[35] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1197140 1594000 ) N ;
+- array_col_bot_right[36] + NET array_col_bot_right[36] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1203260 2000 ) N ;
+- col_event_rst_bot_right[36] + NET col_event_rst_bot_right[36] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1208700 2000 ) N ;
+- array_col_top_right[36] + NET array_col_top_right[36] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1203260 1594000 ) N ;
+- col_event_rst_top_right[36] + NET col_event_rst_top_right[36] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1208700 1594000 ) N ;
+- array_col_bot_right[37] + NET array_col_bot_right[37] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1214820 2000 ) N ;
+- col_event_rst_bot_right[37] + NET col_event_rst_bot_right[37] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1220940 2000 ) N ;
+- array_col_top_right[37] + NET array_col_top_right[37] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1214820 1594000 ) N ;
+- col_event_rst_top_right[37] + NET col_event_rst_top_right[37] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1220940 1594000 ) N ;
+- array_col_bot_right[38] + NET array_col_bot_right[38] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1227060 2000 ) N ;
+- col_event_rst_bot_right[38] + NET col_event_rst_bot_right[38] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1233180 2000 ) N ;
+- array_col_top_right[38] + NET array_col_top_right[38] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1227060 1594000 ) N ;
+- col_event_rst_top_right[38] + NET col_event_rst_top_right[38] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1233180 1594000 ) N ;
+- array_col_bot_right[39] + NET array_col_bot_right[39] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1239300 2000 ) N ;
+- col_event_rst_bot_right[39] + NET col_event_rst_bot_right[39] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1244740 2000 ) N ;
+- array_col_top_right[39] + NET array_col_top_right[39] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1239300 1594000 ) N ;
+- col_event_rst_top_right[39] + NET col_event_rst_top_right[39] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1244740 1594000 ) N ;
+- array_col_bot_right[40] + NET array_col_bot_right[40] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1250860 2000 ) N ;
+- col_event_rst_bot_right[40] + NET col_event_rst_bot_right[40] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1256980 2000 ) N ;
+- array_col_top_right[40] + NET array_col_top_right[40] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1250860 1594000 ) N ;
+- col_event_rst_top_right[40] + NET col_event_rst_top_right[40] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1256980 1594000 ) N ;
+- array_col_bot_right[41] + NET array_col_bot_right[41] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1263100 2000 ) N ;
+- col_event_rst_bot_right[41] + NET col_event_rst_bot_right[41] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1269220 2000 ) N ;
+- array_col_top_right[41] + NET array_col_top_right[41] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1263100 1594000 ) N ;
+- col_event_rst_top_right[41] + NET col_event_rst_top_right[41] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1269220 1594000 ) N ;
+- array_col_bot_right[42] + NET array_col_bot_right[42] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1274660 2000 ) N ;
+- col_event_rst_bot_right[42] + NET col_event_rst_bot_right[42] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1280780 2000 ) N ;
+- array_col_top_right[42] + NET array_col_top_right[42] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1274660 1594000 ) N ;
+- col_event_rst_top_right[42] + NET col_event_rst_top_right[42] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1280780 1594000 ) N ;
+- array_col_bot_right[43] + NET array_col_bot_right[43] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1286900 2000 ) N ;
+- col_event_rst_bot_right[43] + NET col_event_rst_bot_right[43] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1293020 2000 ) N ;
+- array_col_top_right[43] + NET array_col_top_right[43] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1286900 1594000 ) N ;
+- col_event_rst_top_right[43] + NET col_event_rst_top_right[43] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1293020 1594000 ) N ;
+- array_col_bot_right[44] + NET array_col_bot_right[44] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1299140 2000 ) N ;
+- col_event_rst_bot_right[44] + NET col_event_rst_bot_right[44] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1305260 2000 ) N ;
+- array_col_top_right[44] + NET array_col_top_right[44] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1299140 1594000 ) N ;
+- col_event_rst_top_right[44] + NET col_event_rst_top_right[44] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1305260 1594000 ) N ;
+- array_col_bot_right[45] + NET array_col_bot_right[45] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1310700 2000 ) N ;
+- col_event_rst_bot_right[45] + NET col_event_rst_bot_right[45] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1316820 2000 ) N ;
+- array_col_top_right[45] + NET array_col_top_right[45] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1310700 1594000 ) N ;
+- col_event_rst_top_right[45] + NET col_event_rst_top_right[45] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1316820 1594000 ) N ;
+- array_col_bot_right[46] + NET array_col_bot_right[46] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1322940 2000 ) N ;
+- col_event_rst_bot_right[46] + NET col_event_rst_bot_right[46] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1329060 2000 ) N ;
+- array_col_top_right[46] + NET array_col_top_right[46] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1322940 1594000 ) N ;
+- col_event_rst_top_right[46] + NET col_event_rst_top_right[46] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1329060 1594000 ) N ;
+- array_col_bot_right[47] + NET array_col_bot_right[47] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1335180 2000 ) N ;
+- col_event_rst_bot_right[47] + NET col_event_rst_bot_right[47] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1341300 2000 ) N ;
+- array_col_top_right[47] + NET array_col_top_right[47] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1335180 1594000 ) N ;
+- col_event_rst_top_right[47] + NET col_event_rst_top_right[47] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1341300 1594000 ) N ;
+- array_col_bot_right[48] + NET array_col_bot_right[48] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1346740 2000 ) N ;
+- col_event_rst_bot_right[48] + NET col_event_rst_bot_right[48] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1352860 2000 ) N ;
+- array_col_top_right[48] + NET array_col_top_right[48] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1346740 1594000 ) N ;
+- col_event_rst_top_right[48] + NET col_event_rst_top_right[48] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1352860 1594000 ) N ;
+- array_col_bot_right[49] + NET array_col_bot_right[49] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1358980 2000 ) N ;
+- col_event_rst_bot_right[49] + NET col_event_rst_bot_right[49] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1365100 2000 ) N ;
+- array_col_top_right[49] + NET array_col_top_right[49] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1358980 1594000 ) N ;
+- col_event_rst_top_right[49] + NET col_event_rst_top_right[49] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1365100 1594000 ) N ;
+- array_col_bot_right[50] + NET array_col_bot_right[50] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1371220 2000 ) N ;
+- col_event_rst_bot_right[50] + NET col_event_rst_bot_right[50] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1376660 2000 ) N ;
+- array_col_top_right[50] + NET array_col_top_right[50] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1371220 1594000 ) N ;
+- col_event_rst_top_right[50] + NET col_event_rst_top_right[50] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1376660 1594000 ) N ;
+- array_col_bot_right[51] + NET array_col_bot_right[51] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1382780 2000 ) N ;
+- col_event_rst_bot_right[51] + NET col_event_rst_bot_right[51] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1388900 2000 ) N ;
+- array_col_top_right[51] + NET array_col_top_right[51] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1382780 1594000 ) N ;
+- col_event_rst_top_right[51] + NET col_event_rst_top_right[51] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1388900 1594000 ) N ;
+- array_col_bot_right[52] + NET array_col_bot_right[52] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1395020 2000 ) N ;
+- col_event_rst_bot_right[52] + NET col_event_rst_bot_right[52] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1401140 2000 ) N ;
+- array_col_top_right[52] + NET array_col_top_right[52] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1395020 1594000 ) N ;
+- col_event_rst_top_right[52] + NET col_event_rst_top_right[52] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1401140 1594000 ) N ;
+- array_col_bot_right[53] + NET array_col_bot_right[53] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1407260 2000 ) N ;
+- col_event_rst_bot_right[53] + NET col_event_rst_bot_right[53] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1412700 2000 ) N ;
+- array_col_top_right[53] + NET array_col_top_right[53] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1407260 1594000 ) N ;
+- col_event_rst_top_right[53] + NET col_event_rst_top_right[53] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1412700 1594000 ) N ;
+- array_col_bot_right[54] + NET array_col_bot_right[54] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1418820 2000 ) N ;
+- col_event_rst_bot_right[54] + NET col_event_rst_bot_right[54] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1424940 2000 ) N ;
+- array_col_top_right[54] + NET array_col_top_right[54] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1418820 1594000 ) N ;
+- col_event_rst_top_right[54] + NET col_event_rst_top_right[54] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1424940 1594000 ) N ;
+- array_col_bot_right[55] + NET array_col_bot_right[55] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1431060 2000 ) N ;
+- col_event_rst_bot_right[55] + NET col_event_rst_bot_right[55] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1437180 2000 ) N ;
+- array_col_top_right[55] + NET array_col_top_right[55] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1431060 1594000 ) N ;
+- col_event_rst_top_right[55] + NET col_event_rst_top_right[55] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1437180 1594000 ) N ;
+- array_col_bot_right[56] + NET array_col_bot_right[56] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1443300 2000 ) N ;
+- col_event_rst_bot_right[56] + NET col_event_rst_bot_right[56] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1448740 2000 ) N ;
+- array_col_top_right[56] + NET array_col_top_right[56] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1443300 1594000 ) N ;
+- col_event_rst_top_right[56] + NET col_event_rst_top_right[56] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1448740 1594000 ) N ;
+- array_col_bot_right[57] + NET array_col_bot_right[57] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1454860 2000 ) N ;
+- col_event_rst_bot_right[57] + NET col_event_rst_bot_right[57] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1460980 2000 ) N ;
+- array_col_top_right[57] + NET array_col_top_right[57] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1454860 1594000 ) N ;
+- col_event_rst_top_right[57] + NET col_event_rst_top_right[57] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1460980 1594000 ) N ;
+- array_col_bot_right[58] + NET array_col_bot_right[58] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1467100 2000 ) N ;
+- col_event_rst_bot_right[58] + NET col_event_rst_bot_right[58] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1473220 2000 ) N ;
+- array_col_top_right[58] + NET array_col_top_right[58] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1467100 1594000 ) N ;
+- col_event_rst_top_right[58] + NET col_event_rst_top_right[58] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1473220 1594000 ) N ;
+- array_col_bot_right[59] + NET array_col_bot_right[59] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1478660 2000 ) N ;
+- col_event_rst_bot_right[59] + NET col_event_rst_bot_right[59] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1484780 2000 ) N ;
+- array_col_top_right[59] + NET array_col_top_right[59] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1478660 1594000 ) N ;
+- col_event_rst_top_right[59] + NET col_event_rst_top_right[59] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1484780 1594000 ) N ;
+- array_col_bot_right[60] + NET array_col_bot_right[60] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1490900 2000 ) N ;
+- col_event_rst_bot_right[60] + NET col_event_rst_bot_right[60] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1497020 2000 ) N ;
+- array_col_top_right[60] + NET array_col_top_right[60] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1490900 1594000 ) N ;
+- col_event_rst_top_right[60] + NET col_event_rst_top_right[60] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1497020 1594000 ) N ;
+- array_col_bot_right[61] + NET array_col_bot_right[61] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1503140 2000 ) N ;
+- col_event_rst_bot_right[61] + NET col_event_rst_bot_right[61] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1509260 2000 ) N ;
+- array_col_top_right[61] + NET array_col_top_right[61] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1503140 1594000 ) N ;
+- col_event_rst_top_right[61] + NET col_event_rst_top_right[61] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1509260 1594000 ) N ;
+- array_col_bot_right[62] + NET array_col_bot_right[62] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1514700 2000 ) N ;
+- col_event_rst_bot_right[62] + NET col_event_rst_bot_right[62] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1520820 2000 ) N ;
+- array_col_top_right[62] + NET array_col_top_right[62] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1514700 1594000 ) N ;
+- col_event_rst_top_right[62] + NET col_event_rst_top_right[62] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1520820 1594000 ) N ;
+- array_col_bot_right[63] + NET array_col_bot_right[63] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1526940 2000 ) N ;
+- col_event_rst_bot_right[63] + NET col_event_rst_bot_right[63] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1533060 2000 ) N ;
+- array_col_top_right[63] + NET array_col_top_right[63] + DIRECTION OUTPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1526940 1594000 ) N ;
+- col_event_rst_top_right[63] + NET col_event_rst_top_right[63] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met4 ( -300 -2000 ) ( 300 2000 )
+    + PLACED ( 1533060 1594000 ) N ;
+- dac_config_0[0] + NET dac_config_0[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 79580 ) N ;
+- dac_config_0[1] + NET dac_config_0[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 84180 ) N ;
+- dac_config_0[2] + NET dac_config_0[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 87860 ) N ;
+- dac_config_0[3] + NET dac_config_0[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 91540 ) N ;
+- dac_config_0[4] + NET dac_config_0[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 96140 ) N ;
+- dac_config_0[5] + NET dac_config_0[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 99820 ) N ;
+- dac_config_0[6] + NET dac_config_0[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 103500 ) N ;
+- dac_config_0[7] + NET dac_config_0[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 108100 ) N ;
+- dac_config_0[8] + NET dac_config_0[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 111780 ) N ;
+- dac_config_0[9] + NET dac_config_0[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 115460 ) N ;
+- dac_config_0[10] + NET dac_config_0[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 120060 ) N ;
+- dac_config_1[0] + NET dac_config_1[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 233220 ) N ;
+- dac_config_1[1] + NET dac_config_1[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 237820 ) N ;
+- dac_config_1[2] + NET dac_config_1[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 241500 ) N ;
+- dac_config_1[3] + NET dac_config_1[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 245180 ) N ;
+- dac_config_1[4] + NET dac_config_1[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 249780 ) N ;
+- dac_config_1[5] + NET dac_config_1[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 253460 ) N ;
+- dac_config_1[6] + NET dac_config_1[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 257140 ) N ;
+- dac_config_1[7] + NET dac_config_1[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 261740 ) N ;
+- dac_config_1[8] + NET dac_config_1[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 265420 ) N ;
+- dac_config_1[9] + NET dac_config_1[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 269100 ) N ;
+- dac_config_1[10] + NET dac_config_1[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 273700 ) N ;
+- dac_config_2[0] + NET dac_config_2[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 386860 ) N ;
+- dac_config_2[1] + NET dac_config_2[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 390540 ) N ;
+- dac_config_2[2] + NET dac_config_2[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 395140 ) N ;
+- dac_config_2[3] + NET dac_config_2[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 398820 ) N ;
+- dac_config_2[4] + NET dac_config_2[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 403420 ) N ;
+- dac_config_2[5] + NET dac_config_2[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 407100 ) N ;
+- dac_config_2[6] + NET dac_config_2[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 410780 ) N ;
+- dac_config_2[7] + NET dac_config_2[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 415380 ) N ;
+- dac_config_2[8] + NET dac_config_2[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 419060 ) N ;
+- dac_config_2[9] + NET dac_config_2[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 422740 ) N ;
+- dac_config_2[10] + NET dac_config_2[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 427340 ) N ;
+- dac_config_3[0] + NET dac_config_3[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 540500 ) N ;
+- dac_config_3[1] + NET dac_config_3[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 544180 ) N ;
+- dac_config_3[2] + NET dac_config_3[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 548780 ) N ;
+- dac_config_3[3] + NET dac_config_3[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 552460 ) N ;
+- dac_config_3[4] + NET dac_config_3[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 556140 ) N ;
+- dac_config_3[5] + NET dac_config_3[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 560740 ) N ;
+- dac_config_3[6] + NET dac_config_3[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 564420 ) N ;
+- dac_config_3[7] + NET dac_config_3[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 569020 ) N ;
+- dac_config_3[8] + NET dac_config_3[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 572700 ) N ;
+- dac_config_3[9] + NET dac_config_3[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 576380 ) N ;
+- dac_config_3[10] + NET dac_config_3[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 580980 ) N ;
+- dac_config_4[0] + NET dac_config_4[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 694140 ) N ;
+- dac_config_4[1] + NET dac_config_4[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 697820 ) N ;
+- dac_config_4[2] + NET dac_config_4[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 702420 ) N ;
+- dac_config_4[3] + NET dac_config_4[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 706100 ) N ;
+- dac_config_4[4] + NET dac_config_4[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 709780 ) N ;
+- dac_config_4[5] + NET dac_config_4[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 714380 ) N ;
+- dac_config_4[6] + NET dac_config_4[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 718060 ) N ;
+- dac_config_4[7] + NET dac_config_4[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 721740 ) N ;
+- dac_config_4[8] + NET dac_config_4[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 726340 ) N ;
+- dac_config_4[9] + NET dac_config_4[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 730020 ) N ;
+- dac_config_4[10] + NET dac_config_4[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 734620 ) N ;
+- dac_config_5[0] + NET dac_config_5[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 847780 ) N ;
+- dac_config_5[1] + NET dac_config_5[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 851460 ) N ;
+- dac_config_5[2] + NET dac_config_5[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 856060 ) N ;
+- dac_config_5[3] + NET dac_config_5[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 859740 ) N ;
+- dac_config_5[4] + NET dac_config_5[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 863420 ) N ;
+- dac_config_5[5] + NET dac_config_5[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 868020 ) N ;
+- dac_config_5[6] + NET dac_config_5[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 871700 ) N ;
+- dac_config_5[7] + NET dac_config_5[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 875380 ) N ;
+- dac_config_5[8] + NET dac_config_5[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 879980 ) N ;
+- dac_config_5[9] + NET dac_config_5[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 883660 ) N ;
+- dac_config_5[10] + NET dac_config_5[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 887340 ) N ;
+- dac_config_6[0] + NET dac_config_6[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1001420 ) N ;
+- dac_config_6[1] + NET dac_config_6[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1005100 ) N ;
+- dac_config_6[2] + NET dac_config_6[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1009700 ) N ;
+- dac_config_6[3] + NET dac_config_6[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1013380 ) N ;
+- dac_config_6[4] + NET dac_config_6[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1017060 ) N ;
+- dac_config_6[5] + NET dac_config_6[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1021660 ) N ;
+- dac_config_6[6] + NET dac_config_6[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1025340 ) N ;
+- dac_config_6[7] + NET dac_config_6[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1029020 ) N ;
+- dac_config_6[8] + NET dac_config_6[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1033620 ) N ;
+- dac_config_6[9] + NET dac_config_6[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1037300 ) N ;
+- dac_config_6[10] + NET dac_config_6[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1040980 ) N ;
+- dac_config_7[0] + NET dac_config_7[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1155060 ) N ;
+- dac_config_7[1] + NET dac_config_7[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1158740 ) N ;
+- dac_config_7[2] + NET dac_config_7[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1163340 ) N ;
+- dac_config_7[3] + NET dac_config_7[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1167020 ) N ;
+- dac_config_7[4] + NET dac_config_7[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1170700 ) N ;
+- dac_config_7[5] + NET dac_config_7[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1175300 ) N ;
+- dac_config_7[6] + NET dac_config_7[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1178980 ) N ;
+- dac_config_7[7] + NET dac_config_7[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1182660 ) N ;
+- dac_config_7[8] + NET dac_config_7[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1187260 ) N ;
+- dac_config_7[9] + NET dac_config_7[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1190940 ) N ;
+- dac_config_7[10] + NET dac_config_7[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1194620 ) N ;
+- dac_config_8[0] + NET dac_config_8[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1308700 ) N ;
+- dac_config_8[1] + NET dac_config_8[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1312380 ) N ;
+- dac_config_8[2] + NET dac_config_8[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1316980 ) N ;
+- dac_config_8[3] + NET dac_config_8[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1320660 ) N ;
+- dac_config_8[4] + NET dac_config_8[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1324340 ) N ;
+- dac_config_8[5] + NET dac_config_8[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1328940 ) N ;
+- dac_config_8[6] + NET dac_config_8[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1332620 ) N ;
+- dac_config_8[7] + NET dac_config_8[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1336300 ) N ;
+- dac_config_8[8] + NET dac_config_8[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1340900 ) N ;
+- dac_config_8[9] + NET dac_config_8[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1344580 ) N ;
+- dac_config_8[10] + NET dac_config_8[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1348260 ) N ;
+- dac_config_9[0] + NET dac_config_9[0] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1462340 ) N ;
+- dac_config_9[1] + NET dac_config_9[1] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1466020 ) N ;
+- dac_config_9[2] + NET dac_config_9[2] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1470620 ) N ;
+- dac_config_9[3] + NET dac_config_9[3] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1474300 ) N ;
+- dac_config_9[4] + NET dac_config_9[4] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1477980 ) N ;
+- dac_config_9[5] + NET dac_config_9[5] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1482580 ) N ;
+- dac_config_9[6] + NET dac_config_9[6] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1486260 ) N ;
+- dac_config_9[7] + NET dac_config_9[7] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1489940 ) N ;
+- dac_config_9[8] + NET dac_config_9[8] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1494540 ) N ;
+- dac_config_9[9] + NET dac_config_9[9] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1498220 ) N ;
+- dac_config_9[10] + NET dac_config_9[10] + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1501900 ) N ;
+- pre_charge_global_bot_left + NET pre_charge_global_bot_left + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 9660 ) N ;
+- pre_charge_global_top_left + NET pre_charge_global_top_left + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1580100 ) N ;
+- pre_charge_global_bot_right + NET pre_charge_global_bot_right + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 9660 ) N ;
+- pre_charge_global_top_right + NET pre_charge_global_top_right + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1580100 ) N ;
+- detect_pulse_global_bot_left + NET detect_pulse_global_bot_left + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 12420 ) N ;
+- detect_pulse_global_top_left + NET detect_pulse_global_top_left + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1583780 ) N ;
+- detect_pulse_global_bot_right + NET detect_pulse_global_bot_right + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 12420 ) N ;
+- detect_pulse_global_top_right + NET detect_pulse_global_top_right + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1583780 ) N ;
+- pix_rst_global_bot_left + NET pix_rst_global_bot_left + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 15180 ) N ;
+- pix_rst_global_top_left + NET pix_rst_global_top_left + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 2000 1586540 ) N ;
+- pix_rst_global_bot_right + NET pix_rst_global_bot_right + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 15180 ) N ;
+- pix_rst_global_top_right + NET pix_rst_global_top_right + DIRECTION INPUT + USE SIGNAL
+  + PORT
+    + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+    + PLACED ( 1544000 1586540 ) N ;
+END PINS
+
+END DESIGN

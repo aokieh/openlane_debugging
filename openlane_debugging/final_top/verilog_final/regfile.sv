@@ -1,0 +1,197 @@
+// Memory map: read/write configuration
+`define mem_map(signal, byte_addr) \
+    begin \
+        logic [4:0] __row; \
+        logic [1:0] __lsb; \
+        __row = 5'((byte_addr) >> ROW_DIV); \
+        __lsb = 2'((byte_addr) % `LSB_DIV); \
+        signal = mem_in[__row][8*__lsb +: $bits(signal)]; \
+        mem_out[__row][8*__lsb +: $bits(signal)] = signal; \
+    end
+
+// Memory map: read-only configuration
+`define mem_map_ro(signal, byte_addr) \
+    begin \
+        logic [4:0] __row; \
+        logic [1:0] __lsb; \
+        __row = 5'((byte_addr) >> ROW_DIV); \
+        __lsb = 2'((byte_addr) % `LSB_DIV); \
+        mem_out[__row][8*__lsb +: $bits(signal)] = signal; \
+    end
+
+// Memory map: pulse on write - LEAST SIG BYTE
+`define mem_map_pulse(signal, row, lsb) \
+    signal <= 0; \
+    if (we_reg && (addr_reg==row) && wmask_reg[lsb]) \
+        signal <= 1;
+
+
+
+module regfile (
+    `ifdef USE_POWER_PINS
+        inout vccd1, 
+        inout vssd1, 
+    `endif
+    input  logic                  clk,
+    input  logic                  rst_n,
+
+    // Memory Interface (SPI <-> Mem)
+    input  logic [`RF_AWIDTH-1:0] addr_reg,
+    input  logic                  we_reg,
+    input  logic [ `RF_WIDTH-1:0] wdata_reg,
+    input  logic [  `RF_MASK-1:0] wmask_reg,
+    output logic [ `RF_WIDTH-1:0] rdata_reg,
+
+    // FIFO
+    output logic                    fifo_rst_n_reg,
+    // input  logic                    fifo_empty,
+    // input  logic                    fifo_full,
+    output logic                    fifo_rd_en_reg,
+    input  logic [`FIFO_AWIDTH-1:0] fifo_numel_reg,
+    // input  logic [ `FIFO_WIDTH-1:0] fifo_rdata,
+
+    // IRQ
+    output logic [9:0] irq_deassert_thresh_reg,
+    output logic [9:0] irq_assert_thresh_reg,
+
+    // DAC
+    // output logic [`DAC_WIDTH-1:0] dac_config [`NUM_DACS],
+    output logic [`DAC_WIDTH-1:0] dac_config_0,
+    output logic [`DAC_WIDTH-1:0] dac_config_1,
+    output logic [`DAC_WIDTH-1:0] dac_config_2,
+    output logic [`DAC_WIDTH-1:0] dac_config_3,
+    output logic [`DAC_WIDTH-1:0] dac_config_4, 
+    output logic [`DAC_WIDTH-1:0] dac_config_5,
+    output logic [`DAC_WIDTH-1:0] dac_config_6,
+    output logic [`DAC_WIDTH-1:0] dac_config_7,
+    output logic [`DAC_WIDTH-1:0] dac_config_8,
+    output logic [`DAC_WIDTH-1:0] dac_config_9,
+
+    // Programmable Imager Speed
+    output logic [7:0] event_rate_reg,
+
+    // Programmable Timing Inputs (14-BIT TUNING)
+    output logic [13:0]  p_pre_charge,
+    output logic [13:0]  p_buffer,
+    output logic [13:0]  p_detect,
+    output logic [13:0]  p_on_detect,
+    output logic [13:0]  p_off_detect,
+    output logic [13:0]  p_rst
+);
+    localparam ROW_DIV = $clog2(`LSB_DIV);
+    logic [`RF_WIDTH-1:0] mem_in  [`RF_DEPTH];
+    logic [`RF_WIDTH-1:0] mem_out [`RF_DEPTH];
+
+    //  DAC assignments (Registers <--> Ports)
+    logic [`DAC_WIDTH-1:0] dac_configs [`NUM_DACS];
+
+    assign dac_config_0 = dac_configs[0];
+    assign dac_config_1 = dac_configs[1];
+    assign dac_config_2 = dac_configs[2];
+    assign dac_config_3 = dac_configs[3];
+
+    assign dac_config_4 = dac_configs[4];
+    assign dac_config_5 = dac_configs[5];
+    assign dac_config_6 = dac_configs[6];
+    assign dac_config_7 = dac_configs[7];
+    assign dac_config_8 = dac_configs[8];
+    assign dac_config_9 = dac_configs[9];
+
+    //---------------------------------------------------------------
+    // RW/RO Mappings
+    //---------------------------------------------------------------
+    always_comb begin
+        // foreach(mem_out[i])
+        //     // mem_out[i] = '0;
+        //     mem_out[i] = 32'b0;
+        for (int i = 0; i < `RF_DEPTH; i++) begin
+            mem_out[i] = 32'b0;
+        end
+
+        mem_out[0][7:0] = `CHIP_ID; // Hardwired RF ID
+
+        // FIFO
+        // `mem_map_ro(fifo_empty, 2)
+        // `mem_map_ro(fifo_full,  3)
+        `mem_map_ro(fifo_numel_reg, 4)
+        // `mem_map_ro(fifo_rdata, 8)
+        
+        // IRQ
+        `mem_map(irq_deassert_thresh_reg, 12)
+        `mem_map(irq_assert_thresh_reg, 14)
+
+        // DACs - TODO: insert proper DAC addresses
+        for (int i = 0; i < `NUM_DACS; i++) begin
+            `mem_map(dac_configs[i], i*2 + 20)
+        end
+
+        // TEST ADDITIONAL SIGNALS
+        // biases
+        // for (int i = 0; i < `NUM_BIASES; i++) begin
+        //     `mem_map(bias[i], i*4 + 112) //incrementing 4 bytest per bias
+        // end
+
+        //INTERNAL EVENT RATE
+        `mem_map(event_rate_reg, 108) //addressing byte 
+
+        // 14-BIT PHASE TUNINGS (2 bytes each)
+        `mem_map(p_pre_charge, 112)
+        `mem_map(p_buffer,     114)
+        `mem_map(p_detect,     116)
+        `mem_map(p_on_detect,  118)
+        `mem_map(p_off_detect, 120)
+        `mem_map(p_rst,        122)
+    end
+
+
+    //---------------------------------------------------------------
+    // Pulsed Mappings
+    //---------------------------------------------------------------
+    always @(posedge clk, negedge rst_n) begin
+        if (!rst_n) begin
+            fifo_rd_en_reg <= 0;
+            fifo_rst_n_reg <= 0;
+        end 
+        else begin
+            `mem_map_pulse(fifo_rst_n_reg, 0, 1)
+            `mem_map_pulse(fifo_rd_en_reg, 2, 0)
+        end
+    end
+
+//---------------------------------------------------------------
+// Write data - altered for yosys
+//---------------------------------------------------------------
+always @(posedge clk or negedge rst_n) begin
+    if (!rst_n) begin
+        for (int i = 0; i < `RF_DEPTH; i++) begin
+            mem_in[i] <= '0;
+        end
+    end 
+    else begin
+        if (we_reg) begin
+            for (int i = 0; i < `RF_MASK; i++) begin
+                if (wmask_reg[i]) begin
+                    mem_in[addr_reg][i*8 +: 8] <= wdata_reg[i*8 +: 8];
+                end
+            end
+        end
+    end
+end
+
+//---------------------------------------------------------------
+// Read data
+//---------------------------------------------------------------
+always_comb begin
+    rdata_reg = mem_out[addr_reg];  // Changed <= to = in combinational block
+end
+
+
+
+endmodule : regfile
+
+
+`undef mem_map
+
+`undef mem_map_ro
+
+`undef mem_map_pulse

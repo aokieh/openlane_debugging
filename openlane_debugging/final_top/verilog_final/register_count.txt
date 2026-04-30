@@ -1,0 +1,27 @@
+Register count across designs
+
+1.) Column_Readout_Macro (2x)
+    FIFO: 136 bits x 8 rows                      = 1088
+    FIFO_intf: rdata_spi + shift_ctr + state     = 22
+    FIFO misc: counter + wr_ptr + rd_ptr         = 10
+    meta_stability: m1/m2 left(128) & right(128) = 256 
+    event regs: on_pixels(128) + off_pixels(128) = 256
+    reset regs: entire row                       = 128
+                                    Total   = 3520
+
+2.) Row_Decoder_Macro (2x)
+    row_scanner: row_token                       = 64
+    roic_sm: internal phase & state cntrs        = 42
+                                    Total   = 212
+
+3.) SPI Controller (1x)
+                                    Total = 60
+
+4.) Register File (1x)
+    DACs: 10 x 11-bits                           = 110
+    Event_rate: 8-bits                           = 8
+    Phase Widths: 6 x 14-bits                    = 84
+    IRQs: 2 x 10-bits (remove)                   = 20
+    Pulses: rd_en, rst_n                         = 2
+
+    Total = ~4016 register

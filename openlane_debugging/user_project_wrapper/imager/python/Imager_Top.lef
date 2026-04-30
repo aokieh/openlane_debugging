@@ -1,0 +1,7172 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO Imager_Top
+	CLASS BLOCK ;
+	ORIGIN 0 0 ;
+	SIZE 1546.000 BY 1596.000 ;
+	SYMMETRY X Y ;
+
+	PIN row_on_detect_bot[63]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 27.760 25.000 28.360 ;
+		END
+	END row_on_detect_bot[63]
+	PIN row_off_detect_bot[63]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 33.280 25.000 33.880 ;
+		END
+	END row_off_detect_bot[63]
+	PIN row_on_detect_bot[62]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 39.720 25.000 40.320 ;
+		END
+	END row_on_detect_bot[62]
+	PIN row_off_detect_bot[62]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 46.160 25.000 46.760 ;
+		END
+	END row_off_detect_bot[62]
+	PIN row_on_detect_bot[61]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 51.680 25.000 52.280 ;
+		END
+	END row_on_detect_bot[61]
+	PIN row_off_detect_bot[61]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 58.120 25.000 58.720 ;
+		END
+	END row_off_detect_bot[61]
+	PIN row_on_detect_bot[60]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 63.640 25.000 64.240 ;
+		END
+	END row_on_detect_bot[60]
+	PIN row_off_detect_bot[60]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 70.080 25.000 70.680 ;
+		END
+	END row_off_detect_bot[60]
+	PIN row_on_detect_bot[59]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 75.600 25.000 76.200 ;
+		END
+	END row_on_detect_bot[59]
+	PIN row_off_detect_bot[59]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 82.040 25.000 82.640 ;
+		END
+	END row_off_detect_bot[59]
+	PIN row_on_detect_bot[58]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 87.560 25.000 88.160 ;
+		END
+	END row_on_detect_bot[58]
+	PIN row_off_detect_bot[58]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 94.000 25.000 94.600 ;
+		END
+	END row_off_detect_bot[58]
+	PIN row_on_detect_bot[57]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 99.520 25.000 100.120 ;
+		END
+	END row_on_detect_bot[57]
+	PIN row_off_detect_bot[57]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 105.960 25.000 106.560 ;
+		END
+	END row_off_detect_bot[57]
+	PIN row_on_detect_bot[56]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 111.480 25.000 112.080 ;
+		END
+	END row_on_detect_bot[56]
+	PIN row_off_detect_bot[56]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 117.920 25.000 118.520 ;
+		END
+	END row_off_detect_bot[56]
+	PIN row_on_detect_bot[55]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 123.440 25.000 124.040 ;
+		END
+	END row_on_detect_bot[55]
+	PIN row_off_detect_bot[55]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 129.880 25.000 130.480 ;
+		END
+	END row_off_detect_bot[55]
+	PIN row_on_detect_bot[54]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 135.400 25.000 136.000 ;
+		END
+	END row_on_detect_bot[54]
+	PIN row_off_detect_bot[54]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 141.840 25.000 142.440 ;
+		END
+	END row_off_detect_bot[54]
+	PIN row_on_detect_bot[53]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 147.360 25.000 147.960 ;
+		END
+	END row_on_detect_bot[53]
+	PIN row_off_detect_bot[53]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 153.800 25.000 154.400 ;
+		END
+	END row_off_detect_bot[53]
+	PIN row_on_detect_bot[52]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 159.320 25.000 159.920 ;
+		END
+	END row_on_detect_bot[52]
+	PIN row_off_detect_bot[52]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 165.760 25.000 166.360 ;
+		END
+	END row_off_detect_bot[52]
+	PIN row_on_detect_bot[51]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 171.280 25.000 171.880 ;
+		END
+	END row_on_detect_bot[51]
+	PIN row_off_detect_bot[51]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 177.720 25.000 178.320 ;
+		END
+	END row_off_detect_bot[51]
+	PIN row_on_detect_bot[50]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 183.240 25.000 183.840 ;
+		END
+	END row_on_detect_bot[50]
+	PIN row_off_detect_bot[50]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 189.680 25.000 190.280 ;
+		END
+	END row_off_detect_bot[50]
+	PIN row_on_detect_bot[49]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 196.120 25.000 196.720 ;
+		END
+	END row_on_detect_bot[49]
+	PIN row_off_detect_bot[49]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 201.640 25.000 202.240 ;
+		END
+	END row_off_detect_bot[49]
+	PIN row_on_detect_bot[48]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 208.080 25.000 208.680 ;
+		END
+	END row_on_detect_bot[48]
+	PIN row_off_detect_bot[48]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 213.600 25.000 214.200 ;
+		END
+	END row_off_detect_bot[48]
+	PIN row_on_detect_bot[47]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 220.040 25.000 220.640 ;
+		END
+	END row_on_detect_bot[47]
+	PIN row_off_detect_bot[47]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 225.560 25.000 226.160 ;
+		END
+	END row_off_detect_bot[47]
+	PIN row_on_detect_bot[46]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 232.000 25.000 232.600 ;
+		END
+	END row_on_detect_bot[46]
+	PIN row_off_detect_bot[46]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 237.520 25.000 238.120 ;
+		END
+	END row_off_detect_bot[46]
+	PIN row_on_detect_bot[45]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 243.960 25.000 244.560 ;
+		END
+	END row_on_detect_bot[45]
+	PIN row_off_detect_bot[45]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 249.480 25.000 250.080 ;
+		END
+	END row_off_detect_bot[45]
+	PIN row_on_detect_bot[44]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 255.920 25.000 256.520 ;
+		END
+	END row_on_detect_bot[44]
+	PIN row_off_detect_bot[44]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 261.440 25.000 262.040 ;
+		END
+	END row_off_detect_bot[44]
+	PIN row_on_detect_bot[43]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 267.880 25.000 268.480 ;
+		END
+	END row_on_detect_bot[43]
+	PIN row_off_detect_bot[43]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 273.400 25.000 274.000 ;
+		END
+	END row_off_detect_bot[43]
+	PIN row_on_detect_bot[42]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 279.840 25.000 280.440 ;
+		END
+	END row_on_detect_bot[42]
+	PIN row_off_detect_bot[42]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 285.360 25.000 285.960 ;
+		END
+	END row_off_detect_bot[42]
+	PIN row_on_detect_bot[41]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 291.800 25.000 292.400 ;
+		END
+	END row_on_detect_bot[41]
+	PIN row_off_detect_bot[41]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 297.320 25.000 297.920 ;
+		END
+	END row_off_detect_bot[41]
+	PIN row_on_detect_bot[40]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 303.760 25.000 304.360 ;
+		END
+	END row_on_detect_bot[40]
+	PIN row_off_detect_bot[40]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 309.280 25.000 309.880 ;
+		END
+	END row_off_detect_bot[40]
+	PIN row_on_detect_bot[39]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 315.720 25.000 316.320 ;
+		END
+	END row_on_detect_bot[39]
+	PIN row_off_detect_bot[39]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 322.160 25.000 322.760 ;
+		END
+	END row_off_detect_bot[39]
+	PIN row_on_detect_bot[38]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 327.680 25.000 328.280 ;
+		END
+	END row_on_detect_bot[38]
+	PIN row_off_detect_bot[38]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 334.120 25.000 334.720 ;
+		END
+	END row_off_detect_bot[38]
+	PIN row_on_detect_bot[37]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 339.640 25.000 340.240 ;
+		END
+	END row_on_detect_bot[37]
+	PIN row_off_detect_bot[37]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 346.080 25.000 346.680 ;
+		END
+	END row_off_detect_bot[37]
+	PIN row_on_detect_bot[36]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 351.600 25.000 352.200 ;
+		END
+	END row_on_detect_bot[36]
+	PIN row_off_detect_bot[36]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 358.040 25.000 358.640 ;
+		END
+	END row_off_detect_bot[36]
+	PIN row_on_detect_bot[35]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 363.560 25.000 364.160 ;
+		END
+	END row_on_detect_bot[35]
+	PIN row_off_detect_bot[35]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 370.000 25.000 370.600 ;
+		END
+	END row_off_detect_bot[35]
+	PIN row_on_detect_bot[34]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 375.520 25.000 376.120 ;
+		END
+	END row_on_detect_bot[34]
+	PIN row_off_detect_bot[34]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 381.960 25.000 382.560 ;
+		END
+	END row_off_detect_bot[34]
+	PIN row_on_detect_bot[33]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 387.480 25.000 388.080 ;
+		END
+	END row_on_detect_bot[33]
+	PIN row_off_detect_bot[33]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 393.920 25.000 394.520 ;
+		END
+	END row_off_detect_bot[33]
+	PIN row_on_detect_bot[32]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 399.440 25.000 400.040 ;
+		END
+	END row_on_detect_bot[32]
+	PIN row_off_detect_bot[32]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 405.880 25.000 406.480 ;
+		END
+	END row_off_detect_bot[32]
+	PIN row_on_detect_bot[31]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 411.400 25.000 412.000 ;
+		END
+	END row_on_detect_bot[31]
+	PIN row_off_detect_bot[31]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 417.840 25.000 418.440 ;
+		END
+	END row_off_detect_bot[31]
+	PIN row_on_detect_bot[30]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 423.360 25.000 423.960 ;
+		END
+	END row_on_detect_bot[30]
+	PIN row_off_detect_bot[30]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 429.800 25.000 430.400 ;
+		END
+	END row_off_detect_bot[30]
+	PIN row_on_detect_bot[29]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 435.320 25.000 435.920 ;
+		END
+	END row_on_detect_bot[29]
+	PIN row_off_detect_bot[29]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 441.760 25.000 442.360 ;
+		END
+	END row_off_detect_bot[29]
+	PIN row_on_detect_bot[28]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 447.280 25.000 447.880 ;
+		END
+	END row_on_detect_bot[28]
+	PIN row_off_detect_bot[28]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 453.720 25.000 454.320 ;
+		END
+	END row_off_detect_bot[28]
+	PIN row_on_detect_bot[27]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 460.160 25.000 460.760 ;
+		END
+	END row_on_detect_bot[27]
+	PIN row_off_detect_bot[27]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 465.680 25.000 466.280 ;
+		END
+	END row_off_detect_bot[27]
+	PIN row_on_detect_bot[26]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 472.120 25.000 472.720 ;
+		END
+	END row_on_detect_bot[26]
+	PIN row_off_detect_bot[26]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 477.640 25.000 478.240 ;
+		END
+	END row_off_detect_bot[26]
+	PIN row_on_detect_bot[25]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 484.080 25.000 484.680 ;
+		END
+	END row_on_detect_bot[25]
+	PIN row_off_detect_bot[25]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 489.600 25.000 490.200 ;
+		END
+	END row_off_detect_bot[25]
+	PIN row_on_detect_bot[24]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 496.040 25.000 496.640 ;
+		END
+	END row_on_detect_bot[24]
+	PIN row_off_detect_bot[24]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 501.560 25.000 502.160 ;
+		END
+	END row_off_detect_bot[24]
+	PIN row_on_detect_bot[23]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 508.000 25.000 508.600 ;
+		END
+	END row_on_detect_bot[23]
+	PIN row_off_detect_bot[23]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 513.520 25.000 514.120 ;
+		END
+	END row_off_detect_bot[23]
+	PIN row_on_detect_bot[22]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 519.960 25.000 520.560 ;
+		END
+	END row_on_detect_bot[22]
+	PIN row_off_detect_bot[22]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 525.480 25.000 526.080 ;
+		END
+	END row_off_detect_bot[22]
+	PIN row_on_detect_bot[21]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 531.920 25.000 532.520 ;
+		END
+	END row_on_detect_bot[21]
+	PIN row_off_detect_bot[21]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 537.440 25.000 538.040 ;
+		END
+	END row_off_detect_bot[21]
+	PIN row_on_detect_bot[20]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 543.880 25.000 544.480 ;
+		END
+	END row_on_detect_bot[20]
+	PIN row_off_detect_bot[20]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 549.400 25.000 550.000 ;
+		END
+	END row_off_detect_bot[20]
+	PIN row_on_detect_bot[19]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 555.840 25.000 556.440 ;
+		END
+	END row_on_detect_bot[19]
+	PIN row_off_detect_bot[19]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 561.360 25.000 561.960 ;
+		END
+	END row_off_detect_bot[19]
+	PIN row_on_detect_bot[18]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 567.800 25.000 568.400 ;
+		END
+	END row_on_detect_bot[18]
+	PIN row_off_detect_bot[18]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 573.320 25.000 573.920 ;
+		END
+	END row_off_detect_bot[18]
+	PIN row_on_detect_bot[17]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 579.760 25.000 580.360 ;
+		END
+	END row_on_detect_bot[17]
+	PIN row_off_detect_bot[17]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 585.280 25.000 585.880 ;
+		END
+	END row_off_detect_bot[17]
+	PIN row_on_detect_bot[16]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 591.720 25.000 592.320 ;
+		END
+	END row_on_detect_bot[16]
+	PIN row_off_detect_bot[16]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 597.240 25.000 597.840 ;
+		END
+	END row_off_detect_bot[16]
+	PIN row_on_detect_bot[15]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 603.680 25.000 604.280 ;
+		END
+	END row_on_detect_bot[15]
+	PIN row_off_detect_bot[15]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 610.120 25.000 610.720 ;
+		END
+	END row_off_detect_bot[15]
+	PIN row_on_detect_bot[14]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 615.640 25.000 616.240 ;
+		END
+	END row_on_detect_bot[14]
+	PIN row_off_detect_bot[14]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 622.080 25.000 622.680 ;
+		END
+	END row_off_detect_bot[14]
+	PIN row_on_detect_bot[13]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 627.600 25.000 628.200 ;
+		END
+	END row_on_detect_bot[13]
+	PIN row_off_detect_bot[13]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 634.040 25.000 634.640 ;
+		END
+	END row_off_detect_bot[13]
+	PIN row_on_detect_bot[12]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 639.560 25.000 640.160 ;
+		END
+	END row_on_detect_bot[12]
+	PIN row_off_detect_bot[12]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 646.000 25.000 646.600 ;
+		END
+	END row_off_detect_bot[12]
+	PIN row_on_detect_bot[11]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 651.520 25.000 652.120 ;
+		END
+	END row_on_detect_bot[11]
+	PIN row_off_detect_bot[11]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 657.960 25.000 658.560 ;
+		END
+	END row_off_detect_bot[11]
+	PIN row_on_detect_bot[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 663.480 25.000 664.080 ;
+		END
+	END row_on_detect_bot[10]
+	PIN row_off_detect_bot[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 669.920 25.000 670.520 ;
+		END
+	END row_off_detect_bot[10]
+	PIN row_on_detect_bot[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 675.440 25.000 676.040 ;
+		END
+	END row_on_detect_bot[9]
+	PIN row_off_detect_bot[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 681.880 25.000 682.480 ;
+		END
+	END row_off_detect_bot[9]
+	PIN row_on_detect_bot[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 687.400 25.000 688.000 ;
+		END
+	END row_on_detect_bot[8]
+	PIN row_off_detect_bot[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 693.840 25.000 694.440 ;
+		END
+	END row_off_detect_bot[8]
+	PIN row_on_detect_bot[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 699.360 25.000 699.960 ;
+		END
+	END row_on_detect_bot[7]
+	PIN row_off_detect_bot[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 705.800 25.000 706.400 ;
+		END
+	END row_off_detect_bot[7]
+	PIN row_on_detect_bot[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 711.320 25.000 711.920 ;
+		END
+	END row_on_detect_bot[6]
+	PIN row_off_detect_bot[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 717.760 25.000 718.360 ;
+		END
+	END row_off_detect_bot[6]
+	PIN row_on_detect_bot[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 723.280 25.000 723.880 ;
+		END
+	END row_on_detect_bot[5]
+	PIN row_off_detect_bot[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 729.720 25.000 730.320 ;
+		END
+	END row_off_detect_bot[5]
+	PIN row_on_detect_bot[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 735.240 25.000 735.840 ;
+		END
+	END row_on_detect_bot[4]
+	PIN row_off_detect_bot[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 741.680 25.000 742.280 ;
+		END
+	END row_off_detect_bot[4]
+	PIN row_on_detect_bot[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 748.120 25.000 748.720 ;
+		END
+	END row_on_detect_bot[3]
+	PIN row_off_detect_bot[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 753.640 25.000 754.240 ;
+		END
+	END row_off_detect_bot[3]
+	PIN row_on_detect_bot[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 760.080 25.000 760.680 ;
+		END
+	END row_on_detect_bot[2]
+	PIN row_off_detect_bot[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 765.600 25.000 766.200 ;
+		END
+	END row_off_detect_bot[2]
+	PIN row_on_detect_bot[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 772.040 25.000 772.640 ;
+		END
+	END row_on_detect_bot[1]
+	PIN row_off_detect_bot[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 777.560 25.000 778.160 ;
+		END
+	END row_off_detect_bot[1]
+	PIN row_on_detect_bot[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 784.000 25.000 784.600 ;
+		END
+	END row_on_detect_bot[0]
+	PIN row_off_detect_bot[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 789.520 25.000 790.120 ;
+		END
+	END row_off_detect_bot[0]
+	PIN row_on_detect_top[63]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 795.960 25.000 796.560 ;
+		END
+	END row_on_detect_top[63]
+	PIN row_off_detect_top[63]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 801.480 25.000 802.080 ;
+		END
+	END row_off_detect_top[63]
+	PIN row_on_detect_top[62]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 807.920 25.000 808.520 ;
+		END
+	END row_on_detect_top[62]
+	PIN row_off_detect_top[62]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 813.440 25.000 814.040 ;
+		END
+	END row_off_detect_top[62]
+	PIN row_on_detect_top[61]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 819.880 25.000 820.480 ;
+		END
+	END row_on_detect_top[61]
+	PIN row_off_detect_top[61]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 825.400 25.000 826.000 ;
+		END
+	END row_off_detect_top[61]
+	PIN row_on_detect_top[60]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 831.840 25.000 832.440 ;
+		END
+	END row_on_detect_top[60]
+	PIN row_off_detect_top[60]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 837.360 25.000 837.960 ;
+		END
+	END row_off_detect_top[60]
+	PIN row_on_detect_top[59]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 843.800 25.000 844.400 ;
+		END
+	END row_on_detect_top[59]
+	PIN row_off_detect_top[59]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 849.320 25.000 849.920 ;
+		END
+	END row_off_detect_top[59]
+	PIN row_on_detect_top[58]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 855.760 25.000 856.360 ;
+		END
+	END row_on_detect_top[58]
+	PIN row_off_detect_top[58]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 861.280 25.000 861.880 ;
+		END
+	END row_off_detect_top[58]
+	PIN row_on_detect_top[57]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 867.720 25.000 868.320 ;
+		END
+	END row_on_detect_top[57]
+	PIN row_off_detect_top[57]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 873.240 25.000 873.840 ;
+		END
+	END row_off_detect_top[57]
+	PIN row_on_detect_top[56]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 879.680 25.000 880.280 ;
+		END
+	END row_on_detect_top[56]
+	PIN row_off_detect_top[56]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 886.120 25.000 886.720 ;
+		END
+	END row_off_detect_top[56]
+	PIN row_on_detect_top[55]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 891.640 25.000 892.240 ;
+		END
+	END row_on_detect_top[55]
+	PIN row_off_detect_top[55]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 898.080 25.000 898.680 ;
+		END
+	END row_off_detect_top[55]
+	PIN row_on_detect_top[54]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 903.600 25.000 904.200 ;
+		END
+	END row_on_detect_top[54]
+	PIN row_off_detect_top[54]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 910.040 25.000 910.640 ;
+		END
+	END row_off_detect_top[54]
+	PIN row_on_detect_top[53]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 915.560 25.000 916.160 ;
+		END
+	END row_on_detect_top[53]
+	PIN row_off_detect_top[53]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 922.000 25.000 922.600 ;
+		END
+	END row_off_detect_top[53]
+	PIN row_on_detect_top[52]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 927.520 25.000 928.120 ;
+		END
+	END row_on_detect_top[52]
+	PIN row_off_detect_top[52]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 933.960 25.000 934.560 ;
+		END
+	END row_off_detect_top[52]
+	PIN row_on_detect_top[51]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 939.480 25.000 940.080 ;
+		END
+	END row_on_detect_top[51]
+	PIN row_off_detect_top[51]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 945.920 25.000 946.520 ;
+		END
+	END row_off_detect_top[51]
+	PIN row_on_detect_top[50]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 951.440 25.000 952.040 ;
+		END
+	END row_on_detect_top[50]
+	PIN row_off_detect_top[50]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 957.880 25.000 958.480 ;
+		END
+	END row_off_detect_top[50]
+	PIN row_on_detect_top[49]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 963.400 25.000 964.000 ;
+		END
+	END row_on_detect_top[49]
+	PIN row_off_detect_top[49]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 969.840 25.000 970.440 ;
+		END
+	END row_off_detect_top[49]
+	PIN row_on_detect_top[48]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 975.360 25.000 975.960 ;
+		END
+	END row_on_detect_top[48]
+	PIN row_off_detect_top[48]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 981.800 25.000 982.400 ;
+		END
+	END row_off_detect_top[48]
+	PIN row_on_detect_top[47]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 987.320 25.000 987.920 ;
+		END
+	END row_on_detect_top[47]
+	PIN row_off_detect_top[47]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 993.760 25.000 994.360 ;
+		END
+	END row_off_detect_top[47]
+	PIN row_on_detect_top[46]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 999.280 25.000 999.880 ;
+		END
+	END row_on_detect_top[46]
+	PIN row_off_detect_top[46]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1005.720 25.000 1006.320 ;
+		END
+	END row_off_detect_top[46]
+	PIN row_on_detect_top[45]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1012.160 25.000 1012.760 ;
+		END
+	END row_on_detect_top[45]
+	PIN row_off_detect_top[45]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1017.680 25.000 1018.280 ;
+		END
+	END row_off_detect_top[45]
+	PIN row_on_detect_top[44]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1024.120 25.000 1024.720 ;
+		END
+	END row_on_detect_top[44]
+	PIN row_off_detect_top[44]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1029.640 25.000 1030.240 ;
+		END
+	END row_off_detect_top[44]
+	PIN row_on_detect_top[43]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1036.080 25.000 1036.680 ;
+		END
+	END row_on_detect_top[43]
+	PIN row_off_detect_top[43]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1041.600 25.000 1042.200 ;
+		END
+	END row_off_detect_top[43]
+	PIN row_on_detect_top[42]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1048.040 25.000 1048.640 ;
+		END
+	END row_on_detect_top[42]
+	PIN row_off_detect_top[42]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1053.560 25.000 1054.160 ;
+		END
+	END row_off_detect_top[42]
+	PIN row_on_detect_top[41]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1060.000 25.000 1060.600 ;
+		END
+	END row_on_detect_top[41]
+	PIN row_off_detect_top[41]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1065.520 25.000 1066.120 ;
+		END
+	END row_off_detect_top[41]
+	PIN row_on_detect_top[40]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1071.960 25.000 1072.560 ;
+		END
+	END row_on_detect_top[40]
+	PIN row_off_detect_top[40]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1077.480 25.000 1078.080 ;
+		END
+	END row_off_detect_top[40]
+	PIN row_on_detect_top[39]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1083.920 25.000 1084.520 ;
+		END
+	END row_on_detect_top[39]
+	PIN row_off_detect_top[39]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1089.440 25.000 1090.040 ;
+		END
+	END row_off_detect_top[39]
+	PIN row_on_detect_top[38]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1095.880 25.000 1096.480 ;
+		END
+	END row_on_detect_top[38]
+	PIN row_off_detect_top[38]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1101.400 25.000 1102.000 ;
+		END
+	END row_off_detect_top[38]
+	PIN row_on_detect_top[37]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1107.840 25.000 1108.440 ;
+		END
+	END row_on_detect_top[37]
+	PIN row_off_detect_top[37]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1113.360 25.000 1113.960 ;
+		END
+	END row_off_detect_top[37]
+	PIN row_on_detect_top[36]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1119.800 25.000 1120.400 ;
+		END
+	END row_on_detect_top[36]
+	PIN row_off_detect_top[36]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1125.320 25.000 1125.920 ;
+		END
+	END row_off_detect_top[36]
+	PIN row_on_detect_top[35]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1131.760 25.000 1132.360 ;
+		END
+	END row_on_detect_top[35]
+	PIN row_off_detect_top[35]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1137.280 25.000 1137.880 ;
+		END
+	END row_off_detect_top[35]
+	PIN row_on_detect_top[34]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1143.720 25.000 1144.320 ;
+		END
+	END row_on_detect_top[34]
+	PIN row_off_detect_top[34]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1150.160 25.000 1150.760 ;
+		END
+	END row_off_detect_top[34]
+	PIN row_on_detect_top[33]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1155.680 25.000 1156.280 ;
+		END
+	END row_on_detect_top[33]
+	PIN row_off_detect_top[33]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1162.120 25.000 1162.720 ;
+		END
+	END row_off_detect_top[33]
+	PIN row_on_detect_top[32]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1167.640 25.000 1168.240 ;
+		END
+	END row_on_detect_top[32]
+	PIN row_off_detect_top[32]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1174.080 25.000 1174.680 ;
+		END
+	END row_off_detect_top[32]
+	PIN row_on_detect_top[31]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1179.600 25.000 1180.200 ;
+		END
+	END row_on_detect_top[31]
+	PIN row_off_detect_top[31]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1186.040 25.000 1186.640 ;
+		END
+	END row_off_detect_top[31]
+	PIN row_on_detect_top[30]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1191.560 25.000 1192.160 ;
+		END
+	END row_on_detect_top[30]
+	PIN row_off_detect_top[30]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1198.000 25.000 1198.600 ;
+		END
+	END row_off_detect_top[30]
+	PIN row_on_detect_top[29]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1203.520 25.000 1204.120 ;
+		END
+	END row_on_detect_top[29]
+	PIN row_off_detect_top[29]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1209.960 25.000 1210.560 ;
+		END
+	END row_off_detect_top[29]
+	PIN row_on_detect_top[28]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1215.480 25.000 1216.080 ;
+		END
+	END row_on_detect_top[28]
+	PIN row_off_detect_top[28]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1221.920 25.000 1222.520 ;
+		END
+	END row_off_detect_top[28]
+	PIN row_on_detect_top[27]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1227.440 25.000 1228.040 ;
+		END
+	END row_on_detect_top[27]
+	PIN row_off_detect_top[27]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1233.880 25.000 1234.480 ;
+		END
+	END row_off_detect_top[27]
+	PIN row_on_detect_top[26]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1239.400 25.000 1240.000 ;
+		END
+	END row_on_detect_top[26]
+	PIN row_off_detect_top[26]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1245.840 25.000 1246.440 ;
+		END
+	END row_off_detect_top[26]
+	PIN row_on_detect_top[25]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1251.360 25.000 1251.960 ;
+		END
+	END row_on_detect_top[25]
+	PIN row_off_detect_top[25]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1257.800 25.000 1258.400 ;
+		END
+	END row_off_detect_top[25]
+	PIN row_on_detect_top[24]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1263.320 25.000 1263.920 ;
+		END
+	END row_on_detect_top[24]
+	PIN row_off_detect_top[24]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1269.760 25.000 1270.360 ;
+		END
+	END row_off_detect_top[24]
+	PIN row_on_detect_top[23]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1275.280 25.000 1275.880 ;
+		END
+	END row_on_detect_top[23]
+	PIN row_off_detect_top[23]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1281.720 25.000 1282.320 ;
+		END
+	END row_off_detect_top[23]
+	PIN row_on_detect_top[22]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1288.160 25.000 1288.760 ;
+		END
+	END row_on_detect_top[22]
+	PIN row_off_detect_top[22]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1293.680 25.000 1294.280 ;
+		END
+	END row_off_detect_top[22]
+	PIN row_on_detect_top[21]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1300.120 25.000 1300.720 ;
+		END
+	END row_on_detect_top[21]
+	PIN row_off_detect_top[21]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1305.640 25.000 1306.240 ;
+		END
+	END row_off_detect_top[21]
+	PIN row_on_detect_top[20]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1312.080 25.000 1312.680 ;
+		END
+	END row_on_detect_top[20]
+	PIN row_off_detect_top[20]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1317.600 25.000 1318.200 ;
+		END
+	END row_off_detect_top[20]
+	PIN row_on_detect_top[19]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1324.040 25.000 1324.640 ;
+		END
+	END row_on_detect_top[19]
+	PIN row_off_detect_top[19]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1329.560 25.000 1330.160 ;
+		END
+	END row_off_detect_top[19]
+	PIN row_on_detect_top[18]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1336.000 25.000 1336.600 ;
+		END
+	END row_on_detect_top[18]
+	PIN row_off_detect_top[18]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1341.520 25.000 1342.120 ;
+		END
+	END row_off_detect_top[18]
+	PIN row_on_detect_top[17]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1347.960 25.000 1348.560 ;
+		END
+	END row_on_detect_top[17]
+	PIN row_off_detect_top[17]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1353.480 25.000 1354.080 ;
+		END
+	END row_off_detect_top[17]
+	PIN row_on_detect_top[16]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1359.920 25.000 1360.520 ;
+		END
+	END row_on_detect_top[16]
+	PIN row_off_detect_top[16]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1365.440 25.000 1366.040 ;
+		END
+	END row_off_detect_top[16]
+	PIN row_on_detect_top[15]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1371.880 25.000 1372.480 ;
+		END
+	END row_on_detect_top[15]
+	PIN row_off_detect_top[15]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1377.400 25.000 1378.000 ;
+		END
+	END row_off_detect_top[15]
+	PIN row_on_detect_top[14]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1383.840 25.000 1384.440 ;
+		END
+	END row_on_detect_top[14]
+	PIN row_off_detect_top[14]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1389.360 25.000 1389.960 ;
+		END
+	END row_off_detect_top[14]
+	PIN row_on_detect_top[13]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1395.800 25.000 1396.400 ;
+		END
+	END row_on_detect_top[13]
+	PIN row_off_detect_top[13]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1401.320 25.000 1401.920 ;
+		END
+	END row_off_detect_top[13]
+	PIN row_on_detect_top[12]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1407.760 25.000 1408.360 ;
+		END
+	END row_on_detect_top[12]
+	PIN row_off_detect_top[12]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1413.280 25.000 1413.880 ;
+		END
+	END row_off_detect_top[12]
+	PIN row_on_detect_top[11]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1419.720 25.000 1420.320 ;
+		END
+	END row_on_detect_top[11]
+	PIN row_off_detect_top[11]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1426.160 25.000 1426.760 ;
+		END
+	END row_off_detect_top[11]
+	PIN row_on_detect_top[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1431.680 25.000 1432.280 ;
+		END
+	END row_on_detect_top[10]
+	PIN row_off_detect_top[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1438.120 25.000 1438.720 ;
+		END
+	END row_off_detect_top[10]
+	PIN row_on_detect_top[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1443.640 25.000 1444.240 ;
+		END
+	END row_on_detect_top[9]
+	PIN row_off_detect_top[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1450.080 25.000 1450.680 ;
+		END
+	END row_off_detect_top[9]
+	PIN row_on_detect_top[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1455.600 25.000 1456.200 ;
+		END
+	END row_on_detect_top[8]
+	PIN row_off_detect_top[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1462.040 25.000 1462.640 ;
+		END
+	END row_off_detect_top[8]
+	PIN row_on_detect_top[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1467.560 25.000 1468.160 ;
+		END
+	END row_on_detect_top[7]
+	PIN row_off_detect_top[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1474.000 25.000 1474.600 ;
+		END
+	END row_off_detect_top[7]
+	PIN row_on_detect_top[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1479.520 25.000 1480.120 ;
+		END
+	END row_on_detect_top[6]
+	PIN row_off_detect_top[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1485.960 25.000 1486.560 ;
+		END
+	END row_off_detect_top[6]
+	PIN row_on_detect_top[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1491.480 25.000 1492.080 ;
+		END
+	END row_on_detect_top[5]
+	PIN row_off_detect_top[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1497.920 25.000 1498.520 ;
+		END
+	END row_off_detect_top[5]
+	PIN row_on_detect_top[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1503.440 25.000 1504.040 ;
+		END
+	END row_on_detect_top[4]
+	PIN row_off_detect_top[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1509.880 25.000 1510.480 ;
+		END
+	END row_off_detect_top[4]
+	PIN row_on_detect_top[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1515.400 25.000 1516.000 ;
+		END
+	END row_on_detect_top[3]
+	PIN row_off_detect_top[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1521.840 25.000 1522.440 ;
+		END
+	END row_off_detect_top[3]
+	PIN row_on_detect_top[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1527.360 25.000 1527.960 ;
+		END
+	END row_on_detect_top[2]
+	PIN row_off_detect_top[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1533.800 25.000 1534.400 ;
+		END
+	END row_off_detect_top[2]
+	PIN row_on_detect_top[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1539.320 25.000 1539.920 ;
+		END
+	END row_on_detect_top[1]
+	PIN row_off_detect_top[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1545.760 25.000 1546.360 ;
+		END
+	END row_off_detect_top[1]
+	PIN row_on_detect_top[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1551.280 25.000 1551.880 ;
+		END
+	END row_on_detect_top[0]
+	PIN row_off_detect_top[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1557.720 25.000 1558.320 ;
+		END
+	END row_off_detect_top[0]
+	PIN array_col_bot_left[0]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 2.760 0.000 3.360 25.000 ;
+		END
+	END array_col_bot_left[0]
+	PIN col_event_rst_bot_left[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 8.880 0.000 9.480 25.000 ;
+		END
+	END col_event_rst_bot_left[0]
+	PIN array_col_top_left[0]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 2.760 1571.000 3.360 1596.000 ;
+		END
+	END array_col_top_left[0]
+	PIN col_event_rst_top_left[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 8.880 1571.000 9.480 1596.000 ;
+		END
+	END col_event_rst_top_left[0]
+	PIN array_col_bot_left[1]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 15.000 0.000 15.600 25.000 ;
+		END
+	END array_col_bot_left[1]
+	PIN col_event_rst_bot_left[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 20.440 0.000 21.040 25.000 ;
+		END
+	END col_event_rst_bot_left[1]
+	PIN array_col_top_left[1]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 15.000 1571.000 15.600 1596.000 ;
+		END
+	END array_col_top_left[1]
+	PIN col_event_rst_top_left[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 20.440 1571.000 21.040 1596.000 ;
+		END
+	END col_event_rst_top_left[1]
+	PIN array_col_bot_left[2]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 26.560 0.000 27.160 25.000 ;
+		END
+	END array_col_bot_left[2]
+	PIN col_event_rst_bot_left[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 32.680 0.000 33.280 25.000 ;
+		END
+	END col_event_rst_bot_left[2]
+	PIN array_col_top_left[2]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 26.560 1571.000 27.160 1596.000 ;
+		END
+	END array_col_top_left[2]
+	PIN col_event_rst_top_left[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 32.680 1571.000 33.280 1596.000 ;
+		END
+	END col_event_rst_top_left[2]
+	PIN array_col_bot_left[3]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 38.800 0.000 39.400 25.000 ;
+		END
+	END array_col_bot_left[3]
+	PIN col_event_rst_bot_left[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 44.920 0.000 45.520 25.000 ;
+		END
+	END col_event_rst_bot_left[3]
+	PIN array_col_top_left[3]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 38.800 1571.000 39.400 1596.000 ;
+		END
+	END array_col_top_left[3]
+	PIN col_event_rst_top_left[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 44.920 1571.000 45.520 1596.000 ;
+		END
+	END col_event_rst_top_left[3]
+	PIN array_col_bot_left[4]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 50.360 0.000 50.960 25.000 ;
+		END
+	END array_col_bot_left[4]
+	PIN col_event_rst_bot_left[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 56.480 0.000 57.080 25.000 ;
+		END
+	END col_event_rst_bot_left[4]
+	PIN array_col_top_left[4]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 50.360 1571.000 50.960 1596.000 ;
+		END
+	END array_col_top_left[4]
+	PIN col_event_rst_top_left[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 56.480 1571.000 57.080 1596.000 ;
+		END
+	END col_event_rst_top_left[4]
+	PIN array_col_bot_left[5]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 62.600 0.000 63.200 25.000 ;
+		END
+	END array_col_bot_left[5]
+	PIN col_event_rst_bot_left[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 68.720 0.000 69.320 25.000 ;
+		END
+	END col_event_rst_bot_left[5]
+	PIN array_col_top_left[5]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 62.600 1571.000 63.200 1596.000 ;
+		END
+	END array_col_top_left[5]
+	PIN col_event_rst_top_left[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 68.720 1571.000 69.320 1596.000 ;
+		END
+	END col_event_rst_top_left[5]
+	PIN array_col_bot_left[6]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 74.840 0.000 75.440 25.000 ;
+		END
+	END array_col_bot_left[6]
+	PIN col_event_rst_bot_left[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 80.960 0.000 81.560 25.000 ;
+		END
+	END col_event_rst_bot_left[6]
+	PIN array_col_top_left[6]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 74.840 1571.000 75.440 1596.000 ;
+		END
+	END array_col_top_left[6]
+	PIN col_event_rst_top_left[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 80.960 1571.000 81.560 1596.000 ;
+		END
+	END col_event_rst_top_left[6]
+	PIN array_col_bot_left[7]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 86.400 0.000 87.000 25.000 ;
+		END
+	END array_col_bot_left[7]
+	PIN col_event_rst_bot_left[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 92.520 0.000 93.120 25.000 ;
+		END
+	END col_event_rst_bot_left[7]
+	PIN array_col_top_left[7]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 86.400 1571.000 87.000 1596.000 ;
+		END
+	END array_col_top_left[7]
+	PIN col_event_rst_top_left[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 92.520 1571.000 93.120 1596.000 ;
+		END
+	END col_event_rst_top_left[7]
+	PIN array_col_bot_left[8]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 98.640 0.000 99.240 25.000 ;
+		END
+	END array_col_bot_left[8]
+	PIN col_event_rst_bot_left[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 104.760 0.000 105.360 25.000 ;
+		END
+	END col_event_rst_bot_left[8]
+	PIN array_col_top_left[8]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 98.640 1571.000 99.240 1596.000 ;
+		END
+	END array_col_top_left[8]
+	PIN col_event_rst_top_left[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 104.760 1571.000 105.360 1596.000 ;
+		END
+	END col_event_rst_top_left[8]
+	PIN array_col_bot_left[9]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 110.880 0.000 111.480 25.000 ;
+		END
+	END array_col_bot_left[9]
+	PIN col_event_rst_bot_left[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 117.000 0.000 117.600 25.000 ;
+		END
+	END col_event_rst_bot_left[9]
+	PIN array_col_top_left[9]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 110.880 1571.000 111.480 1596.000 ;
+		END
+	END array_col_top_left[9]
+	PIN col_event_rst_top_left[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 117.000 1571.000 117.600 1596.000 ;
+		END
+	END col_event_rst_top_left[9]
+	PIN array_col_bot_left[10]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 122.440 0.000 123.040 25.000 ;
+		END
+	END array_col_bot_left[10]
+	PIN col_event_rst_bot_left[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 128.560 0.000 129.160 25.000 ;
+		END
+	END col_event_rst_bot_left[10]
+	PIN array_col_top_left[10]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 122.440 1571.000 123.040 1596.000 ;
+		END
+	END array_col_top_left[10]
+	PIN col_event_rst_top_left[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 128.560 1571.000 129.160 1596.000 ;
+		END
+	END col_event_rst_top_left[10]
+	PIN array_col_bot_left[11]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 134.680 0.000 135.280 25.000 ;
+		END
+	END array_col_bot_left[11]
+	PIN col_event_rst_bot_left[11]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 140.800 0.000 141.400 25.000 ;
+		END
+	END col_event_rst_bot_left[11]
+	PIN array_col_top_left[11]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 134.680 1571.000 135.280 1596.000 ;
+		END
+	END array_col_top_left[11]
+	PIN col_event_rst_top_left[11]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 140.800 1571.000 141.400 1596.000 ;
+		END
+	END col_event_rst_top_left[11]
+	PIN array_col_bot_left[12]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 146.920 0.000 147.520 25.000 ;
+		END
+	END array_col_bot_left[12]
+	PIN col_event_rst_bot_left[12]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 152.360 0.000 152.960 25.000 ;
+		END
+	END col_event_rst_bot_left[12]
+	PIN array_col_top_left[12]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 146.920 1571.000 147.520 1596.000 ;
+		END
+	END array_col_top_left[12]
+	PIN col_event_rst_top_left[12]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 152.360 1571.000 152.960 1596.000 ;
+		END
+	END col_event_rst_top_left[12]
+	PIN array_col_bot_left[13]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 158.480 0.000 159.080 25.000 ;
+		END
+	END array_col_bot_left[13]
+	PIN col_event_rst_bot_left[13]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 164.600 0.000 165.200 25.000 ;
+		END
+	END col_event_rst_bot_left[13]
+	PIN array_col_top_left[13]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 158.480 1571.000 159.080 1596.000 ;
+		END
+	END array_col_top_left[13]
+	PIN col_event_rst_top_left[13]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 164.600 1571.000 165.200 1596.000 ;
+		END
+	END col_event_rst_top_left[13]
+	PIN array_col_bot_left[14]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 170.720 0.000 171.320 25.000 ;
+		END
+	END array_col_bot_left[14]
+	PIN col_event_rst_bot_left[14]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 176.840 0.000 177.440 25.000 ;
+		END
+	END col_event_rst_bot_left[14]
+	PIN array_col_top_left[14]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 170.720 1571.000 171.320 1596.000 ;
+		END
+	END array_col_top_left[14]
+	PIN col_event_rst_top_left[14]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 176.840 1571.000 177.440 1596.000 ;
+		END
+	END col_event_rst_top_left[14]
+	PIN array_col_bot_left[15]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 182.960 0.000 183.560 25.000 ;
+		END
+	END array_col_bot_left[15]
+	PIN col_event_rst_bot_left[15]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 188.400 0.000 189.000 25.000 ;
+		END
+	END col_event_rst_bot_left[15]
+	PIN array_col_top_left[15]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 182.960 1571.000 183.560 1596.000 ;
+		END
+	END array_col_top_left[15]
+	PIN col_event_rst_top_left[15]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 188.400 1571.000 189.000 1596.000 ;
+		END
+	END col_event_rst_top_left[15]
+	PIN array_col_bot_left[16]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 194.520 0.000 195.120 25.000 ;
+		END
+	END array_col_bot_left[16]
+	PIN col_event_rst_bot_left[16]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 200.640 0.000 201.240 25.000 ;
+		END
+	END col_event_rst_bot_left[16]
+	PIN array_col_top_left[16]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 194.520 1571.000 195.120 1596.000 ;
+		END
+	END array_col_top_left[16]
+	PIN col_event_rst_top_left[16]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 200.640 1571.000 201.240 1596.000 ;
+		END
+	END col_event_rst_top_left[16]
+	PIN array_col_bot_left[17]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 206.760 0.000 207.360 25.000 ;
+		END
+	END array_col_bot_left[17]
+	PIN col_event_rst_bot_left[17]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 212.880 0.000 213.480 25.000 ;
+		END
+	END col_event_rst_bot_left[17]
+	PIN array_col_top_left[17]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 206.760 1571.000 207.360 1596.000 ;
+		END
+	END array_col_top_left[17]
+	PIN col_event_rst_top_left[17]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 212.880 1571.000 213.480 1596.000 ;
+		END
+	END col_event_rst_top_left[17]
+	PIN array_col_bot_left[18]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 219.000 0.000 219.600 25.000 ;
+		END
+	END array_col_bot_left[18]
+	PIN col_event_rst_bot_left[18]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 224.440 0.000 225.040 25.000 ;
+		END
+	END col_event_rst_bot_left[18]
+	PIN array_col_top_left[18]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 219.000 1571.000 219.600 1596.000 ;
+		END
+	END array_col_top_left[18]
+	PIN col_event_rst_top_left[18]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 224.440 1571.000 225.040 1596.000 ;
+		END
+	END col_event_rst_top_left[18]
+	PIN array_col_bot_left[19]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 230.560 0.000 231.160 25.000 ;
+		END
+	END array_col_bot_left[19]
+	PIN col_event_rst_bot_left[19]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 236.680 0.000 237.280 25.000 ;
+		END
+	END col_event_rst_bot_left[19]
+	PIN array_col_top_left[19]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 230.560 1571.000 231.160 1596.000 ;
+		END
+	END array_col_top_left[19]
+	PIN col_event_rst_top_left[19]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 236.680 1571.000 237.280 1596.000 ;
+		END
+	END col_event_rst_top_left[19]
+	PIN array_col_bot_left[20]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 242.800 0.000 243.400 25.000 ;
+		END
+	END array_col_bot_left[20]
+	PIN col_event_rst_bot_left[20]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 248.920 0.000 249.520 25.000 ;
+		END
+	END col_event_rst_bot_left[20]
+	PIN array_col_top_left[20]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 242.800 1571.000 243.400 1596.000 ;
+		END
+	END array_col_top_left[20]
+	PIN col_event_rst_top_left[20]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 248.920 1571.000 249.520 1596.000 ;
+		END
+	END col_event_rst_top_left[20]
+	PIN array_col_bot_left[21]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 254.360 0.000 254.960 25.000 ;
+		END
+	END array_col_bot_left[21]
+	PIN col_event_rst_bot_left[21]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 260.480 0.000 261.080 25.000 ;
+		END
+	END col_event_rst_bot_left[21]
+	PIN array_col_top_left[21]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 254.360 1571.000 254.960 1596.000 ;
+		END
+	END array_col_top_left[21]
+	PIN col_event_rst_top_left[21]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 260.480 1571.000 261.080 1596.000 ;
+		END
+	END col_event_rst_top_left[21]
+	PIN array_col_bot_left[22]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 266.600 0.000 267.200 25.000 ;
+		END
+	END array_col_bot_left[22]
+	PIN col_event_rst_bot_left[22]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 272.720 0.000 273.320 25.000 ;
+		END
+	END col_event_rst_bot_left[22]
+	PIN array_col_top_left[22]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 266.600 1571.000 267.200 1596.000 ;
+		END
+	END array_col_top_left[22]
+	PIN col_event_rst_top_left[22]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 272.720 1571.000 273.320 1596.000 ;
+		END
+	END col_event_rst_top_left[22]
+	PIN array_col_bot_left[23]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 278.840 0.000 279.440 25.000 ;
+		END
+	END array_col_bot_left[23]
+	PIN col_event_rst_bot_left[23]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 284.960 0.000 285.560 25.000 ;
+		END
+	END col_event_rst_bot_left[23]
+	PIN array_col_top_left[23]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 278.840 1571.000 279.440 1596.000 ;
+		END
+	END array_col_top_left[23]
+	PIN col_event_rst_top_left[23]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 284.960 1571.000 285.560 1596.000 ;
+		END
+	END col_event_rst_top_left[23]
+	PIN array_col_bot_left[24]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 290.400 0.000 291.000 25.000 ;
+		END
+	END array_col_bot_left[24]
+	PIN col_event_rst_bot_left[24]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 296.520 0.000 297.120 25.000 ;
+		END
+	END col_event_rst_bot_left[24]
+	PIN array_col_top_left[24]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 290.400 1571.000 291.000 1596.000 ;
+		END
+	END array_col_top_left[24]
+	PIN col_event_rst_top_left[24]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 296.520 1571.000 297.120 1596.000 ;
+		END
+	END col_event_rst_top_left[24]
+	PIN array_col_bot_left[25]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 302.640 0.000 303.240 25.000 ;
+		END
+	END array_col_bot_left[25]
+	PIN col_event_rst_bot_left[25]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 308.760 0.000 309.360 25.000 ;
+		END
+	END col_event_rst_bot_left[25]
+	PIN array_col_top_left[25]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 302.640 1571.000 303.240 1596.000 ;
+		END
+	END array_col_top_left[25]
+	PIN col_event_rst_top_left[25]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 308.760 1571.000 309.360 1596.000 ;
+		END
+	END col_event_rst_top_left[25]
+	PIN array_col_bot_left[26]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 314.880 0.000 315.480 25.000 ;
+		END
+	END array_col_bot_left[26]
+	PIN col_event_rst_bot_left[26]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 321.000 0.000 321.600 25.000 ;
+		END
+	END col_event_rst_bot_left[26]
+	PIN array_col_top_left[26]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 314.880 1571.000 315.480 1596.000 ;
+		END
+	END array_col_top_left[26]
+	PIN col_event_rst_top_left[26]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 321.000 1571.000 321.600 1596.000 ;
+		END
+	END col_event_rst_top_left[26]
+	PIN array_col_bot_left[27]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 326.440 0.000 327.040 25.000 ;
+		END
+	END array_col_bot_left[27]
+	PIN col_event_rst_bot_left[27]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 332.560 0.000 333.160 25.000 ;
+		END
+	END col_event_rst_bot_left[27]
+	PIN array_col_top_left[27]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 326.440 1571.000 327.040 1596.000 ;
+		END
+	END array_col_top_left[27]
+	PIN col_event_rst_top_left[27]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 332.560 1571.000 333.160 1596.000 ;
+		END
+	END col_event_rst_top_left[27]
+	PIN array_col_bot_left[28]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 338.680 0.000 339.280 25.000 ;
+		END
+	END array_col_bot_left[28]
+	PIN col_event_rst_bot_left[28]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 344.800 0.000 345.400 25.000 ;
+		END
+	END col_event_rst_bot_left[28]
+	PIN array_col_top_left[28]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 338.680 1571.000 339.280 1596.000 ;
+		END
+	END array_col_top_left[28]
+	PIN col_event_rst_top_left[28]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 344.800 1571.000 345.400 1596.000 ;
+		END
+	END col_event_rst_top_left[28]
+	PIN array_col_bot_left[29]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 350.920 0.000 351.520 25.000 ;
+		END
+	END array_col_bot_left[29]
+	PIN col_event_rst_bot_left[29]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 356.360 0.000 356.960 25.000 ;
+		END
+	END col_event_rst_bot_left[29]
+	PIN array_col_top_left[29]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 350.920 1571.000 351.520 1596.000 ;
+		END
+	END array_col_top_left[29]
+	PIN col_event_rst_top_left[29]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 356.360 1571.000 356.960 1596.000 ;
+		END
+	END col_event_rst_top_left[29]
+	PIN array_col_bot_left[30]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 362.480 0.000 363.080 25.000 ;
+		END
+	END array_col_bot_left[30]
+	PIN col_event_rst_bot_left[30]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 368.600 0.000 369.200 25.000 ;
+		END
+	END col_event_rst_bot_left[30]
+	PIN array_col_top_left[30]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 362.480 1571.000 363.080 1596.000 ;
+		END
+	END array_col_top_left[30]
+	PIN col_event_rst_top_left[30]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 368.600 1571.000 369.200 1596.000 ;
+		END
+	END col_event_rst_top_left[30]
+	PIN array_col_bot_left[31]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 374.720 0.000 375.320 25.000 ;
+		END
+	END array_col_bot_left[31]
+	PIN col_event_rst_bot_left[31]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 380.840 0.000 381.440 25.000 ;
+		END
+	END col_event_rst_bot_left[31]
+	PIN array_col_top_left[31]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 374.720 1571.000 375.320 1596.000 ;
+		END
+	END array_col_top_left[31]
+	PIN col_event_rst_top_left[31]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 380.840 1571.000 381.440 1596.000 ;
+		END
+	END col_event_rst_top_left[31]
+	PIN array_col_bot_left[32]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 386.960 0.000 387.560 25.000 ;
+		END
+	END array_col_bot_left[32]
+	PIN col_event_rst_bot_left[32]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 392.400 0.000 393.000 25.000 ;
+		END
+	END col_event_rst_bot_left[32]
+	PIN array_col_top_left[32]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 386.960 1571.000 387.560 1596.000 ;
+		END
+	END array_col_top_left[32]
+	PIN col_event_rst_top_left[32]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 392.400 1571.000 393.000 1596.000 ;
+		END
+	END col_event_rst_top_left[32]
+	PIN array_col_bot_left[33]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 398.520 0.000 399.120 25.000 ;
+		END
+	END array_col_bot_left[33]
+	PIN col_event_rst_bot_left[33]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 404.640 0.000 405.240 25.000 ;
+		END
+	END col_event_rst_bot_left[33]
+	PIN array_col_top_left[33]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 398.520 1571.000 399.120 1596.000 ;
+		END
+	END array_col_top_left[33]
+	PIN col_event_rst_top_left[33]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 404.640 1571.000 405.240 1596.000 ;
+		END
+	END col_event_rst_top_left[33]
+	PIN array_col_bot_left[34]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 410.760 0.000 411.360 25.000 ;
+		END
+	END array_col_bot_left[34]
+	PIN col_event_rst_bot_left[34]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 416.880 0.000 417.480 25.000 ;
+		END
+	END col_event_rst_bot_left[34]
+	PIN array_col_top_left[34]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 410.760 1571.000 411.360 1596.000 ;
+		END
+	END array_col_top_left[34]
+	PIN col_event_rst_top_left[34]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 416.880 1571.000 417.480 1596.000 ;
+		END
+	END col_event_rst_top_left[34]
+	PIN array_col_bot_left[35]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 423.000 0.000 423.600 25.000 ;
+		END
+	END array_col_bot_left[35]
+	PIN col_event_rst_bot_left[35]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 428.440 0.000 429.040 25.000 ;
+		END
+	END col_event_rst_bot_left[35]
+	PIN array_col_top_left[35]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 423.000 1571.000 423.600 1596.000 ;
+		END
+	END array_col_top_left[35]
+	PIN col_event_rst_top_left[35]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 428.440 1571.000 429.040 1596.000 ;
+		END
+	END col_event_rst_top_left[35]
+	PIN array_col_bot_left[36]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 434.560 0.000 435.160 25.000 ;
+		END
+	END array_col_bot_left[36]
+	PIN col_event_rst_bot_left[36]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 440.680 0.000 441.280 25.000 ;
+		END
+	END col_event_rst_bot_left[36]
+	PIN array_col_top_left[36]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 434.560 1571.000 435.160 1596.000 ;
+		END
+	END array_col_top_left[36]
+	PIN col_event_rst_top_left[36]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 440.680 1571.000 441.280 1596.000 ;
+		END
+	END col_event_rst_top_left[36]
+	PIN array_col_bot_left[37]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 446.800 0.000 447.400 25.000 ;
+		END
+	END array_col_bot_left[37]
+	PIN col_event_rst_bot_left[37]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 452.920 0.000 453.520 25.000 ;
+		END
+	END col_event_rst_bot_left[37]
+	PIN array_col_top_left[37]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 446.800 1571.000 447.400 1596.000 ;
+		END
+	END array_col_top_left[37]
+	PIN col_event_rst_top_left[37]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 452.920 1571.000 453.520 1596.000 ;
+		END
+	END col_event_rst_top_left[37]
+	PIN array_col_bot_left[38]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 458.360 0.000 458.960 25.000 ;
+		END
+	END array_col_bot_left[38]
+	PIN col_event_rst_bot_left[38]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 464.480 0.000 465.080 25.000 ;
+		END
+	END col_event_rst_bot_left[38]
+	PIN array_col_top_left[38]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 458.360 1571.000 458.960 1596.000 ;
+		END
+	END array_col_top_left[38]
+	PIN col_event_rst_top_left[38]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 464.480 1571.000 465.080 1596.000 ;
+		END
+	END col_event_rst_top_left[38]
+	PIN array_col_bot_left[39]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 470.600 0.000 471.200 25.000 ;
+		END
+	END array_col_bot_left[39]
+	PIN col_event_rst_bot_left[39]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 476.720 0.000 477.320 25.000 ;
+		END
+	END col_event_rst_bot_left[39]
+	PIN array_col_top_left[39]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 470.600 1571.000 471.200 1596.000 ;
+		END
+	END array_col_top_left[39]
+	PIN col_event_rst_top_left[39]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 476.720 1571.000 477.320 1596.000 ;
+		END
+	END col_event_rst_top_left[39]
+	PIN array_col_bot_left[40]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 482.840 0.000 483.440 25.000 ;
+		END
+	END array_col_bot_left[40]
+	PIN col_event_rst_bot_left[40]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 488.960 0.000 489.560 25.000 ;
+		END
+	END col_event_rst_bot_left[40]
+	PIN array_col_top_left[40]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 482.840 1571.000 483.440 1596.000 ;
+		END
+	END array_col_top_left[40]
+	PIN col_event_rst_top_left[40]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 488.960 1571.000 489.560 1596.000 ;
+		END
+	END col_event_rst_top_left[40]
+	PIN array_col_bot_left[41]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 494.400 0.000 495.000 25.000 ;
+		END
+	END array_col_bot_left[41]
+	PIN col_event_rst_bot_left[41]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 500.520 0.000 501.120 25.000 ;
+		END
+	END col_event_rst_bot_left[41]
+	PIN array_col_top_left[41]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 494.400 1571.000 495.000 1596.000 ;
+		END
+	END array_col_top_left[41]
+	PIN col_event_rst_top_left[41]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 500.520 1571.000 501.120 1596.000 ;
+		END
+	END col_event_rst_top_left[41]
+	PIN array_col_bot_left[42]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 506.640 0.000 507.240 25.000 ;
+		END
+	END array_col_bot_left[42]
+	PIN col_event_rst_bot_left[42]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 512.760 0.000 513.360 25.000 ;
+		END
+	END col_event_rst_bot_left[42]
+	PIN array_col_top_left[42]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 506.640 1571.000 507.240 1596.000 ;
+		END
+	END array_col_top_left[42]
+	PIN col_event_rst_top_left[42]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 512.760 1571.000 513.360 1596.000 ;
+		END
+	END col_event_rst_top_left[42]
+	PIN array_col_bot_left[43]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 518.880 0.000 519.480 25.000 ;
+		END
+	END array_col_bot_left[43]
+	PIN col_event_rst_bot_left[43]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 525.000 0.000 525.600 25.000 ;
+		END
+	END col_event_rst_bot_left[43]
+	PIN array_col_top_left[43]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 518.880 1571.000 519.480 1596.000 ;
+		END
+	END array_col_top_left[43]
+	PIN col_event_rst_top_left[43]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 525.000 1571.000 525.600 1596.000 ;
+		END
+	END col_event_rst_top_left[43]
+	PIN array_col_bot_left[44]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 530.440 0.000 531.040 25.000 ;
+		END
+	END array_col_bot_left[44]
+	PIN col_event_rst_bot_left[44]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 536.560 0.000 537.160 25.000 ;
+		END
+	END col_event_rst_bot_left[44]
+	PIN array_col_top_left[44]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 530.440 1571.000 531.040 1596.000 ;
+		END
+	END array_col_top_left[44]
+	PIN col_event_rst_top_left[44]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 536.560 1571.000 537.160 1596.000 ;
+		END
+	END col_event_rst_top_left[44]
+	PIN array_col_bot_left[45]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 542.680 0.000 543.280 25.000 ;
+		END
+	END array_col_bot_left[45]
+	PIN col_event_rst_bot_left[45]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 548.800 0.000 549.400 25.000 ;
+		END
+	END col_event_rst_bot_left[45]
+	PIN array_col_top_left[45]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 542.680 1571.000 543.280 1596.000 ;
+		END
+	END array_col_top_left[45]
+	PIN col_event_rst_top_left[45]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 548.800 1571.000 549.400 1596.000 ;
+		END
+	END col_event_rst_top_left[45]
+	PIN array_col_bot_left[46]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 554.920 0.000 555.520 25.000 ;
+		END
+	END array_col_bot_left[46]
+	PIN col_event_rst_bot_left[46]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 560.360 0.000 560.960 25.000 ;
+		END
+	END col_event_rst_bot_left[46]
+	PIN array_col_top_left[46]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 554.920 1571.000 555.520 1596.000 ;
+		END
+	END array_col_top_left[46]
+	PIN col_event_rst_top_left[46]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 560.360 1571.000 560.960 1596.000 ;
+		END
+	END col_event_rst_top_left[46]
+	PIN array_col_bot_left[47]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 566.480 0.000 567.080 25.000 ;
+		END
+	END array_col_bot_left[47]
+	PIN col_event_rst_bot_left[47]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 572.600 0.000 573.200 25.000 ;
+		END
+	END col_event_rst_bot_left[47]
+	PIN array_col_top_left[47]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 566.480 1571.000 567.080 1596.000 ;
+		END
+	END array_col_top_left[47]
+	PIN col_event_rst_top_left[47]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 572.600 1571.000 573.200 1596.000 ;
+		END
+	END col_event_rst_top_left[47]
+	PIN array_col_bot_left[48]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 578.720 0.000 579.320 25.000 ;
+		END
+	END array_col_bot_left[48]
+	PIN col_event_rst_bot_left[48]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 584.840 0.000 585.440 25.000 ;
+		END
+	END col_event_rst_bot_left[48]
+	PIN array_col_top_left[48]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 578.720 1571.000 579.320 1596.000 ;
+		END
+	END array_col_top_left[48]
+	PIN col_event_rst_top_left[48]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 584.840 1571.000 585.440 1596.000 ;
+		END
+	END col_event_rst_top_left[48]
+	PIN array_col_bot_left[49]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 590.960 0.000 591.560 25.000 ;
+		END
+	END array_col_bot_left[49]
+	PIN col_event_rst_bot_left[49]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 596.400 0.000 597.000 25.000 ;
+		END
+	END col_event_rst_bot_left[49]
+	PIN array_col_top_left[49]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 590.960 1571.000 591.560 1596.000 ;
+		END
+	END array_col_top_left[49]
+	PIN col_event_rst_top_left[49]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 596.400 1571.000 597.000 1596.000 ;
+		END
+	END col_event_rst_top_left[49]
+	PIN array_col_bot_left[50]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 602.520 0.000 603.120 25.000 ;
+		END
+	END array_col_bot_left[50]
+	PIN col_event_rst_bot_left[50]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 608.640 0.000 609.240 25.000 ;
+		END
+	END col_event_rst_bot_left[50]
+	PIN array_col_top_left[50]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 602.520 1571.000 603.120 1596.000 ;
+		END
+	END array_col_top_left[50]
+	PIN col_event_rst_top_left[50]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 608.640 1571.000 609.240 1596.000 ;
+		END
+	END col_event_rst_top_left[50]
+	PIN array_col_bot_left[51]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 614.760 0.000 615.360 25.000 ;
+		END
+	END array_col_bot_left[51]
+	PIN col_event_rst_bot_left[51]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 620.880 0.000 621.480 25.000 ;
+		END
+	END col_event_rst_bot_left[51]
+	PIN array_col_top_left[51]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 614.760 1571.000 615.360 1596.000 ;
+		END
+	END array_col_top_left[51]
+	PIN col_event_rst_top_left[51]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 620.880 1571.000 621.480 1596.000 ;
+		END
+	END col_event_rst_top_left[51]
+	PIN array_col_bot_left[52]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 627.000 0.000 627.600 25.000 ;
+		END
+	END array_col_bot_left[52]
+	PIN col_event_rst_bot_left[52]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 632.440 0.000 633.040 25.000 ;
+		END
+	END col_event_rst_bot_left[52]
+	PIN array_col_top_left[52]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 627.000 1571.000 627.600 1596.000 ;
+		END
+	END array_col_top_left[52]
+	PIN col_event_rst_top_left[52]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 632.440 1571.000 633.040 1596.000 ;
+		END
+	END col_event_rst_top_left[52]
+	PIN array_col_bot_left[53]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 638.560 0.000 639.160 25.000 ;
+		END
+	END array_col_bot_left[53]
+	PIN col_event_rst_bot_left[53]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 644.680 0.000 645.280 25.000 ;
+		END
+	END col_event_rst_bot_left[53]
+	PIN array_col_top_left[53]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 638.560 1571.000 639.160 1596.000 ;
+		END
+	END array_col_top_left[53]
+	PIN col_event_rst_top_left[53]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 644.680 1571.000 645.280 1596.000 ;
+		END
+	END col_event_rst_top_left[53]
+	PIN array_col_bot_left[54]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 650.800 0.000 651.400 25.000 ;
+		END
+	END array_col_bot_left[54]
+	PIN col_event_rst_bot_left[54]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 656.920 0.000 657.520 25.000 ;
+		END
+	END col_event_rst_bot_left[54]
+	PIN array_col_top_left[54]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 650.800 1571.000 651.400 1596.000 ;
+		END
+	END array_col_top_left[54]
+	PIN col_event_rst_top_left[54]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 656.920 1571.000 657.520 1596.000 ;
+		END
+	END col_event_rst_top_left[54]
+	PIN array_col_bot_left[55]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 662.360 0.000 662.960 25.000 ;
+		END
+	END array_col_bot_left[55]
+	PIN col_event_rst_bot_left[55]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 668.480 0.000 669.080 25.000 ;
+		END
+	END col_event_rst_bot_left[55]
+	PIN array_col_top_left[55]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 662.360 1571.000 662.960 1596.000 ;
+		END
+	END array_col_top_left[55]
+	PIN col_event_rst_top_left[55]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 668.480 1571.000 669.080 1596.000 ;
+		END
+	END col_event_rst_top_left[55]
+	PIN array_col_bot_left[56]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 674.600 0.000 675.200 25.000 ;
+		END
+	END array_col_bot_left[56]
+	PIN col_event_rst_bot_left[56]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 680.720 0.000 681.320 25.000 ;
+		END
+	END col_event_rst_bot_left[56]
+	PIN array_col_top_left[56]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 674.600 1571.000 675.200 1596.000 ;
+		END
+	END array_col_top_left[56]
+	PIN col_event_rst_top_left[56]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 680.720 1571.000 681.320 1596.000 ;
+		END
+	END col_event_rst_top_left[56]
+	PIN array_col_bot_left[57]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 686.840 0.000 687.440 25.000 ;
+		END
+	END array_col_bot_left[57]
+	PIN col_event_rst_bot_left[57]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 692.960 0.000 693.560 25.000 ;
+		END
+	END col_event_rst_bot_left[57]
+	PIN array_col_top_left[57]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 686.840 1571.000 687.440 1596.000 ;
+		END
+	END array_col_top_left[57]
+	PIN col_event_rst_top_left[57]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 692.960 1571.000 693.560 1596.000 ;
+		END
+	END col_event_rst_top_left[57]
+	PIN array_col_bot_left[58]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 698.400 0.000 699.000 25.000 ;
+		END
+	END array_col_bot_left[58]
+	PIN col_event_rst_bot_left[58]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 704.520 0.000 705.120 25.000 ;
+		END
+	END col_event_rst_bot_left[58]
+	PIN array_col_top_left[58]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 698.400 1571.000 699.000 1596.000 ;
+		END
+	END array_col_top_left[58]
+	PIN col_event_rst_top_left[58]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 704.520 1571.000 705.120 1596.000 ;
+		END
+	END col_event_rst_top_left[58]
+	PIN array_col_bot_left[59]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 710.640 0.000 711.240 25.000 ;
+		END
+	END array_col_bot_left[59]
+	PIN col_event_rst_bot_left[59]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 716.760 0.000 717.360 25.000 ;
+		END
+	END col_event_rst_bot_left[59]
+	PIN array_col_top_left[59]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 710.640 1571.000 711.240 1596.000 ;
+		END
+	END array_col_top_left[59]
+	PIN col_event_rst_top_left[59]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 716.760 1571.000 717.360 1596.000 ;
+		END
+	END col_event_rst_top_left[59]
+	PIN array_col_bot_left[60]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 722.880 0.000 723.480 25.000 ;
+		END
+	END array_col_bot_left[60]
+	PIN col_event_rst_bot_left[60]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 729.000 0.000 729.600 25.000 ;
+		END
+	END col_event_rst_bot_left[60]
+	PIN array_col_top_left[60]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 722.880 1571.000 723.480 1596.000 ;
+		END
+	END array_col_top_left[60]
+	PIN col_event_rst_top_left[60]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 729.000 1571.000 729.600 1596.000 ;
+		END
+	END col_event_rst_top_left[60]
+	PIN array_col_bot_left[61]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 734.440 0.000 735.040 25.000 ;
+		END
+	END array_col_bot_left[61]
+	PIN col_event_rst_bot_left[61]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 740.560 0.000 741.160 25.000 ;
+		END
+	END col_event_rst_bot_left[61]
+	PIN array_col_top_left[61]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 734.440 1571.000 735.040 1596.000 ;
+		END
+	END array_col_top_left[61]
+	PIN col_event_rst_top_left[61]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 740.560 1571.000 741.160 1596.000 ;
+		END
+	END col_event_rst_top_left[61]
+	PIN array_col_bot_left[62]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 746.680 0.000 747.280 25.000 ;
+		END
+	END array_col_bot_left[62]
+	PIN col_event_rst_bot_left[62]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 752.800 0.000 753.400 25.000 ;
+		END
+	END col_event_rst_bot_left[62]
+	PIN array_col_top_left[62]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 746.680 1571.000 747.280 1596.000 ;
+		END
+	END array_col_top_left[62]
+	PIN col_event_rst_top_left[62]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 752.800 1571.000 753.400 1596.000 ;
+		END
+	END col_event_rst_top_left[62]
+	PIN array_col_bot_left[63]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 758.920 0.000 759.520 25.000 ;
+		END
+	END array_col_bot_left[63]
+	PIN col_event_rst_bot_left[63]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 764.360 0.000 764.960 25.000 ;
+		END
+	END col_event_rst_bot_left[63]
+	PIN array_col_top_left[63]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 758.920 1571.000 759.520 1596.000 ;
+		END
+	END array_col_top_left[63]
+	PIN col_event_rst_top_left[63]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 764.360 1571.000 764.960 1596.000 ;
+		END
+	END col_event_rst_top_left[63]
+	PIN array_col_bot_right[0]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 770.480 0.000 771.080 25.000 ;
+		END
+	END array_col_bot_right[0]
+	PIN col_event_rst_bot_right[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 776.600 0.000 777.200 25.000 ;
+		END
+	END col_event_rst_bot_right[0]
+	PIN array_col_top_right[0]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 770.480 1571.000 771.080 1596.000 ;
+		END
+	END array_col_top_right[0]
+	PIN col_event_rst_top_right[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 776.600 1571.000 777.200 1596.000 ;
+		END
+	END col_event_rst_top_right[0]
+	PIN array_col_bot_right[1]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 782.720 0.000 783.320 25.000 ;
+		END
+	END array_col_bot_right[1]
+	PIN col_event_rst_bot_right[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 788.840 0.000 789.440 25.000 ;
+		END
+	END col_event_rst_bot_right[1]
+	PIN array_col_top_right[1]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 782.720 1571.000 783.320 1596.000 ;
+		END
+	END array_col_top_right[1]
+	PIN col_event_rst_top_right[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 788.840 1571.000 789.440 1596.000 ;
+		END
+	END col_event_rst_top_right[1]
+	PIN array_col_bot_right[2]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 794.960 0.000 795.560 25.000 ;
+		END
+	END array_col_bot_right[2]
+	PIN col_event_rst_bot_right[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 800.400 0.000 801.000 25.000 ;
+		END
+	END col_event_rst_bot_right[2]
+	PIN array_col_top_right[2]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 794.960 1571.000 795.560 1596.000 ;
+		END
+	END array_col_top_right[2]
+	PIN col_event_rst_top_right[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 800.400 1571.000 801.000 1596.000 ;
+		END
+	END col_event_rst_top_right[2]
+	PIN array_col_bot_right[3]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 806.520 0.000 807.120 25.000 ;
+		END
+	END array_col_bot_right[3]
+	PIN col_event_rst_bot_right[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 812.640 0.000 813.240 25.000 ;
+		END
+	END col_event_rst_bot_right[3]
+	PIN array_col_top_right[3]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 806.520 1571.000 807.120 1596.000 ;
+		END
+	END array_col_top_right[3]
+	PIN col_event_rst_top_right[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 812.640 1571.000 813.240 1596.000 ;
+		END
+	END col_event_rst_top_right[3]
+	PIN array_col_bot_right[4]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 818.760 0.000 819.360 25.000 ;
+		END
+	END array_col_bot_right[4]
+	PIN col_event_rst_bot_right[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 824.880 0.000 825.480 25.000 ;
+		END
+	END col_event_rst_bot_right[4]
+	PIN array_col_top_right[4]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 818.760 1571.000 819.360 1596.000 ;
+		END
+	END array_col_top_right[4]
+	PIN col_event_rst_top_right[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 824.880 1571.000 825.480 1596.000 ;
+		END
+	END col_event_rst_top_right[4]
+	PIN array_col_bot_right[5]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 831.000 0.000 831.600 25.000 ;
+		END
+	END array_col_bot_right[5]
+	PIN col_event_rst_bot_right[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 836.440 0.000 837.040 25.000 ;
+		END
+	END col_event_rst_bot_right[5]
+	PIN array_col_top_right[5]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 831.000 1571.000 831.600 1596.000 ;
+		END
+	END array_col_top_right[5]
+	PIN col_event_rst_top_right[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 836.440 1571.000 837.040 1596.000 ;
+		END
+	END col_event_rst_top_right[5]
+	PIN array_col_bot_right[6]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 842.560 0.000 843.160 25.000 ;
+		END
+	END array_col_bot_right[6]
+	PIN col_event_rst_bot_right[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 848.680 0.000 849.280 25.000 ;
+		END
+	END col_event_rst_bot_right[6]
+	PIN array_col_top_right[6]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 842.560 1571.000 843.160 1596.000 ;
+		END
+	END array_col_top_right[6]
+	PIN col_event_rst_top_right[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 848.680 1571.000 849.280 1596.000 ;
+		END
+	END col_event_rst_top_right[6]
+	PIN array_col_bot_right[7]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 854.800 0.000 855.400 25.000 ;
+		END
+	END array_col_bot_right[7]
+	PIN col_event_rst_bot_right[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 860.920 0.000 861.520 25.000 ;
+		END
+	END col_event_rst_bot_right[7]
+	PIN array_col_top_right[7]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 854.800 1571.000 855.400 1596.000 ;
+		END
+	END array_col_top_right[7]
+	PIN col_event_rst_top_right[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 860.920 1571.000 861.520 1596.000 ;
+		END
+	END col_event_rst_top_right[7]
+	PIN array_col_bot_right[8]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 866.360 0.000 866.960 25.000 ;
+		END
+	END array_col_bot_right[8]
+	PIN col_event_rst_bot_right[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 872.480 0.000 873.080 25.000 ;
+		END
+	END col_event_rst_bot_right[8]
+	PIN array_col_top_right[8]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 866.360 1571.000 866.960 1596.000 ;
+		END
+	END array_col_top_right[8]
+	PIN col_event_rst_top_right[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 872.480 1571.000 873.080 1596.000 ;
+		END
+	END col_event_rst_top_right[8]
+	PIN array_col_bot_right[9]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 878.600 0.000 879.200 25.000 ;
+		END
+	END array_col_bot_right[9]
+	PIN col_event_rst_bot_right[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 884.720 0.000 885.320 25.000 ;
+		END
+	END col_event_rst_bot_right[9]
+	PIN array_col_top_right[9]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 878.600 1571.000 879.200 1596.000 ;
+		END
+	END array_col_top_right[9]
+	PIN col_event_rst_top_right[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 884.720 1571.000 885.320 1596.000 ;
+		END
+	END col_event_rst_top_right[9]
+	PIN array_col_bot_right[10]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 890.840 0.000 891.440 25.000 ;
+		END
+	END array_col_bot_right[10]
+	PIN col_event_rst_bot_right[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 896.960 0.000 897.560 25.000 ;
+		END
+	END col_event_rst_bot_right[10]
+	PIN array_col_top_right[10]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 890.840 1571.000 891.440 1596.000 ;
+		END
+	END array_col_top_right[10]
+	PIN col_event_rst_top_right[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 896.960 1571.000 897.560 1596.000 ;
+		END
+	END col_event_rst_top_right[10]
+	PIN array_col_bot_right[11]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 902.400 0.000 903.000 25.000 ;
+		END
+	END array_col_bot_right[11]
+	PIN col_event_rst_bot_right[11]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 908.520 0.000 909.120 25.000 ;
+		END
+	END col_event_rst_bot_right[11]
+	PIN array_col_top_right[11]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 902.400 1571.000 903.000 1596.000 ;
+		END
+	END array_col_top_right[11]
+	PIN col_event_rst_top_right[11]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 908.520 1571.000 909.120 1596.000 ;
+		END
+	END col_event_rst_top_right[11]
+	PIN array_col_bot_right[12]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 914.640 0.000 915.240 25.000 ;
+		END
+	END array_col_bot_right[12]
+	PIN col_event_rst_bot_right[12]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 920.760 0.000 921.360 25.000 ;
+		END
+	END col_event_rst_bot_right[12]
+	PIN array_col_top_right[12]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 914.640 1571.000 915.240 1596.000 ;
+		END
+	END array_col_top_right[12]
+	PIN col_event_rst_top_right[12]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 920.760 1571.000 921.360 1596.000 ;
+		END
+	END col_event_rst_top_right[12]
+	PIN array_col_bot_right[13]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 926.880 0.000 927.480 25.000 ;
+		END
+	END array_col_bot_right[13]
+	PIN col_event_rst_bot_right[13]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 933.000 0.000 933.600 25.000 ;
+		END
+	END col_event_rst_bot_right[13]
+	PIN array_col_top_right[13]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 926.880 1571.000 927.480 1596.000 ;
+		END
+	END array_col_top_right[13]
+	PIN col_event_rst_top_right[13]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 933.000 1571.000 933.600 1596.000 ;
+		END
+	END col_event_rst_top_right[13]
+	PIN array_col_bot_right[14]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 938.440 0.000 939.040 25.000 ;
+		END
+	END array_col_bot_right[14]
+	PIN col_event_rst_bot_right[14]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 944.560 0.000 945.160 25.000 ;
+		END
+	END col_event_rst_bot_right[14]
+	PIN array_col_top_right[14]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 938.440 1571.000 939.040 1596.000 ;
+		END
+	END array_col_top_right[14]
+	PIN col_event_rst_top_right[14]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 944.560 1571.000 945.160 1596.000 ;
+		END
+	END col_event_rst_top_right[14]
+	PIN array_col_bot_right[15]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 950.680 0.000 951.280 25.000 ;
+		END
+	END array_col_bot_right[15]
+	PIN col_event_rst_bot_right[15]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 956.800 0.000 957.400 25.000 ;
+		END
+	END col_event_rst_bot_right[15]
+	PIN array_col_top_right[15]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 950.680 1571.000 951.280 1596.000 ;
+		END
+	END array_col_top_right[15]
+	PIN col_event_rst_top_right[15]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 956.800 1571.000 957.400 1596.000 ;
+		END
+	END col_event_rst_top_right[15]
+	PIN array_col_bot_right[16]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 962.920 0.000 963.520 25.000 ;
+		END
+	END array_col_bot_right[16]
+	PIN col_event_rst_bot_right[16]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 968.360 0.000 968.960 25.000 ;
+		END
+	END col_event_rst_bot_right[16]
+	PIN array_col_top_right[16]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 962.920 1571.000 963.520 1596.000 ;
+		END
+	END array_col_top_right[16]
+	PIN col_event_rst_top_right[16]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 968.360 1571.000 968.960 1596.000 ;
+		END
+	END col_event_rst_top_right[16]
+	PIN array_col_bot_right[17]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 974.480 0.000 975.080 25.000 ;
+		END
+	END array_col_bot_right[17]
+	PIN col_event_rst_bot_right[17]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 980.600 0.000 981.200 25.000 ;
+		END
+	END col_event_rst_bot_right[17]
+	PIN array_col_top_right[17]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 974.480 1571.000 975.080 1596.000 ;
+		END
+	END array_col_top_right[17]
+	PIN col_event_rst_top_right[17]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 980.600 1571.000 981.200 1596.000 ;
+		END
+	END col_event_rst_top_right[17]
+	PIN array_col_bot_right[18]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 986.720 0.000 987.320 25.000 ;
+		END
+	END array_col_bot_right[18]
+	PIN col_event_rst_bot_right[18]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 992.840 0.000 993.440 25.000 ;
+		END
+	END col_event_rst_bot_right[18]
+	PIN array_col_top_right[18]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 986.720 1571.000 987.320 1596.000 ;
+		END
+	END array_col_top_right[18]
+	PIN col_event_rst_top_right[18]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 992.840 1571.000 993.440 1596.000 ;
+		END
+	END col_event_rst_top_right[18]
+	PIN array_col_bot_right[19]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 998.960 0.000 999.560 25.000 ;
+		END
+	END array_col_bot_right[19]
+	PIN col_event_rst_bot_right[19]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1004.400 0.000 1005.000 25.000 ;
+		END
+	END col_event_rst_bot_right[19]
+	PIN array_col_top_right[19]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 998.960 1571.000 999.560 1596.000 ;
+		END
+	END array_col_top_right[19]
+	PIN col_event_rst_top_right[19]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1004.400 1571.000 1005.000 1596.000 ;
+		END
+	END col_event_rst_top_right[19]
+	PIN array_col_bot_right[20]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1010.520 0.000 1011.120 25.000 ;
+		END
+	END array_col_bot_right[20]
+	PIN col_event_rst_bot_right[20]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1016.640 0.000 1017.240 25.000 ;
+		END
+	END col_event_rst_bot_right[20]
+	PIN array_col_top_right[20]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1010.520 1571.000 1011.120 1596.000 ;
+		END
+	END array_col_top_right[20]
+	PIN col_event_rst_top_right[20]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1016.640 1571.000 1017.240 1596.000 ;
+		END
+	END col_event_rst_top_right[20]
+	PIN array_col_bot_right[21]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1022.760 0.000 1023.360 25.000 ;
+		END
+	END array_col_bot_right[21]
+	PIN col_event_rst_bot_right[21]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1028.880 0.000 1029.480 25.000 ;
+		END
+	END col_event_rst_bot_right[21]
+	PIN array_col_top_right[21]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1022.760 1571.000 1023.360 1596.000 ;
+		END
+	END array_col_top_right[21]
+	PIN col_event_rst_top_right[21]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1028.880 1571.000 1029.480 1596.000 ;
+		END
+	END col_event_rst_top_right[21]
+	PIN array_col_bot_right[22]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1035.000 0.000 1035.600 25.000 ;
+		END
+	END array_col_bot_right[22]
+	PIN col_event_rst_bot_right[22]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1040.440 0.000 1041.040 25.000 ;
+		END
+	END col_event_rst_bot_right[22]
+	PIN array_col_top_right[22]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1035.000 1571.000 1035.600 1596.000 ;
+		END
+	END array_col_top_right[22]
+	PIN col_event_rst_top_right[22]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1040.440 1571.000 1041.040 1596.000 ;
+		END
+	END col_event_rst_top_right[22]
+	PIN array_col_bot_right[23]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1046.560 0.000 1047.160 25.000 ;
+		END
+	END array_col_bot_right[23]
+	PIN col_event_rst_bot_right[23]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1052.680 0.000 1053.280 25.000 ;
+		END
+	END col_event_rst_bot_right[23]
+	PIN array_col_top_right[23]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1046.560 1571.000 1047.160 1596.000 ;
+		END
+	END array_col_top_right[23]
+	PIN col_event_rst_top_right[23]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1052.680 1571.000 1053.280 1596.000 ;
+		END
+	END col_event_rst_top_right[23]
+	PIN array_col_bot_right[24]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1058.800 0.000 1059.400 25.000 ;
+		END
+	END array_col_bot_right[24]
+	PIN col_event_rst_bot_right[24]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1064.920 0.000 1065.520 25.000 ;
+		END
+	END col_event_rst_bot_right[24]
+	PIN array_col_top_right[24]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1058.800 1571.000 1059.400 1596.000 ;
+		END
+	END array_col_top_right[24]
+	PIN col_event_rst_top_right[24]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1064.920 1571.000 1065.520 1596.000 ;
+		END
+	END col_event_rst_top_right[24]
+	PIN array_col_bot_right[25]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1070.360 0.000 1070.960 25.000 ;
+		END
+	END array_col_bot_right[25]
+	PIN col_event_rst_bot_right[25]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1076.480 0.000 1077.080 25.000 ;
+		END
+	END col_event_rst_bot_right[25]
+	PIN array_col_top_right[25]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1070.360 1571.000 1070.960 1596.000 ;
+		END
+	END array_col_top_right[25]
+	PIN col_event_rst_top_right[25]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1076.480 1571.000 1077.080 1596.000 ;
+		END
+	END col_event_rst_top_right[25]
+	PIN array_col_bot_right[26]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1082.600 0.000 1083.200 25.000 ;
+		END
+	END array_col_bot_right[26]
+	PIN col_event_rst_bot_right[26]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1088.720 0.000 1089.320 25.000 ;
+		END
+	END col_event_rst_bot_right[26]
+	PIN array_col_top_right[26]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1082.600 1571.000 1083.200 1596.000 ;
+		END
+	END array_col_top_right[26]
+	PIN col_event_rst_top_right[26]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1088.720 1571.000 1089.320 1596.000 ;
+		END
+	END col_event_rst_top_right[26]
+	PIN array_col_bot_right[27]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1094.840 0.000 1095.440 25.000 ;
+		END
+	END array_col_bot_right[27]
+	PIN col_event_rst_bot_right[27]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1100.960 0.000 1101.560 25.000 ;
+		END
+	END col_event_rst_bot_right[27]
+	PIN array_col_top_right[27]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1094.840 1571.000 1095.440 1596.000 ;
+		END
+	END array_col_top_right[27]
+	PIN col_event_rst_top_right[27]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1100.960 1571.000 1101.560 1596.000 ;
+		END
+	END col_event_rst_top_right[27]
+	PIN array_col_bot_right[28]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1106.400 0.000 1107.000 25.000 ;
+		END
+	END array_col_bot_right[28]
+	PIN col_event_rst_bot_right[28]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1112.520 0.000 1113.120 25.000 ;
+		END
+	END col_event_rst_bot_right[28]
+	PIN array_col_top_right[28]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1106.400 1571.000 1107.000 1596.000 ;
+		END
+	END array_col_top_right[28]
+	PIN col_event_rst_top_right[28]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1112.520 1571.000 1113.120 1596.000 ;
+		END
+	END col_event_rst_top_right[28]
+	PIN array_col_bot_right[29]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1118.640 0.000 1119.240 25.000 ;
+		END
+	END array_col_bot_right[29]
+	PIN col_event_rst_bot_right[29]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1124.760 0.000 1125.360 25.000 ;
+		END
+	END col_event_rst_bot_right[29]
+	PIN array_col_top_right[29]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1118.640 1571.000 1119.240 1596.000 ;
+		END
+	END array_col_top_right[29]
+	PIN col_event_rst_top_right[29]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1124.760 1571.000 1125.360 1596.000 ;
+		END
+	END col_event_rst_top_right[29]
+	PIN array_col_bot_right[30]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1130.880 0.000 1131.480 25.000 ;
+		END
+	END array_col_bot_right[30]
+	PIN col_event_rst_bot_right[30]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1137.000 0.000 1137.600 25.000 ;
+		END
+	END col_event_rst_bot_right[30]
+	PIN array_col_top_right[30]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1130.880 1571.000 1131.480 1596.000 ;
+		END
+	END array_col_top_right[30]
+	PIN col_event_rst_top_right[30]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1137.000 1571.000 1137.600 1596.000 ;
+		END
+	END col_event_rst_top_right[30]
+	PIN array_col_bot_right[31]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1142.440 0.000 1143.040 25.000 ;
+		END
+	END array_col_bot_right[31]
+	PIN col_event_rst_bot_right[31]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1148.560 0.000 1149.160 25.000 ;
+		END
+	END col_event_rst_bot_right[31]
+	PIN array_col_top_right[31]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1142.440 1571.000 1143.040 1596.000 ;
+		END
+	END array_col_top_right[31]
+	PIN col_event_rst_top_right[31]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1148.560 1571.000 1149.160 1596.000 ;
+		END
+	END col_event_rst_top_right[31]
+	PIN array_col_bot_right[32]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1154.680 0.000 1155.280 25.000 ;
+		END
+	END array_col_bot_right[32]
+	PIN col_event_rst_bot_right[32]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1160.800 0.000 1161.400 25.000 ;
+		END
+	END col_event_rst_bot_right[32]
+	PIN array_col_top_right[32]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1154.680 1571.000 1155.280 1596.000 ;
+		END
+	END array_col_top_right[32]
+	PIN col_event_rst_top_right[32]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1160.800 1571.000 1161.400 1596.000 ;
+		END
+	END col_event_rst_top_right[32]
+	PIN array_col_bot_right[33]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1166.920 0.000 1167.520 25.000 ;
+		END
+	END array_col_bot_right[33]
+	PIN col_event_rst_bot_right[33]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1172.360 0.000 1172.960 25.000 ;
+		END
+	END col_event_rst_bot_right[33]
+	PIN array_col_top_right[33]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1166.920 1571.000 1167.520 1596.000 ;
+		END
+	END array_col_top_right[33]
+	PIN col_event_rst_top_right[33]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1172.360 1571.000 1172.960 1596.000 ;
+		END
+	END col_event_rst_top_right[33]
+	PIN array_col_bot_right[34]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1178.480 0.000 1179.080 25.000 ;
+		END
+	END array_col_bot_right[34]
+	PIN col_event_rst_bot_right[34]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1184.600 0.000 1185.200 25.000 ;
+		END
+	END col_event_rst_bot_right[34]
+	PIN array_col_top_right[34]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1178.480 1571.000 1179.080 1596.000 ;
+		END
+	END array_col_top_right[34]
+	PIN col_event_rst_top_right[34]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1184.600 1571.000 1185.200 1596.000 ;
+		END
+	END col_event_rst_top_right[34]
+	PIN array_col_bot_right[35]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1190.720 0.000 1191.320 25.000 ;
+		END
+	END array_col_bot_right[35]
+	PIN col_event_rst_bot_right[35]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1196.840 0.000 1197.440 25.000 ;
+		END
+	END col_event_rst_bot_right[35]
+	PIN array_col_top_right[35]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1190.720 1571.000 1191.320 1596.000 ;
+		END
+	END array_col_top_right[35]
+	PIN col_event_rst_top_right[35]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1196.840 1571.000 1197.440 1596.000 ;
+		END
+	END col_event_rst_top_right[35]
+	PIN array_col_bot_right[36]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1202.960 0.000 1203.560 25.000 ;
+		END
+	END array_col_bot_right[36]
+	PIN col_event_rst_bot_right[36]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1208.400 0.000 1209.000 25.000 ;
+		END
+	END col_event_rst_bot_right[36]
+	PIN array_col_top_right[36]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1202.960 1571.000 1203.560 1596.000 ;
+		END
+	END array_col_top_right[36]
+	PIN col_event_rst_top_right[36]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1208.400 1571.000 1209.000 1596.000 ;
+		END
+	END col_event_rst_top_right[36]
+	PIN array_col_bot_right[37]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1214.520 0.000 1215.120 25.000 ;
+		END
+	END array_col_bot_right[37]
+	PIN col_event_rst_bot_right[37]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1220.640 0.000 1221.240 25.000 ;
+		END
+	END col_event_rst_bot_right[37]
+	PIN array_col_top_right[37]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1214.520 1571.000 1215.120 1596.000 ;
+		END
+	END array_col_top_right[37]
+	PIN col_event_rst_top_right[37]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1220.640 1571.000 1221.240 1596.000 ;
+		END
+	END col_event_rst_top_right[37]
+	PIN array_col_bot_right[38]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1226.760 0.000 1227.360 25.000 ;
+		END
+	END array_col_bot_right[38]
+	PIN col_event_rst_bot_right[38]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1232.880 0.000 1233.480 25.000 ;
+		END
+	END col_event_rst_bot_right[38]
+	PIN array_col_top_right[38]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1226.760 1571.000 1227.360 1596.000 ;
+		END
+	END array_col_top_right[38]
+	PIN col_event_rst_top_right[38]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1232.880 1571.000 1233.480 1596.000 ;
+		END
+	END col_event_rst_top_right[38]
+	PIN array_col_bot_right[39]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1239.000 0.000 1239.600 25.000 ;
+		END
+	END array_col_bot_right[39]
+	PIN col_event_rst_bot_right[39]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1244.440 0.000 1245.040 25.000 ;
+		END
+	END col_event_rst_bot_right[39]
+	PIN array_col_top_right[39]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1239.000 1571.000 1239.600 1596.000 ;
+		END
+	END array_col_top_right[39]
+	PIN col_event_rst_top_right[39]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1244.440 1571.000 1245.040 1596.000 ;
+		END
+	END col_event_rst_top_right[39]
+	PIN array_col_bot_right[40]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1250.560 0.000 1251.160 25.000 ;
+		END
+	END array_col_bot_right[40]
+	PIN col_event_rst_bot_right[40]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1256.680 0.000 1257.280 25.000 ;
+		END
+	END col_event_rst_bot_right[40]
+	PIN array_col_top_right[40]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1250.560 1571.000 1251.160 1596.000 ;
+		END
+	END array_col_top_right[40]
+	PIN col_event_rst_top_right[40]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1256.680 1571.000 1257.280 1596.000 ;
+		END
+	END col_event_rst_top_right[40]
+	PIN array_col_bot_right[41]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1262.800 0.000 1263.400 25.000 ;
+		END
+	END array_col_bot_right[41]
+	PIN col_event_rst_bot_right[41]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1268.920 0.000 1269.520 25.000 ;
+		END
+	END col_event_rst_bot_right[41]
+	PIN array_col_top_right[41]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1262.800 1571.000 1263.400 1596.000 ;
+		END
+	END array_col_top_right[41]
+	PIN col_event_rst_top_right[41]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1268.920 1571.000 1269.520 1596.000 ;
+		END
+	END col_event_rst_top_right[41]
+	PIN array_col_bot_right[42]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1274.360 0.000 1274.960 25.000 ;
+		END
+	END array_col_bot_right[42]
+	PIN col_event_rst_bot_right[42]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1280.480 0.000 1281.080 25.000 ;
+		END
+	END col_event_rst_bot_right[42]
+	PIN array_col_top_right[42]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1274.360 1571.000 1274.960 1596.000 ;
+		END
+	END array_col_top_right[42]
+	PIN col_event_rst_top_right[42]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1280.480 1571.000 1281.080 1596.000 ;
+		END
+	END col_event_rst_top_right[42]
+	PIN array_col_bot_right[43]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1286.600 0.000 1287.200 25.000 ;
+		END
+	END array_col_bot_right[43]
+	PIN col_event_rst_bot_right[43]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1292.720 0.000 1293.320 25.000 ;
+		END
+	END col_event_rst_bot_right[43]
+	PIN array_col_top_right[43]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1286.600 1571.000 1287.200 1596.000 ;
+		END
+	END array_col_top_right[43]
+	PIN col_event_rst_top_right[43]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1292.720 1571.000 1293.320 1596.000 ;
+		END
+	END col_event_rst_top_right[43]
+	PIN array_col_bot_right[44]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1298.840 0.000 1299.440 25.000 ;
+		END
+	END array_col_bot_right[44]
+	PIN col_event_rst_bot_right[44]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1304.960 0.000 1305.560 25.000 ;
+		END
+	END col_event_rst_bot_right[44]
+	PIN array_col_top_right[44]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1298.840 1571.000 1299.440 1596.000 ;
+		END
+	END array_col_top_right[44]
+	PIN col_event_rst_top_right[44]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1304.960 1571.000 1305.560 1596.000 ;
+		END
+	END col_event_rst_top_right[44]
+	PIN array_col_bot_right[45]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1310.400 0.000 1311.000 25.000 ;
+		END
+	END array_col_bot_right[45]
+	PIN col_event_rst_bot_right[45]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1316.520 0.000 1317.120 25.000 ;
+		END
+	END col_event_rst_bot_right[45]
+	PIN array_col_top_right[45]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1310.400 1571.000 1311.000 1596.000 ;
+		END
+	END array_col_top_right[45]
+	PIN col_event_rst_top_right[45]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1316.520 1571.000 1317.120 1596.000 ;
+		END
+	END col_event_rst_top_right[45]
+	PIN array_col_bot_right[46]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1322.640 0.000 1323.240 25.000 ;
+		END
+	END array_col_bot_right[46]
+	PIN col_event_rst_bot_right[46]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1328.760 0.000 1329.360 25.000 ;
+		END
+	END col_event_rst_bot_right[46]
+	PIN array_col_top_right[46]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1322.640 1571.000 1323.240 1596.000 ;
+		END
+	END array_col_top_right[46]
+	PIN col_event_rst_top_right[46]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1328.760 1571.000 1329.360 1596.000 ;
+		END
+	END col_event_rst_top_right[46]
+	PIN array_col_bot_right[47]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1334.880 0.000 1335.480 25.000 ;
+		END
+	END array_col_bot_right[47]
+	PIN col_event_rst_bot_right[47]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1341.000 0.000 1341.600 25.000 ;
+		END
+	END col_event_rst_bot_right[47]
+	PIN array_col_top_right[47]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1334.880 1571.000 1335.480 1596.000 ;
+		END
+	END array_col_top_right[47]
+	PIN col_event_rst_top_right[47]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1341.000 1571.000 1341.600 1596.000 ;
+		END
+	END col_event_rst_top_right[47]
+	PIN array_col_bot_right[48]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1346.440 0.000 1347.040 25.000 ;
+		END
+	END array_col_bot_right[48]
+	PIN col_event_rst_bot_right[48]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1352.560 0.000 1353.160 25.000 ;
+		END
+	END col_event_rst_bot_right[48]
+	PIN array_col_top_right[48]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1346.440 1571.000 1347.040 1596.000 ;
+		END
+	END array_col_top_right[48]
+	PIN col_event_rst_top_right[48]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1352.560 1571.000 1353.160 1596.000 ;
+		END
+	END col_event_rst_top_right[48]
+	PIN array_col_bot_right[49]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1358.680 0.000 1359.280 25.000 ;
+		END
+	END array_col_bot_right[49]
+	PIN col_event_rst_bot_right[49]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1364.800 0.000 1365.400 25.000 ;
+		END
+	END col_event_rst_bot_right[49]
+	PIN array_col_top_right[49]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1358.680 1571.000 1359.280 1596.000 ;
+		END
+	END array_col_top_right[49]
+	PIN col_event_rst_top_right[49]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1364.800 1571.000 1365.400 1596.000 ;
+		END
+	END col_event_rst_top_right[49]
+	PIN array_col_bot_right[50]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1370.920 0.000 1371.520 25.000 ;
+		END
+	END array_col_bot_right[50]
+	PIN col_event_rst_bot_right[50]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1376.360 0.000 1376.960 25.000 ;
+		END
+	END col_event_rst_bot_right[50]
+	PIN array_col_top_right[50]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1370.920 1571.000 1371.520 1596.000 ;
+		END
+	END array_col_top_right[50]
+	PIN col_event_rst_top_right[50]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1376.360 1571.000 1376.960 1596.000 ;
+		END
+	END col_event_rst_top_right[50]
+	PIN array_col_bot_right[51]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1382.480 0.000 1383.080 25.000 ;
+		END
+	END array_col_bot_right[51]
+	PIN col_event_rst_bot_right[51]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1388.600 0.000 1389.200 25.000 ;
+		END
+	END col_event_rst_bot_right[51]
+	PIN array_col_top_right[51]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1382.480 1571.000 1383.080 1596.000 ;
+		END
+	END array_col_top_right[51]
+	PIN col_event_rst_top_right[51]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1388.600 1571.000 1389.200 1596.000 ;
+		END
+	END col_event_rst_top_right[51]
+	PIN array_col_bot_right[52]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1394.720 0.000 1395.320 25.000 ;
+		END
+	END array_col_bot_right[52]
+	PIN col_event_rst_bot_right[52]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1400.840 0.000 1401.440 25.000 ;
+		END
+	END col_event_rst_bot_right[52]
+	PIN array_col_top_right[52]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1394.720 1571.000 1395.320 1596.000 ;
+		END
+	END array_col_top_right[52]
+	PIN col_event_rst_top_right[52]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1400.840 1571.000 1401.440 1596.000 ;
+		END
+	END col_event_rst_top_right[52]
+	PIN array_col_bot_right[53]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1406.960 0.000 1407.560 25.000 ;
+		END
+	END array_col_bot_right[53]
+	PIN col_event_rst_bot_right[53]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1412.400 0.000 1413.000 25.000 ;
+		END
+	END col_event_rst_bot_right[53]
+	PIN array_col_top_right[53]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1406.960 1571.000 1407.560 1596.000 ;
+		END
+	END array_col_top_right[53]
+	PIN col_event_rst_top_right[53]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1412.400 1571.000 1413.000 1596.000 ;
+		END
+	END col_event_rst_top_right[53]
+	PIN array_col_bot_right[54]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1418.520 0.000 1419.120 25.000 ;
+		END
+	END array_col_bot_right[54]
+	PIN col_event_rst_bot_right[54]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1424.640 0.000 1425.240 25.000 ;
+		END
+	END col_event_rst_bot_right[54]
+	PIN array_col_top_right[54]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1418.520 1571.000 1419.120 1596.000 ;
+		END
+	END array_col_top_right[54]
+	PIN col_event_rst_top_right[54]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1424.640 1571.000 1425.240 1596.000 ;
+		END
+	END col_event_rst_top_right[54]
+	PIN array_col_bot_right[55]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1430.760 0.000 1431.360 25.000 ;
+		END
+	END array_col_bot_right[55]
+	PIN col_event_rst_bot_right[55]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1436.880 0.000 1437.480 25.000 ;
+		END
+	END col_event_rst_bot_right[55]
+	PIN array_col_top_right[55]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1430.760 1571.000 1431.360 1596.000 ;
+		END
+	END array_col_top_right[55]
+	PIN col_event_rst_top_right[55]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1436.880 1571.000 1437.480 1596.000 ;
+		END
+	END col_event_rst_top_right[55]
+	PIN array_col_bot_right[56]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1443.000 0.000 1443.600 25.000 ;
+		END
+	END array_col_bot_right[56]
+	PIN col_event_rst_bot_right[56]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1448.440 0.000 1449.040 25.000 ;
+		END
+	END col_event_rst_bot_right[56]
+	PIN array_col_top_right[56]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1443.000 1571.000 1443.600 1596.000 ;
+		END
+	END array_col_top_right[56]
+	PIN col_event_rst_top_right[56]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1448.440 1571.000 1449.040 1596.000 ;
+		END
+	END col_event_rst_top_right[56]
+	PIN array_col_bot_right[57]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1454.560 0.000 1455.160 25.000 ;
+		END
+	END array_col_bot_right[57]
+	PIN col_event_rst_bot_right[57]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1460.680 0.000 1461.280 25.000 ;
+		END
+	END col_event_rst_bot_right[57]
+	PIN array_col_top_right[57]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1454.560 1571.000 1455.160 1596.000 ;
+		END
+	END array_col_top_right[57]
+	PIN col_event_rst_top_right[57]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1460.680 1571.000 1461.280 1596.000 ;
+		END
+	END col_event_rst_top_right[57]
+	PIN array_col_bot_right[58]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1466.800 0.000 1467.400 25.000 ;
+		END
+	END array_col_bot_right[58]
+	PIN col_event_rst_bot_right[58]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1472.920 0.000 1473.520 25.000 ;
+		END
+	END col_event_rst_bot_right[58]
+	PIN array_col_top_right[58]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1466.800 1571.000 1467.400 1596.000 ;
+		END
+	END array_col_top_right[58]
+	PIN col_event_rst_top_right[58]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1472.920 1571.000 1473.520 1596.000 ;
+		END
+	END col_event_rst_top_right[58]
+	PIN array_col_bot_right[59]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1478.360 0.000 1478.960 25.000 ;
+		END
+	END array_col_bot_right[59]
+	PIN col_event_rst_bot_right[59]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1484.480 0.000 1485.080 25.000 ;
+		END
+	END col_event_rst_bot_right[59]
+	PIN array_col_top_right[59]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1478.360 1571.000 1478.960 1596.000 ;
+		END
+	END array_col_top_right[59]
+	PIN col_event_rst_top_right[59]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1484.480 1571.000 1485.080 1596.000 ;
+		END
+	END col_event_rst_top_right[59]
+	PIN array_col_bot_right[60]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1490.600 0.000 1491.200 25.000 ;
+		END
+	END array_col_bot_right[60]
+	PIN col_event_rst_bot_right[60]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1496.720 0.000 1497.320 25.000 ;
+		END
+	END col_event_rst_bot_right[60]
+	PIN array_col_top_right[60]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1490.600 1571.000 1491.200 1596.000 ;
+		END
+	END array_col_top_right[60]
+	PIN col_event_rst_top_right[60]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1496.720 1571.000 1497.320 1596.000 ;
+		END
+	END col_event_rst_top_right[60]
+	PIN array_col_bot_right[61]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1502.840 0.000 1503.440 25.000 ;
+		END
+	END array_col_bot_right[61]
+	PIN col_event_rst_bot_right[61]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1508.960 0.000 1509.560 25.000 ;
+		END
+	END col_event_rst_bot_right[61]
+	PIN array_col_top_right[61]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1502.840 1571.000 1503.440 1596.000 ;
+		END
+	END array_col_top_right[61]
+	PIN col_event_rst_top_right[61]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1508.960 1571.000 1509.560 1596.000 ;
+		END
+	END col_event_rst_top_right[61]
+	PIN array_col_bot_right[62]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1514.400 0.000 1515.000 25.000 ;
+		END
+	END array_col_bot_right[62]
+	PIN col_event_rst_bot_right[62]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1520.520 0.000 1521.120 25.000 ;
+		END
+	END col_event_rst_bot_right[62]
+	PIN array_col_top_right[62]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1514.400 1571.000 1515.000 1596.000 ;
+		END
+	END array_col_top_right[62]
+	PIN col_event_rst_top_right[62]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1520.520 1571.000 1521.120 1596.000 ;
+		END
+	END col_event_rst_top_right[62]
+	PIN array_col_bot_right[63]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1526.640 0.000 1527.240 25.000 ;
+		END
+	END array_col_bot_right[63]
+	PIN col_event_rst_bot_right[63]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1532.760 0.000 1533.360 25.000 ;
+		END
+	END col_event_rst_bot_right[63]
+	PIN array_col_top_right[63]
+		DIRECTION OUTPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1526.640 1571.000 1527.240 1596.000 ;
+		END
+	END array_col_top_right[63]
+	PIN col_event_rst_top_right[63]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met4 ;
+				RECT 1532.760 1571.000 1533.360 1596.000 ;
+		END
+	END col_event_rst_top_right[63]
+	PIN dac_config_0[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 79.280 1546.000 79.880 ;
+		END
+	END dac_config_0[0]
+	PIN dac_config_0[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 83.880 1546.000 84.480 ;
+		END
+	END dac_config_0[1]
+	PIN dac_config_0[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 87.560 1546.000 88.160 ;
+		END
+	END dac_config_0[2]
+	PIN dac_config_0[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 91.240 1546.000 91.840 ;
+		END
+	END dac_config_0[3]
+	PIN dac_config_0[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 95.840 1546.000 96.440 ;
+		END
+	END dac_config_0[4]
+	PIN dac_config_0[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 99.520 1546.000 100.120 ;
+		END
+	END dac_config_0[5]
+	PIN dac_config_0[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 103.200 1546.000 103.800 ;
+		END
+	END dac_config_0[6]
+	PIN dac_config_0[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 107.800 1546.000 108.400 ;
+		END
+	END dac_config_0[7]
+	PIN dac_config_0[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 111.480 1546.000 112.080 ;
+		END
+	END dac_config_0[8]
+	PIN dac_config_0[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 115.160 1546.000 115.760 ;
+		END
+	END dac_config_0[9]
+	PIN dac_config_0[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 119.760 1546.000 120.360 ;
+		END
+	END dac_config_0[10]
+	PIN dac_config_1[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 232.920 1546.000 233.520 ;
+		END
+	END dac_config_1[0]
+	PIN dac_config_1[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 237.520 1546.000 238.120 ;
+		END
+	END dac_config_1[1]
+	PIN dac_config_1[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 241.200 1546.000 241.800 ;
+		END
+	END dac_config_1[2]
+	PIN dac_config_1[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 244.880 1546.000 245.480 ;
+		END
+	END dac_config_1[3]
+	PIN dac_config_1[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 249.480 1546.000 250.080 ;
+		END
+	END dac_config_1[4]
+	PIN dac_config_1[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 253.160 1546.000 253.760 ;
+		END
+	END dac_config_1[5]
+	PIN dac_config_1[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 256.840 1546.000 257.440 ;
+		END
+	END dac_config_1[6]
+	PIN dac_config_1[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 261.440 1546.000 262.040 ;
+		END
+	END dac_config_1[7]
+	PIN dac_config_1[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 265.120 1546.000 265.720 ;
+		END
+	END dac_config_1[8]
+	PIN dac_config_1[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 268.800 1546.000 269.400 ;
+		END
+	END dac_config_1[9]
+	PIN dac_config_1[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 273.400 1546.000 274.000 ;
+		END
+	END dac_config_1[10]
+	PIN dac_config_2[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 386.560 1546.000 387.160 ;
+		END
+	END dac_config_2[0]
+	PIN dac_config_2[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 390.240 1546.000 390.840 ;
+		END
+	END dac_config_2[1]
+	PIN dac_config_2[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 394.840 1546.000 395.440 ;
+		END
+	END dac_config_2[2]
+	PIN dac_config_2[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 398.520 1546.000 399.120 ;
+		END
+	END dac_config_2[3]
+	PIN dac_config_2[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 403.120 1546.000 403.720 ;
+		END
+	END dac_config_2[4]
+	PIN dac_config_2[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 406.800 1546.000 407.400 ;
+		END
+	END dac_config_2[5]
+	PIN dac_config_2[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 410.480 1546.000 411.080 ;
+		END
+	END dac_config_2[6]
+	PIN dac_config_2[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 415.080 1546.000 415.680 ;
+		END
+	END dac_config_2[7]
+	PIN dac_config_2[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 418.760 1546.000 419.360 ;
+		END
+	END dac_config_2[8]
+	PIN dac_config_2[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 422.440 1546.000 423.040 ;
+		END
+	END dac_config_2[9]
+	PIN dac_config_2[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 427.040 1546.000 427.640 ;
+		END
+	END dac_config_2[10]
+	PIN dac_config_3[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 540.200 1546.000 540.800 ;
+		END
+	END dac_config_3[0]
+	PIN dac_config_3[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 543.880 1546.000 544.480 ;
+		END
+	END dac_config_3[1]
+	PIN dac_config_3[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 548.480 1546.000 549.080 ;
+		END
+	END dac_config_3[2]
+	PIN dac_config_3[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 552.160 1546.000 552.760 ;
+		END
+	END dac_config_3[3]
+	PIN dac_config_3[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 555.840 1546.000 556.440 ;
+		END
+	END dac_config_3[4]
+	PIN dac_config_3[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 560.440 1546.000 561.040 ;
+		END
+	END dac_config_3[5]
+	PIN dac_config_3[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 564.120 1546.000 564.720 ;
+		END
+	END dac_config_3[6]
+	PIN dac_config_3[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 568.720 1546.000 569.320 ;
+		END
+	END dac_config_3[7]
+	PIN dac_config_3[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 572.400 1546.000 573.000 ;
+		END
+	END dac_config_3[8]
+	PIN dac_config_3[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 576.080 1546.000 576.680 ;
+		END
+	END dac_config_3[9]
+	PIN dac_config_3[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 580.680 1546.000 581.280 ;
+		END
+	END dac_config_3[10]
+	PIN dac_config_4[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 693.840 1546.000 694.440 ;
+		END
+	END dac_config_4[0]
+	PIN dac_config_4[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 697.520 1546.000 698.120 ;
+		END
+	END dac_config_4[1]
+	PIN dac_config_4[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 702.120 1546.000 702.720 ;
+		END
+	END dac_config_4[2]
+	PIN dac_config_4[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 705.800 1546.000 706.400 ;
+		END
+	END dac_config_4[3]
+	PIN dac_config_4[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 709.480 1546.000 710.080 ;
+		END
+	END dac_config_4[4]
+	PIN dac_config_4[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 714.080 1546.000 714.680 ;
+		END
+	END dac_config_4[5]
+	PIN dac_config_4[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 717.760 1546.000 718.360 ;
+		END
+	END dac_config_4[6]
+	PIN dac_config_4[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 721.440 1546.000 722.040 ;
+		END
+	END dac_config_4[7]
+	PIN dac_config_4[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 726.040 1546.000 726.640 ;
+		END
+	END dac_config_4[8]
+	PIN dac_config_4[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 729.720 1546.000 730.320 ;
+		END
+	END dac_config_4[9]
+	PIN dac_config_4[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 734.320 1546.000 734.920 ;
+		END
+	END dac_config_4[10]
+	PIN dac_config_5[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 847.480 1546.000 848.080 ;
+		END
+	END dac_config_5[0]
+	PIN dac_config_5[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 851.160 1546.000 851.760 ;
+		END
+	END dac_config_5[1]
+	PIN dac_config_5[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 855.760 1546.000 856.360 ;
+		END
+	END dac_config_5[2]
+	PIN dac_config_5[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 859.440 1546.000 860.040 ;
+		END
+	END dac_config_5[3]
+	PIN dac_config_5[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 863.120 1546.000 863.720 ;
+		END
+	END dac_config_5[4]
+	PIN dac_config_5[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 867.720 1546.000 868.320 ;
+		END
+	END dac_config_5[5]
+	PIN dac_config_5[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 871.400 1546.000 872.000 ;
+		END
+	END dac_config_5[6]
+	PIN dac_config_5[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 875.080 1546.000 875.680 ;
+		END
+	END dac_config_5[7]
+	PIN dac_config_5[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 879.680 1546.000 880.280 ;
+		END
+	END dac_config_5[8]
+	PIN dac_config_5[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 883.360 1546.000 883.960 ;
+		END
+	END dac_config_5[9]
+	PIN dac_config_5[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 887.040 1546.000 887.640 ;
+		END
+	END dac_config_5[10]
+	PIN dac_config_6[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1001.120 1546.000 1001.720 ;
+		END
+	END dac_config_6[0]
+	PIN dac_config_6[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1004.800 1546.000 1005.400 ;
+		END
+	END dac_config_6[1]
+	PIN dac_config_6[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1009.400 1546.000 1010.000 ;
+		END
+	END dac_config_6[2]
+	PIN dac_config_6[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1013.080 1546.000 1013.680 ;
+		END
+	END dac_config_6[3]
+	PIN dac_config_6[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1016.760 1546.000 1017.360 ;
+		END
+	END dac_config_6[4]
+	PIN dac_config_6[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1021.360 1546.000 1021.960 ;
+		END
+	END dac_config_6[5]
+	PIN dac_config_6[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1025.040 1546.000 1025.640 ;
+		END
+	END dac_config_6[6]
+	PIN dac_config_6[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1028.720 1546.000 1029.320 ;
+		END
+	END dac_config_6[7]
+	PIN dac_config_6[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1033.320 1546.000 1033.920 ;
+		END
+	END dac_config_6[8]
+	PIN dac_config_6[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1037.000 1546.000 1037.600 ;
+		END
+	END dac_config_6[9]
+	PIN dac_config_6[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1040.680 1546.000 1041.280 ;
+		END
+	END dac_config_6[10]
+	PIN dac_config_7[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1154.760 1546.000 1155.360 ;
+		END
+	END dac_config_7[0]
+	PIN dac_config_7[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1158.440 1546.000 1159.040 ;
+		END
+	END dac_config_7[1]
+	PIN dac_config_7[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1163.040 1546.000 1163.640 ;
+		END
+	END dac_config_7[2]
+	PIN dac_config_7[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1166.720 1546.000 1167.320 ;
+		END
+	END dac_config_7[3]
+	PIN dac_config_7[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1170.400 1546.000 1171.000 ;
+		END
+	END dac_config_7[4]
+	PIN dac_config_7[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1175.000 1546.000 1175.600 ;
+		END
+	END dac_config_7[5]
+	PIN dac_config_7[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1178.680 1546.000 1179.280 ;
+		END
+	END dac_config_7[6]
+	PIN dac_config_7[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1182.360 1546.000 1182.960 ;
+		END
+	END dac_config_7[7]
+	PIN dac_config_7[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1186.960 1546.000 1187.560 ;
+		END
+	END dac_config_7[8]
+	PIN dac_config_7[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1190.640 1546.000 1191.240 ;
+		END
+	END dac_config_7[9]
+	PIN dac_config_7[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1194.320 1546.000 1194.920 ;
+		END
+	END dac_config_7[10]
+	PIN dac_config_8[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1308.400 1546.000 1309.000 ;
+		END
+	END dac_config_8[0]
+	PIN dac_config_8[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1312.080 1546.000 1312.680 ;
+		END
+	END dac_config_8[1]
+	PIN dac_config_8[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1316.680 1546.000 1317.280 ;
+		END
+	END dac_config_8[2]
+	PIN dac_config_8[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1320.360 1546.000 1320.960 ;
+		END
+	END dac_config_8[3]
+	PIN dac_config_8[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1324.040 1546.000 1324.640 ;
+		END
+	END dac_config_8[4]
+	PIN dac_config_8[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1328.640 1546.000 1329.240 ;
+		END
+	END dac_config_8[5]
+	PIN dac_config_8[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1332.320 1546.000 1332.920 ;
+		END
+	END dac_config_8[6]
+	PIN dac_config_8[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1336.000 1546.000 1336.600 ;
+		END
+	END dac_config_8[7]
+	PIN dac_config_8[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1340.600 1546.000 1341.200 ;
+		END
+	END dac_config_8[8]
+	PIN dac_config_8[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1344.280 1546.000 1344.880 ;
+		END
+	END dac_config_8[9]
+	PIN dac_config_8[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1347.960 1546.000 1348.560 ;
+		END
+	END dac_config_8[10]
+	PIN dac_config_9[0]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1462.040 1546.000 1462.640 ;
+		END
+	END dac_config_9[0]
+	PIN dac_config_9[1]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1465.720 1546.000 1466.320 ;
+		END
+	END dac_config_9[1]
+	PIN dac_config_9[2]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1470.320 1546.000 1470.920 ;
+		END
+	END dac_config_9[2]
+	PIN dac_config_9[3]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1474.000 1546.000 1474.600 ;
+		END
+	END dac_config_9[3]
+	PIN dac_config_9[4]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1477.680 1546.000 1478.280 ;
+		END
+	END dac_config_9[4]
+	PIN dac_config_9[5]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1482.280 1546.000 1482.880 ;
+		END
+	END dac_config_9[5]
+	PIN dac_config_9[6]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1485.960 1546.000 1486.560 ;
+		END
+	END dac_config_9[6]
+	PIN dac_config_9[7]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1489.640 1546.000 1490.240 ;
+		END
+	END dac_config_9[7]
+	PIN dac_config_9[8]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1494.240 1546.000 1494.840 ;
+		END
+	END dac_config_9[8]
+	PIN dac_config_9[9]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1497.920 1546.000 1498.520 ;
+		END
+	END dac_config_9[9]
+	PIN dac_config_9[10]
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1501.600 1546.000 1502.200 ;
+		END
+	END dac_config_9[10]
+	PIN pre_charge_global_bot_left
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 9.360 25.000 9.960 ;
+		END
+	END pre_charge_global_bot_left
+	PIN pre_charge_global_top_left
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1579.800 25.000 1580.400 ;
+		END
+	END pre_charge_global_top_left
+	PIN pre_charge_global_bot_right
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 9.360 1546.000 9.960 ;
+		END
+	END pre_charge_global_bot_right
+	PIN pre_charge_global_top_right
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1579.800 1546.000 1580.400 ;
+		END
+	END pre_charge_global_top_right
+	PIN detect_pulse_global_bot_left
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 12.120 25.000 12.720 ;
+		END
+	END detect_pulse_global_bot_left
+	PIN detect_pulse_global_top_left
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1583.480 25.000 1584.080 ;
+		END
+	END detect_pulse_global_top_left
+	PIN detect_pulse_global_bot_right
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 12.120 1546.000 12.720 ;
+		END
+	END detect_pulse_global_bot_right
+	PIN detect_pulse_global_top_right
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1583.480 1546.000 1584.080 ;
+		END
+	END detect_pulse_global_top_right
+	PIN pix_rst_global_bot_left
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 14.880 25.000 15.480 ;
+		END
+	END pix_rst_global_bot_left
+	PIN pix_rst_global_top_left
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 0.000 1586.240 25.000 1586.840 ;
+		END
+	END pix_rst_global_top_left
+	PIN pix_rst_global_bot_right
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 14.880 1546.000 15.480 ;
+		END
+	END pix_rst_global_bot_right
+	PIN pix_rst_global_top_right
+		DIRECTION INPUT ;
+		USE SIGNAL ;
+		PORT
+			LAYER met3 ;
+				RECT 1521.000 1586.240 1546.000 1586.840 ;
+		END
+	END pix_rst_global_top_right
+
+	PIN vdda1
+		DIRECTION INOUT ;
+		USE POWER ;
+		PORT
+			LAYER met5 ;
+				RECT 0.000 17.770 1546.000 20.770 ;
+				RECT 0.000 1575.230 1546.000 1578.230 ;
+			LAYER met4 ;
+				RECT 11.525 0.000 12.945 1596.000 ;
+				RECT 1533.055 0.000 1534.475 1596.000 ;
+		END
+	END vdda1
+
+	PIN vssa1
+		DIRECTION INOUT ;
+		USE GROUND ;
+		PORT
+			LAYER met5 ;
+				RECT 0.000 22.470 1546.000 25.470 ;
+				RECT 0.000 1570.530 1546.000 1573.530 ;
+			LAYER met4 ;
+				RECT 5.400 0.000 6.820 1596.000 ;
+				RECT 1539.180 0.000 1540.600 1596.000 ;
+		END
+	END vssa1
+
+	OBS
+		LAYER met1 ;
+			RECT 30.000 30.000 1516.000 1566.000 ;
+		LAYER met2 ;
+			RECT 30.000 30.000 1516.000 1566.000 ;
+		LAYER met3 ;
+			RECT 30.000 30.000 1516.000 1566.000 ;
+		LAYER met4 ;
+			RECT 30.000 30.000 1516.000 1566.000 ;
+		LAYER met5 ;
+			RECT 30.000 30.000 1516.000 1566.000 ;
+	END
+END Imager_Top
+
+END LIBRARY
