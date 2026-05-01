@@ -163,7 +163,7 @@ with open(filename, "w") as f:
     # ---------------------------------------------------------
     # ACTIVE AREA OBSTRUCTION (OBS)
     # ---------------------------------------------------------
-    # Protects the inner area from the router, leaving exactly a 4um margin
+    # Protects the inner area from the router, leaving exactly a 30um margin
     obs_margin = 30.0 
     f.write(f"\n\tOBS\n")
     for i in range(1, 6): # Protect met1 through met5
